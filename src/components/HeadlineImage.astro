@@ -1,0 +1,24 @@
+---
+interface Props {
+    title: string;
+    // subtitle: string;
+    src: string;
+}
+
+const { title, src } = Astro.props;
+---
+<section class="headline-image page-headline-image parallax ">
+    <div class="background-image-holder fadeIn less-blur" style="transform: translate3d(0px, 0px, 0px); background: url(&quot;/wp-content/themes/scrolls/min/img/houghton_scroll5.jpg&quot;);">
+        <img alt="Background Image" class="background-image" src={ src } style="display: none;">
+    </div>
+    <div class="background-screen"></div>
+
+    <div class="container v-align-transform">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="uppercase mb8 page-title">{ title }</h1>
+                <p class="lead mb0 page-subtitle">Subtitle placeholder</p>
+            </div>
+        </div>
+    </div>
+</section>
