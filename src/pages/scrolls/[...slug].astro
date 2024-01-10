@@ -1,0 +1,19 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+import ScrollLayout from '../../layouts/ScrollLayout.astro';
+
+export async function getStaticPaths() {
+  const scrolls = await getCollection('scrolls');
+  return scrolls.map((scroll) => ({
+    params: { slug: scroll.slug },
+    props: scroll,
+  }));
+}
+type Props = CollectionEntry<'scrolls'>;
+
+const scroll = Astro.props;
+// const { Content } = await scroll.render();
+---
+<ScrollLayout {...scroll.data}>
+    <!-- <Content /> -->
+</ScrollLayout>

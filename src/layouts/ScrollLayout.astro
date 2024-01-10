@@ -1,0 +1,59 @@
+---
+// const { frontmatter } = Astro.props;
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from "./BaseLayout.astro";
+
+type Props = CollectionEntry<'scrolls'>['data'];
+
+// const { meta_title, slug, language_1, length } = Astro.props;
+const scroll = Astro.props as Props;
+
+---
+<BaseLayout title={scroll.meta_title}>
+    <h1>{scroll.meta_title}</h1>
+    <p class="meta date">
+        <span class="label">Date:</span> <span class="value">{scroll.date_start} - {scroll.date_end}</span>
+    </p>
+    <p class="meta date-quality">
+        <span class="label">Date quality:</span> <span class="value">{scroll.date_quality}</span>
+    </p>
+    <p class="meta dimensions">
+        <span class="label">Dimensions:</span> <span class="value">{scroll.length} x {scroll.width}</span>
+    </p>
+    <p class="meta number-of-pieces">
+        <span class="label">Number of pieces:</span> <span class="value">{scroll.number_of_pieces}</span>
+    </p>
+    <p class="meta type">
+        <span class="label">Type:</span> <span class="value">{scroll.type}</span>
+    </p>
+    <p class="meta language">
+        <span class="label">Language(s):</span> <span class="value">{scroll.language_1}, {scroll.language_2}</span>
+    </p>
+    <p class="meta type">
+        <span class="label">Type:</span> <span class="value">{scroll.type}</span>
+    </p>
+    <p class="meta shelfmark">
+        <span class="label">Shelfmark:</span> <span class="value">{scroll.shelfmark}</span>
+    </p>
+    <p class="meta provenance">
+        <span class="label">Provenance:</span> <span class="value">{scroll.provenance}</span>
+    </p>
+    <p class="meta provenance-quality">
+        <span class="label">Provenance quality:</span> <span class="value">{scroll.provenance_quality}</span>
+    </p>
+    <div class="longer-meta">
+        <p class="contents">
+            <span class="label">Contents:</span> <span class="value">{scroll.contents}</span>
+        </p>
+        <p class="description">
+            <span class="label">Description:</span> <span class="value">{scroll.description}</span>
+        </p>
+        <p class="biblio">
+            <span class="label">Bibliography:</span> <span class="value"><a href={scroll.online_bibliography_record}>{scroll.online_bibliography_record}</a></span>
+        </p>
+        <p class="online-images">
+            <span class="label">Online images:</span> <span class="value">{scroll.online_images}</span>
+        </p>
+    </div>
+    <slot />
+</BaseLayout>
