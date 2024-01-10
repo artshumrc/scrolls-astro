@@ -1,0 +1,41 @@
+---
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE_TITLE } from '../../consts';
+import { getCollection } from 'astro:content';
+
+const scrolls = (await getCollection('scrolls')).sort();
+    // (a, b) => a.data.title.localeCompare(b.data.title)
+// );
+---
+<BaseLayout title="Database">
+    <h1>Scrolls Database</h1>
+    <div class="results">
+        {scrolls.map((scroll) => (
+            <div class="search-result search-result-row ${scroll._scroll_id">
+                <div class="result-field result-thumbnail">
+                    <img src="" alt=`${scroll.data.meta_title}` />
+                </div>
+                <div class="result-field result-title">
+                    <a href={`/scrolls/${scroll.slug}/`}><h2>{scroll.data.meta_title}</h2></a>
+                </div>
+                <div class="result-field result-description">
+                    <div class="result-meta">
+                        <span class="date-start">{scroll.data.date_start}</span><span class="date-end">{scroll.data.date_end}</span>
+                        <span class="meta types">
+                           <span class="type">{scroll.data.type}</span>
+                        </span>
+                        <span class="meta languages">
+                            <span class="language">{scroll.data.language_1}, {scroll.data.language_2}</span>
+                        </span>
+                    </div>
+                    <div class="result-text">
+                        <p>{scroll.data.description}</p>
+                    </div>
+                </div>
+                <a href={`/scrolls/${scroll.slug}/`}>{scroll.data.title}</a>
+            </div>
+        ))}
+    </div>
+</BaseLayout>
