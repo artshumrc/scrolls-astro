@@ -4,11 +4,15 @@ import Footer from '../../components/Footer.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { SITE_TITLE } from '../../consts';
 import { getCollection } from 'astro:content';
+import { Debug } from 'astro:components';
+
 
 const scrolls = (await getCollection('scrolls')).sort();
     // (a, b) => a.data.title.localeCompare(b.data.title)
 // );
 ---
+<!-- <Debug {plainText} /> -->
+
 <BaseLayout title="Database">
     <h1>Scrolls Database</h1>
     <div class="results">

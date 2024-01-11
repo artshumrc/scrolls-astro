@@ -1,14 +1,15 @@
 // Import utilities from `astro:content`
 import { z, defineCollection } from "astro:content";
 // Define a `type` and `schema` for each collection
-const scrollsCollection = defineCollection({
+// const scrollsCollection = defineCollection({
+const scrolls = defineCollection({
     type: 'content',
     schema: z.object({
         title: z.string(),
         date: z.string().optional(),
         wp_id: z.string().optional(),
         meta_title: z.string(),
-        slug: z.string(),
+        wp_slug: z.string(),
         type: z.string().optional(),
         repository_city: z.string().optional(),
         repository_nation: z.string().optional(),
@@ -61,8 +62,10 @@ const scrollsCollection = defineCollection({
 //       tags: z.array(z.string())
 //     })
 // });
+
 // Export a single `collections` object to register your collection(s)
-export const collections = {
-//   posts: postsCollection,
-    scrolls: scrollsCollection
-};
+// export const collections = {
+// //   posts: postsCollection,
+//     scrolls: scrollsCollection
+// };
+export const collections = { scrolls }

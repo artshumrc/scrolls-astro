@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.3.3",
+    "@astrojs/mdx": "^2.0.2",
+    "@astrojs/node": "^7.0.2",
+    "@astrojs/sitemap": "^3.0.3",
     "@barnabask/astro-minisearch": "^2.1.1",
     "astro": "^4.0.6",
     "typescript": "^5.3.3"
