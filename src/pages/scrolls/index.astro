@@ -5,6 +5,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { SITE_TITLE } from '../../consts';
 import { getCollection } from 'astro:content';
 import { Debug } from 'astro:components';
+import Search from "astro-pagefind/components/Search";
 
 
 const scrolls = (await getCollection('scrolls')).sort();
@@ -15,6 +16,8 @@ const scrolls = (await getCollection('scrolls')).sort();
 
 <BaseLayout title="Database">
     <h1>Scrolls Database</h1>
+    <Search id="search" className="pagefind-ui" uiOptions={{ showImages: false }} />
+
     <div class="results">
         {scrolls.map((scroll) => (
             <div class="search-result search-result-row ${scroll._scroll_id">
