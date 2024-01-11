@@ -7,7 +7,6 @@ type Props = CollectionEntry<'scrolls'>['data'];
 
 // const { meta_title, slug, language_1, length } = Astro.props;
 const scroll = Astro.props as Props;
-
 ---
 <BaseLayout title={scroll.meta_title}>
     <div data-pagefind-body>
