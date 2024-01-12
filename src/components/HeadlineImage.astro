@@ -1,15 +1,21 @@
 ---
 interface Props {
     title: string;
-    // subtitle: string;
-    src: string;
+    imgPath: string;
 }
+const { title, imgPath } = Astro.props;
+import scroll from '../images/houghton_scroll5.jpg';
+const headlineStyle = `transform: translate3d(0px, 0px, 0px); background: url('${scroll.src}');`
 
-const { title, src } = Astro.props;
+// Tried to use glob to get all images in a folder, but it doesn't work: https://docs.astro.build/en/recipes/dynamically-importing-images/
+// For now just hardcoding the one image instead
+// import { Image } from 'astro:assets';
+// const images = import.meta.glob('/src/images/*.{jpeg,jpg,png,gif}')
 ---
 <section class="headline-image page-headline-image parallax ">
-    <div class="background-image-holder fadeIn less-blur" style="transform: translate3d(0px, 0px, 0px); background: url(&quot;/wp-content/themes/scrolls/min/img/houghton_scroll5.jpg&quot;);">
-        <img alt="Background Image" class="background-image" src={ src } style="display: none;">
+    <div class="background-image-holder fadeIn less-blur" style={headlineStyle}>
+        <img alt="Background Image" class="background-image" src={ scroll.src } style="display: none;">
+        <!-- <Image src={images[imgPath]()} alt="" /> -->
     </div>
     <div class="background-screen"></div>
 
@@ -17,7 +23,6 @@ const { title, src } = Astro.props;
         <div class="row">
             <div class="col-md-8">
                 <h1 class="uppercase mb8 page-title">{ title }</h1>
-                <p class="lead mb0 page-subtitle">Subtitle placeholder</p>
             </div>
         </div>
     </div>
