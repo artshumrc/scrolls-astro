@@ -7,8 +7,14 @@ type Props = CollectionEntry<'scrolls'>['data'];
 
 // const { meta_title, slug, language_1, length } = Astro.props;
 const scroll = Astro.props as Props;
+const formattedDate = scroll.date_end ? `${scroll.date_start} - ${scroll.date_end}` : scroll.date_start;
+const formattedLanguage = scroll.language_2 ? `${scroll.language_1}, ${scroll.language_2}` : scroll.language_1;
 ---
 <BaseLayout title={scroll.meta_title}>
+    {scroll.language_1 && <span style="display:none;" data-pagefind-meta=`language:${formattedLanguage}`></span>}
+    {scroll.date_start && <span style="display:none;" data-pagefind-meta=`date:${formattedDate}`></span>}
+    {scroll.type && <span style="display:none;" data-pagefind-meta=`type:${scroll.type}`></span>}
+    {scroll.description && <span style="display:none;" data-pagefind-meta=`description:${scroll.description}`></span>}
     <div data-pagefind-body>
         <h1 data-pagefind-meta="title">{scroll.meta_title}</h1>
         <span class="meta repository">

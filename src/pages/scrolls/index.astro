@@ -1,48 +1,48 @@
 ---
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { SITE_TITLE } from '../../consts';
 import { getCollection } from 'astro:content';
-import { Debug } from 'astro:components';
 import Search from "astro-pagefind/components/Search";
 
-
 const scrolls = (await getCollection('scrolls')).sort();
-    // (a, b) => a.data.title.localeCompare(b.data.title)
-// );
+
 ---
 <!-- <Debug {plainText} /> -->
 
 <BaseLayout title="Database">
-    <h1>Scrolls Database</h1>
-    <Search id="search" className="pagefind-ui" uiOptions={{ showImages: false }} />
-
-    <div class="results">
-        {scrolls.map((scroll) => (
-            <div class="search-result search-result-row ${scroll._scroll_id">
-                <div class="result-field result-thumbnail">
-                    <img src="" alt=`${scroll.data.meta_title}` />
-                </div>
-                <div class="result-field result-title">
-                    <a href={`/scrolls/${scroll.slug}/`}><h2>{scroll.data.meta_title}</h2></a>
-                </div>
-                <div class="result-field result-description">
-                    <div class="result-meta">
-                        <span class="date-start">{scroll.data.date_start}</span><span class="date-end">{scroll.data.date_end}</span>
-                        <span class="meta types">
-                           <span class="type">{scroll.data.type}</span>
-                        </span>
-                        <span class="meta languages">
-                            <span class="language">{scroll.data.language_1}, {scroll.data.language_2}</span>
-                        </span>
-                    </div>
-                    <div class="result-text">
-                        <p>{scroll.data.description}</p>
-                    </div>
-                </div>
-                <a href={`/scrolls/${scroll.slug}/`}>{scroll.data.title}</a>
-            </div>
-        ))}
+    <div class="archive-page page">
+        <div class="search-page">
+            <div id="search"></div>
+        </div>
     </div>
 </BaseLayout>
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js" is:inline></script>
+<script type="module">
+    document.body.classList.add("archive-search", "grid", "primary");
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({
+            element: "#search",
+            pageSize: 25,
+            showImages: false,
+            showEmptyFilters: false
+        });
+    });
+    // const pagefind = await import("/pagefind/pagefind.js");
+
+    // const filters = await pagefind.filters();
+    // console.log(filters);
+
+    // const search = await pagefind.search("a");
+    // const fiveResults = await Promise.all(search.results.slice(0, 5).map(r => r.data()));
+    // console.log(fiveResults);
+</script>
+
+<style>
+    .search-page {
+        min-height: 500px;
+    }
+    #search {
+        margin-top: 60px;
+    }
+</style>
