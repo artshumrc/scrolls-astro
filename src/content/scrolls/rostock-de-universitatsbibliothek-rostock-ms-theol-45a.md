@@ -30,6 +30,7 @@ provenance: "Germany, Lower"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "19"
+type: "Amulets"
 ---
 
 

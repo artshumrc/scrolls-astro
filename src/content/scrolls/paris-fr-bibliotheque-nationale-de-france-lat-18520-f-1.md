@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://gallica.bnf.fr/ark:/12148/btv1b9076675w/f2.image.r=18520.langEN"
 _scrolls_id: "416"
+type: "Mortuary Roll"
 ---
 
 

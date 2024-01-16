@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://ica.princeton.edu/images/princeton/p57.001v.jpg"
 _scrolls_id: "221"
+type: "GB Roy. Gen."
 ---
 
 

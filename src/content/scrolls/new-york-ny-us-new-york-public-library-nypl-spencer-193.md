@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://digitalgallery.nypl.org/nypldigital/dgkeysearchresult.cfm?parent_id=185814"
 _scrolls_id: "191"
+type: "GB Roy. Gen."
 ---
 
 

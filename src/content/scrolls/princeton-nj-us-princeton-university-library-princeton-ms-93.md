@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://ica.princeton.edu.ezp-prod1.hul.harvard.edu/images/princeton/p93.001r.jpg"
 _scrolls_id: "324"
+type: "Med-Alch"
 ---
 
 

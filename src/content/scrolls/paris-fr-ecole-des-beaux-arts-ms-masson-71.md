@@ -30,6 +30,7 @@ provenance: "France, Paris"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "532"
+type: "Trees of Christ"
 ---
 
 

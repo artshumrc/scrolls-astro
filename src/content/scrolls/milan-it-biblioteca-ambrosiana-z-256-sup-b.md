@@ -30,6 +30,7 @@ provenance: "Milan"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "269"
+type: "Liturgical"
 ---
 
 

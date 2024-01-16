@@ -30,6 +30,7 @@ provenance: "France, Châlons-en-Champagne"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "427"
+type: "Mortuary Roll"
 ---
 
 

@@ -4,7 +4,6 @@ date: "2016-09-28"
 wp_id: "4364"
 wp_type: "scroll"
 wp_slug: "aarau-de-aarganische-kantonsbibliothek-ms-murf-31a"
-slug: "aarau-de-aarganische-kantonsbibliothek-ms-murf-31a"
 creator: "admin"
 online_bibliography_record: "http://www.e-codices.unifr.ch/fr/description/kba/MurF0031a"
 language_1: "German"
@@ -31,6 +30,7 @@ provenance: "Germany"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "87"
+type: "Dramatic Parts"
 ---
 
 

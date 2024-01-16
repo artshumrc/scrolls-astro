@@ -30,6 +30,7 @@ provenance: "Netherlands"
 lib_lat: ""
 online_images: "http://manuscripts.kb.nl/show/images_text/130+E+26"
 _scrolls_id: "59"
+type: "Calendar"
 ---
 
 

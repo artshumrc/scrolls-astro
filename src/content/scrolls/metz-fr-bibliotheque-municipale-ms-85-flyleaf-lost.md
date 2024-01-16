@@ -30,6 +30,7 @@ provenance: "France, Metz, St-Arnoul"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "394"
+type: "Mortuary Roll"
 ---
 
 

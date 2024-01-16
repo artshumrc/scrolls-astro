@@ -30,6 +30,7 @@ provenance: "France, Tours, Marmoutier Abbey"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "407"
+type: "Mortuary Roll"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "Austria, Neustift"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "693"
+type: "Mortuary Roll"
 ---
 
 

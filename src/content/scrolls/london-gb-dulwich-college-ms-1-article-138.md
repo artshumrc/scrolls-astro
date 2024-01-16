@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://www.henslowe-alleyn.org.uk/images/MSS-1/Article-138/08r.html"
 _scrolls_id: "672"
+type: "Dramatic parts"
 ---
 
 

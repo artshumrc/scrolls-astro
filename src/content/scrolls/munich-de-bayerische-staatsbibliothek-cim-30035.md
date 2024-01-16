@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://daten.digitale-sammlungen.de/~db/0001/bsb00011837/images/index.html?id=00011837&fip=xdsydenyztsfsdrxsfsdrxdsydenen&no=2&seite=4"
 _scrolls_id: "108"
+type: "Ecclesiastical"
 ---
 
 

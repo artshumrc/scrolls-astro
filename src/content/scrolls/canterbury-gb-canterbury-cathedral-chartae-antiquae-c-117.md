@@ -30,6 +30,7 @@ provenance: "England, Canterbury"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "103"
+type: "Ecclesiastical"
 ---
 
 

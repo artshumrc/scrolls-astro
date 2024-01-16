@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "625"
+type: "Med-Alch"
 ---
 
 

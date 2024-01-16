@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://www.culture.gouv.fr/public/mistral/caran_fr?ACTION=RETROUVER&FIELD_9=NOMDOS&VALUE_9=templiers&NUMBER=1&GRP=0&REQ=%28%28templiers%29%20%3aNOMDOS%20%29&USRNAME=nobody&USRPWD=4%24%2534P&SPEC=9&SYN=1&IMLY=&MAX1=1&MAX2=1&MAX3=100&DOM=All"
 _scrolls_id: "560"
+type: "Varia"
 ---
 
 

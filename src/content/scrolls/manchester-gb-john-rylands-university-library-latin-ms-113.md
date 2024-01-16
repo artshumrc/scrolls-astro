@@ -30,6 +30,7 @@ provenance: "France, Rouen"
 lib_lat: ""
 online_images: "http://enriqueta.man.ac.uk/luna/servlet/detail/Manchester~91~1~365587~123911?qvq=q:%3D%22Latin%2BMS%2B113%22;lc:Manchester~91~1&mi=4&trs=14"
 _scrolls_id: "118"
+type: "GB Roy. Gen."
 ---
 
 

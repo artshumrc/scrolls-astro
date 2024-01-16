@@ -30,6 +30,7 @@ provenance: "France, Rouen"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "296"
+type: "Liturgical"
 ---
 
 

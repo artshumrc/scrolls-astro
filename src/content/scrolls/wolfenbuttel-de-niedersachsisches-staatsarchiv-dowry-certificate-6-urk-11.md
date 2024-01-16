@@ -30,6 +30,7 @@ provenance: "Germany"
 lib_lat: ""
 online_images: "http://www.facsimilefinder.com/facsimile/170/marriage-certificate-of-the-empress-theophano"
 _scrolls_id: "35"
+type: "Archival"
 ---
 
 

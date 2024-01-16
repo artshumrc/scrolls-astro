@@ -30,6 +30,7 @@ provenance: "Italy, Montecassino"
 lib_lat: ""
 online_images: "http://digi.vatlib.it/view/MSS_Barb.lat.592"
 _scrolls_id: "286"
+type: "Liturgical"
 ---
 
 

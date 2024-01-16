@@ -30,6 +30,7 @@ provenance: "England or France"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "513"
+type: "Trees of Christ"
 ---
 
 

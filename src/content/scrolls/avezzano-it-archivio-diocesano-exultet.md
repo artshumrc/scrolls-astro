@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://www.icpal.beniculturali.it/scheda_fotografico.html?ids_foto=C25E9B70-9A76-4381-8E39-18D05F56C7FD"
 _scrolls_id: "247"
+type: "Liturgical"
 ---
 
 

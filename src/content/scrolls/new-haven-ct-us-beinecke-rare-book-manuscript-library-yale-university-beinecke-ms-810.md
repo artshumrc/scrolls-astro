@@ -30,6 +30,7 @@ provenance: "Italy, Milan"
 lib_lat: ""
 online_images: "http://brbl-dl.library.yale.edu/vufind/Record/3592241?image_id=1002526"
 _scrolls_id: "276"
+type: "Liturgical"
 ---
 
 

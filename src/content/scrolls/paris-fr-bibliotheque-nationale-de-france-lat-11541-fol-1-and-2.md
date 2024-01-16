@@ -30,6 +30,7 @@ provenance: "France, S. Maur-des-Fossés"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "668"
+type: "Mortuary Roll"
 ---
 
 

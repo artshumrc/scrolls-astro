@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://www.bodley.ox.ac.uk/dept/scwmss/wmss/online/medieval/emusaeo/images/00423538.jpg"
 _scrolls_id: "195"
+type: "GB Roy. Gen."
 ---
 
 

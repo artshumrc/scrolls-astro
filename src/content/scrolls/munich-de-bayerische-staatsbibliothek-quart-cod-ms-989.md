@@ -30,6 +30,7 @@ provenance: "Germany, Upper Rhine"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "522"
+type: "Trees of Christ"
 ---
 
 

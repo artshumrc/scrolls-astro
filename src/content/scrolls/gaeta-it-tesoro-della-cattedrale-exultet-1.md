@@ -30,6 +30,7 @@ provenance: "Gaeta?"
 lib_lat: ""
 online_images: "http://www.icpal.beniculturali.it/scheda_fotografico.html?ids_foto=F4FABDCC-91F9-4758-8B3C-D74D42F20BC3"
 _scrolls_id: "260"
+type: "Liturgical"
 ---
 
 

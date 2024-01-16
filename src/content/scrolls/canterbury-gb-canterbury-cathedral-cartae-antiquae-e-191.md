@@ -30,6 +30,7 @@ provenance: "England, Ely"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "639"
+type: "Mortuary Roll"
 ---
 
 

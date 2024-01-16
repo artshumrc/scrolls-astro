@@ -30,6 +30,7 @@ provenance: "Germany or Austria, South"
 lib_lat: ""
 online_images: "http://daten.digitale-sammlungen.de/bsb00034959/image_1"
 _scrolls_id: "521"
+type: "Trees of Christ"
 ---
 
 

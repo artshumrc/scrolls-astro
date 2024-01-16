@@ -30,6 +30,7 @@ provenance: "Bavaria, Benediktbeuern Abby"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "397"
+type: "Mortuary Roll"
 ---
 
 

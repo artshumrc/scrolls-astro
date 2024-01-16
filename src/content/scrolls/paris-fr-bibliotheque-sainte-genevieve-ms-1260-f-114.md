@@ -30,6 +30,7 @@ provenance: "France, Tours, St. Martin"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "434"
+type: "Mortuary Roll"
 ---
 
 

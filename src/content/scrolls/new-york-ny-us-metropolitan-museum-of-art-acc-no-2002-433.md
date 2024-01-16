@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://www.metmuseum.org/Collections/search-the-collections/70015999"
 _scrolls_id: "524"
+type: "Trees of Christ"
 ---
 
 

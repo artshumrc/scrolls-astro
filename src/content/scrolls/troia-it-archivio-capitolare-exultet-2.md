@@ -30,6 +30,7 @@ provenance: "Italy, Troia"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "294"
+type: "Liturgical"
 ---
 
 

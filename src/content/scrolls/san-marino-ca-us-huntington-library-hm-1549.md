@@ -30,6 +30,7 @@ provenance: "Portugal"
 lib_lat: ""
 online_images: "http://dpg.lib.berkeley.edu/webdb/dsheh/heh_brf?CallNumber=HM+1549"
 _scrolls_id: "303"
+type: "Map or Guide"
 ---
 
 

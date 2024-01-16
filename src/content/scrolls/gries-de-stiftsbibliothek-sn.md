@@ -30,6 +30,7 @@ provenance: "Germany, Gries"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "705"
+type: "Mortuary Roll"
 ---
 
 

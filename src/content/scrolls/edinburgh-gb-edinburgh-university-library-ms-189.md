@@ -30,6 +30,7 @@ provenance: "Italy, Utino"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "63"
+type: "Chronicles"
 ---
 
 

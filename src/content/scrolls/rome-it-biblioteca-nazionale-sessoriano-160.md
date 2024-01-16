@@ -30,6 +30,7 @@ provenance: "Italy, Northern"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "541"
+type: "Trees of Christ"
 ---
 
 

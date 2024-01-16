@@ -30,6 +30,7 @@ provenance: "France, St. Martial of Limoges"
 lib_lat: ""
 online_images: "http://gallica.bnf.fr/ark:/12148/btv1b8432277r/f9.image.r=1085.langEN"
 _scrolls_id: "408"
+type: "Mortuary Roll"
 ---
 
 

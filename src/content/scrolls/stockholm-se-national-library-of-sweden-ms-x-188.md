@@ -30,6 +30,7 @@ provenance: "Sweden"
 lib_lat: ""
 online_images: "http://www.wdl.org/en/item/11631/"
 _scrolls_id: "604"
+type: "Med-Alch"
 ---
 
 

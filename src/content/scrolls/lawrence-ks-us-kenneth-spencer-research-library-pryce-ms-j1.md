@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://spencer.lib.ku.edu/collections/special-collections/ancient-medieval-manuscripts"
 _scrolls_id: "138"
+type: "GB Roy. Gen."
 ---
 
 

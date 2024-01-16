@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://www.freelibrary.org/medieval/part1.htm"
 _scrolls_id: "596"
+type: "Chronicles"
 ---
 
 

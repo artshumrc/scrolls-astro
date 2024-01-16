@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://www.bodley.ox.ac.uk/dept/scwmss/wmss/online/medieval/emusaeo/images/0245R3554.jpg"
 _scrolls_id: "194"
+type: "Med-Alch"
 ---
 
 

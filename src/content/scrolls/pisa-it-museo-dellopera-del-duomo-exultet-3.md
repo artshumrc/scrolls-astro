@@ -30,6 +30,7 @@ provenance: "Italy, Pisa"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "282"
+type: "Liturgical"
 ---
 
 

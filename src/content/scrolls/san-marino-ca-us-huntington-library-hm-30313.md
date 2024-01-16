@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://dpg.lib.berkeley.edu/webdb/dsheh/heh_brf?Description=&CallNumber=HM+30313"
 _scrolls_id: "325"
+type: "Med-Alch"
 ---
 
 

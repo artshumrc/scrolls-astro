@@ -30,6 +30,7 @@ provenance: "Switzerland, St. Gall"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "553"
+type: "Trees of Christ"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "England, Bath"
 lib_lat: ""
 online_images: "http://books.google.com/books?id=LoP1e9IHTs0C&pg=PA112-IA1&lpg=PA112-IA1&dq=cambridge+university+library+Add.+MS+3566(4)&source=bl&ots=EpkEaeNFUv&sig=lJEvHWcodx6ycz3BfHG3gZ1cJSo&hl=en&sa=X&ei=flLhU6HnMZLksATKuoHgCg&ved=0CB0Q6AEwAA#v=onepage&q=cambridge%20university%20library%20Add.%20MS%203566(4)&f=false"
 _scrolls_id: "343"
+type: "Mortuary Roll"
 ---
 
 

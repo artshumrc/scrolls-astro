@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://enriqueta.man.ac.uk/luna/servlet/view/all/what/French%20MS%2099?sort=Reference_Number,Page,Current_Repository"
 _scrolls_id: "583"
+type: "Chronicles"
 ---
 
 

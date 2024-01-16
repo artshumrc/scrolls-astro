@@ -30,6 +30,7 @@ provenance: "Germany"
 lib_lat: ""
 online_images: "http://digital2.library.ucla.edu/viewer/viewer.do?projectNo=123&arkId=21198/zz002hgbtt#"
 _scrolls_id: "468"
+type: "Poetry"
 ---
 
 

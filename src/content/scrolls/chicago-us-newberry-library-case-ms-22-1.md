@@ -30,6 +30,7 @@ provenance: "France, Southern"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "499"
+type: "Trees of Christ"
 ---
 
 

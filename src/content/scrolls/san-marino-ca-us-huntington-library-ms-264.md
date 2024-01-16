@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://dpg.lib.berkeley.edu/webdb/dsheh/heh_brf?CallNumber=HM+264"
 _scrolls_id: "223"
+type: "GB Roy. Gen."
 ---
 
 

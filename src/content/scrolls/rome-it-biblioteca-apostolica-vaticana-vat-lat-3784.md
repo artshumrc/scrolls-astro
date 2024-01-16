@@ -30,6 +30,7 @@ provenance: "Italy, Montecassino"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "287"
+type: "Liturgical"
 ---
 
 

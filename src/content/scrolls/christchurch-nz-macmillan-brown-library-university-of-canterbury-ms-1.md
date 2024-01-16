@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://www.canterbury.ac.nz/canterburyroll/research/index.shtml"
 _scrolls_id: "136"
+type: "GB Roy. Gen."
 ---
 
 

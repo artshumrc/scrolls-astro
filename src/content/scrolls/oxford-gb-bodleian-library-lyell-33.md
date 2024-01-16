@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://www.bodley.ox.ac.uk/dept/scwmss/wmss/online/medieval/lyell/images/00333507.jpg"
 _scrolls_id: "197"
+type: "GB Roy. Gen."
 ---
 
 

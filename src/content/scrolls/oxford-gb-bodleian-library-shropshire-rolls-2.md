@@ -30,6 +30,7 @@ provenance: "England, Lilleshall"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "669"
+type: "Mortuary Roll"
 ---
 
 

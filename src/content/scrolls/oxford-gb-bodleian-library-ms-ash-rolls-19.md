@@ -30,6 +30,7 @@ provenance: "Wales"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "242"
+type: "Heraldic Roll"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "Germany, South"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "70"
+type: "Chronicles"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "Italy, Montecassino"
 lib_lat: ""
 online_images: "http://ica.princeton.edu/millet/display.php?country=Italy&site=264&view=site&page=1&image=7433"
 _scrolls_id: "281"
+type: "Liturgical"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://bodley30.bodley.ox.ac.uk:8180/luna/servlet/view/all/what/MS.+Bodl.+Rolls+22"
 _scrolls_id: "479"
+type: "Prayer Roll"
 ---
 
 

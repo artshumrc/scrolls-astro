@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://parkerweb.stanford.edu/parker/actions/thumbnails.do?ms_no=116"
 _scrolls_id: "128"
+type: "GB Roy. Gen."
 ---
 
 

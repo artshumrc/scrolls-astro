@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://dms.stanford.edu/catalog/CCC545_keywords"
 _scrolls_id: "629"
+type: "Chronicles"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "Italy, Amalfi"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "272"
+type: "Liturgical"
 ---
 
 

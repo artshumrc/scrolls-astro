@@ -30,6 +30,7 @@ provenance: "Flemish? English?"
 lib_lat: ""
 online_images: "http://ica.princeton.edu/images/princeton/p126.001r.jpg"
 _scrolls_id: "482"
+type: "Prayer Roll"
 ---
 
 

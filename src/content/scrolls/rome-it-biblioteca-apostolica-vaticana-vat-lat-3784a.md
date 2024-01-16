@@ -30,6 +30,7 @@ provenance: "Italy, Naples"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "288"
+type: "Liturgical"
 ---
 
 

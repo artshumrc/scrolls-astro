@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://wiktenauer.com/wiki/File:Add._MS_39564_verso.jpg"
 _scrolls_id: "557"
+type: "Varia"
 ---
 
 

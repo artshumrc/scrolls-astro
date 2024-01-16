@@ -30,6 +30,7 @@ provenance: "France"
 lib_lat: ""
 online_images: "https://exhibitions.cul.columbia.edu/exhibits/show/plimpton/item/27"
 _scrolls_id: "584"
+type: "Chronicles"
 ---
 
 

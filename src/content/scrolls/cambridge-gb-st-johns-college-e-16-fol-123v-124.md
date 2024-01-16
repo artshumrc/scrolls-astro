@@ -30,6 +30,7 @@ provenance: "England, Newnham"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "637"
+type: "Mortuary Roll"
 ---
 
 

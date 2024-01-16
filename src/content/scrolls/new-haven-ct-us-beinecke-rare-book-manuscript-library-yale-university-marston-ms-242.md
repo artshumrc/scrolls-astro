@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://brbl-dl.library.yale.edu/vufind/Record/3446276"
 _scrolls_id: "189"
+type: "GB Roy. Gen."
 ---
 
 

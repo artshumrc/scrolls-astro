@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_88929"
 _scrolls_id: "7"
+type: "Amulets"
 ---
 
 

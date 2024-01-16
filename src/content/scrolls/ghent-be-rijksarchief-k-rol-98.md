@@ -30,6 +30,7 @@ provenance: "Netherlands, St. Baafs of Ghent"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "690"
+type: "Mortuary Roll"
 ---
 
 

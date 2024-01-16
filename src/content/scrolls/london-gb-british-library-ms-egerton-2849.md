@@ -30,6 +30,7 @@ provenance: "England, Southeastern"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "386"
+type: "Mortuary Roll"
 ---
 
 

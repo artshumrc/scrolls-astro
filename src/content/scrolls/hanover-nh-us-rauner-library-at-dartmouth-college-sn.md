@@ -30,6 +30,7 @@ provenance: "France, Paris"
 lib_lat: ""
 online_images: "http://www.dartmouth.edu/~mavall/libguides/documents/collections/chronique.html"
 _scrolls_id: "578"
+type: "Chronicles"
 ---
 
 

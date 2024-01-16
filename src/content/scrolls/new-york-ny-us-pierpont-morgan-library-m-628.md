@@ -30,6 +30,7 @@ provenance: "England, Ramsey Abbey"
 lib_lat: ""
 online_images: "http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?DB=Local&Search_Arg=%22ms+m.628%22+ica&Search_Code=GKEY^&CNT=50&HIST=1"
 _scrolls_id: "526"
+type: "Trees of Christ"
 ---
 
 

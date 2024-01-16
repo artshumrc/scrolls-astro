@@ -30,6 +30,7 @@ provenance: "Germany, Berchtesgaden"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "648"
+type: "Mortuary Roll"
 ---
 
 

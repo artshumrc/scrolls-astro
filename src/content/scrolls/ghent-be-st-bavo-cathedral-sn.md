@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "https://www.scholarsresource.com/browse/work/2144598539"
 _scrolls_id: "370"
+type: "Mortuary Roll"
 ---
 
 

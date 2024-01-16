@@ -30,6 +30,7 @@ provenance: "Italy"
 lib_lat: ""
 online_images: "http://www.abbazianovalesa.org/secolo_xi.htm"
 _scrolls_id: "86"
+type: "Chronicles"
 ---
 
 

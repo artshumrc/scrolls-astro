@@ -30,6 +30,7 @@ provenance: "Netherlands, South, Thérouanne diocese"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "476"
+type: "Prayer Roll"
 ---
 
 

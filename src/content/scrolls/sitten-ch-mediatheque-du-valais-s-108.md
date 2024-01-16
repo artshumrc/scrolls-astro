@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://www.e-codices.unifr.ch/fr/list/one/mvs/viandier"
 _scrolls_id: "485"
+type: "Recipes"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "France, St. Mesmin de Micy"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "654"
+type: "Mortuary Roll"
 ---
 
 

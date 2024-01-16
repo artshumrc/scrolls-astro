@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://luna.library.wmich.edu/luna/servlet/detail/WMUwmu~77~77~835180~140685?qvq=q:manuscript_identifier%3D%22Takamiya%2BMS%2B56%22;lc:WMUwmu~85~85,WMUwmu~73~73,WMUwmu~77~77,WMUwmu~84~84,WMUwmu~90~90,WMUwmu~29~29,WMUwmu~82~82&mi=1&trs=4"
 _scrolls_id: "710"
+type: "Prayer Roll"
 ---
 
 

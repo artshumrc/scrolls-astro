@@ -30,6 +30,7 @@ provenance: "Italy, Benevento"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "289"
+type: "Liturgical"
 ---
 
 

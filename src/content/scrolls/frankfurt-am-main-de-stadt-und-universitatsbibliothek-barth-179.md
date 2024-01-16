@@ -30,6 +30,7 @@ provenance: "Lorsch, Germany"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "259"
+type: "Liturgical"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "Germany"
 lib_lat: ""
 online_images: "http://www.manuscripta-mediaevalia.de/dokumente/html/hsk0537"
 _scrolls_id: "495"
+type: "Trees of Christ"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "France, Cluny"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "110"
+type: "Ecclesiastical"
 ---
 
 

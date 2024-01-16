@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://dx.doi.org/10.7891/e-manuscripta-16629"
 _scrolls_id: "556"
+type: "Trees of Christ"
 ---
 
 

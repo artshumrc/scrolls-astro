@@ -30,6 +30,7 @@ provenance: "French"
 lib_lat: ""
 online_images: "SDP photos"
 _scrolls_id: "144"
+type: "GB Roy. Gen."
 ---
 
 

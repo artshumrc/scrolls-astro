@@ -30,6 +30,7 @@ provenance: "Austria, St. Lambrecht"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "698"
+type: "Mortuary Roll"
 ---
 
 

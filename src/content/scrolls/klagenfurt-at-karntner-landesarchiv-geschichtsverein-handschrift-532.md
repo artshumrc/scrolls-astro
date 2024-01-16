@@ -30,6 +30,7 @@ provenance: "Austria, Eberndorf"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "675"
+type: "Mortuary Roll"
 ---
 
 

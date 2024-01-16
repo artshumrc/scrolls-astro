@@ -30,6 +30,7 @@ provenance: "Italy, Florence"
 lib_lat: ""
 online_images: "http://classes.toledomuseum.org:8080/emuseum/view/objects/asitem/178/642/title-desc?t:state:flow=209834dc-649d-44c0-bab5-141632ee809d"
 _scrolls_id: "568"
+type: "Vitae"
 ---
 
 

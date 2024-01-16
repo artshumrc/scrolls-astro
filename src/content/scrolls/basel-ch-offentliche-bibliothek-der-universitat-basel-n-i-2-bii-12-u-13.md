@@ -30,6 +30,7 @@ provenance: "Germany, Upper Rhine"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "298"
+type: "Map or Guide"
 ---
 
 

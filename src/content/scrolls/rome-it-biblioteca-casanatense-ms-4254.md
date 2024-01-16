@@ -30,6 +30,7 @@ provenance: "Italy"
 lib_lat: ""
 online_images: "http://www.moleiro.com/en/biblical-books/genealogy-of-christ.html"
 _scrolls_id: "540"
+type: "Trees of Christ"
 ---
 
 

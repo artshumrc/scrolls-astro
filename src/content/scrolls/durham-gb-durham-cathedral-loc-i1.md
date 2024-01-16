@@ -30,6 +30,7 @@ provenance: "England, Durham"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "353"
+type: "Mortuary Roll"
 ---
 
 

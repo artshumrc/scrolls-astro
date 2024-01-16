@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://www.college-of-arms.gov.uk/news-grants/news/item/100-pedigree-rolls"
 _scrolls_id: "181"
+type: "GB Roy. Gen."
 ---
 
 

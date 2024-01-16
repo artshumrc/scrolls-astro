@@ -30,6 +30,7 @@ provenance: "France"
 lib_lat: ""
 online_images: "http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=6343&CollID=8&NStart="
 _scrolls_id: "78"
+type: "Chronicles"
 ---
 
 

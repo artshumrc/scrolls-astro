@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=18841&CollID=8&NStart=7353"
 _scrolls_id: "157"
+type: "GB Roy. Gen."
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "Italy, Montecassino"
 lib_lat: ""
 online_images: "http://www.mgh-bibliothek.de/dokumente/z/zsn2a043418.pdf"
 _scrolls_id: "274"
+type: "Liturgical"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=7186&CollID=8&NStart="
 _scrolls_id: "159"
+type: "GB Roy. Gen."
 ---
 
 

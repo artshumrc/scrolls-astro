@@ -30,6 +30,7 @@ provenance: "France, Paris"
 lib_lat: ""
 online_images: "http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?BBID=343690"
 _scrolls_id: "14"
+type: "Amulets"
 ---
 
 

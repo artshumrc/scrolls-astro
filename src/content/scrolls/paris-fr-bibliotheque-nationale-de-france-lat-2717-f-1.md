@@ -30,6 +30,7 @@ provenance: "France, Nord, Saint-Amand Abbey"
 lib_lat: ""
 online_images: "http://gallica.bnf.fr/ark:/12148/btv1b8530354q/f9.image.r=2717.langEN"
 _scrolls_id: "425"
+type: "Mortuary Roll"
 ---
 
 

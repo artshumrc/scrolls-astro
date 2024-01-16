@@ -30,6 +30,7 @@ provenance: "Scotland"
 lib_lat: ""
 online_images: "http://www.sothebys.com/en/auctions/ecatalogue/2009/western-manuscripts-l09741/lot.43.html"
 _scrolls_id: "228"
+type: "GB Roy. Gen."
 ---
 
 

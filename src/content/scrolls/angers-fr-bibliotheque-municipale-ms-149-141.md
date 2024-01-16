@@ -30,6 +30,7 @@ provenance: "France, St. Maur-sur-Loire"
 lib_lat: ""
 online_images: "http://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=9126"
 _scrolls_id: "333"
+type: "Mortuary Roll"
 ---
 
 

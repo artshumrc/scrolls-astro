@@ -30,6 +30,7 @@ provenance: "Italy, Pisa"
 lib_lat: ""
 online_images: "http://ica.princeton.edu/millet/display.php?country=Italy&site=&view=country&page=13&image=4077"
 _scrolls_id: "280"
+type: "Liturgical"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "Italian"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "13"
+type: "Amulets"
 ---
 
 

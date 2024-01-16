@@ -30,6 +30,7 @@ provenance: "France"
 lib_lat: ""
 online_images: "http://visualiseur.bnf.fr/Visualiseur?Destination=Daguerre&O=22004066&E=JPEG&NavigationSimplifiee=ok&typeFonds=noir"
 _scrolls_id: "605"
+type: "Chronicles"
 ---
 
 

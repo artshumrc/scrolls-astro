@@ -30,6 +30,7 @@ provenance: "Italy, Susa"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "442"
+type: "Mortuary Roll"
 ---
 
 

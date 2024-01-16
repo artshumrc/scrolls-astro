@@ -30,6 +30,7 @@ provenance: "France"
 lib_lat: ""
 online_images: "http://ica.princeton.edu/images/princeton/p52.001v.jpg"
 _scrolls_id: "117"
+type: "FR Roy. Gen."
 ---
 
 

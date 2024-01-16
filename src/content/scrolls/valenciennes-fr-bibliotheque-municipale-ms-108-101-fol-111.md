@@ -30,6 +30,7 @@ provenance: "France, S. Armand"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "665"
+type: "Mortuary Roll"
 ---
 
 

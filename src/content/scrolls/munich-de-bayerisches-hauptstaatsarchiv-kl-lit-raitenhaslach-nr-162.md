@@ -30,6 +30,7 @@ provenance: "Germany, Raitenhaslach Monastery"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "647"
+type: "Mortuary Roll"
 ---
 
 

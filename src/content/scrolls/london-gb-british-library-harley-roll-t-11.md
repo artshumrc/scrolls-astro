@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://www.bl.uk/eblj/2011articles/pdf/ebljarticle52011.pdf"
 _scrolls_id: "42"
+type: "Arma Christi"
 ---
 
 

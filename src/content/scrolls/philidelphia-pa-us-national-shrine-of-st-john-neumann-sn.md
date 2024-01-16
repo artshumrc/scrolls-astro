@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://www.ccaha.org/about/news/2012/06/22/treatment-focus-unrolling-a-six-foot-long-600-year-old-arma-christi-manuscript"
 _scrolls_id: "52"
+type: "Arma Christi"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "France, Languedoc-Roussillon, Hérault, Maguelone"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "275"
+type: "Liturgical"
 ---
 
 

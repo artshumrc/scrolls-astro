@@ -30,6 +30,7 @@ provenance: "Spain, El Escorial"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "390"
+type: "Mortuary Roll"
 ---
 
 

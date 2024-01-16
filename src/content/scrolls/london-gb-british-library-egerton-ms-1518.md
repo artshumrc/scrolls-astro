@@ -30,6 +30,7 @@ provenance: "Italy or Spain"
 lib_lat: ""
 online_images: "http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=18412&CollID=28&NStart=1518"
 _scrolls_id: "77"
+type: "Chronicles"
 ---
 
 

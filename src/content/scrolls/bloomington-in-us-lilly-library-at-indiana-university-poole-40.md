@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://ucblibrary4.berkeley.edu:8088/xtf22/search?smode=basic;text=roll;rmode=digscript;docsPerPage=1;startDoc=7;fullview=yes"
 _scrolls_id: "564"
+type: "Vitae"
 ---
 
 

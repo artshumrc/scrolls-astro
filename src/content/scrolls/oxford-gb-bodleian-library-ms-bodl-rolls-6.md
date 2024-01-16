@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://bodley30.bodley.ox.ac.uk:8180/luna/servlet/view/all/what/MS.+Bodl.+Rolls+6"
 _scrolls_id: "211"
+type: "GB Roy. Gen."
 ---
 
 

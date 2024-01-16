@@ -30,6 +30,7 @@ provenance: "France, Corbie"
 lib_lat: ""
 online_images: "http://gallica.bnf.fr/ark:/12148/btv1b8550865s/f216.image.r=11636.langEN"
 _scrolls_id: "411"
+type: "Mortuary Roll"
 ---
 
 

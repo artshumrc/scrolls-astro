@@ -30,6 +30,7 @@ provenance: "Italy, Fondi"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "278"
+type: "Liturgical"
 ---
 
 

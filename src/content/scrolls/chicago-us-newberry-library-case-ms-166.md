@@ -30,6 +30,7 @@ provenance: "France"
 lib_lat: ""
 online_images: "http://publications.newberry.org/digitalexhibitions/exhibits/show/frenchrenaissance/dukes/item/147"
 _scrolls_id: "135"
+type: "GB Roy. Gen."
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "England, Worcester"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "709"
+type: "Mortuary Roll"
 ---
 
 

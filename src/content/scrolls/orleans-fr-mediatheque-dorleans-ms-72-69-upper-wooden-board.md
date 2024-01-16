@@ -30,6 +30,7 @@ provenance: "France, Fleury"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "399"
+type: "Mortuary Roll"
 ---
 
 

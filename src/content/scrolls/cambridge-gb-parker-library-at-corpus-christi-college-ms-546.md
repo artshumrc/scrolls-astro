@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://parkerweb.stanford.edu/parker/actions/thumbnails.do?ms_no=546"
 _scrolls_id: "129"
+type: "GB Roy. Gen."
 ---
 
 

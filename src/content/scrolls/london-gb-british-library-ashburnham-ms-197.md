@@ -30,6 +30,7 @@ provenance: "Belgium"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "380"
+type: "Mortuary Roll"
 ---
 
 

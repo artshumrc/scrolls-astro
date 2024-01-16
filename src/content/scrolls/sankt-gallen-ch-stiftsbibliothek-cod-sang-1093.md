@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://www.e-codices.unifr.ch/en/list/one/csg/1093"
 _scrolls_id: "305"
+type: "Map or Guide"
 ---
 
 

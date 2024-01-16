@@ -30,6 +30,7 @@ provenance: "Germany, Passau"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "649"
+type: "Mortuary Roll"
 ---
 
 

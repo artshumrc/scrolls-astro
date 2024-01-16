@@ -30,6 +30,7 @@ provenance: "France, Northern"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "395"
+type: "Mortuary Roll"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?BBID=145540"
 _scrolls_id: "67"
+type: "Chronicles"
 ---
 
 

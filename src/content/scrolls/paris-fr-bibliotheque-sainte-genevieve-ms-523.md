@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=13281"
 _scrolls_id: "595"
+type: "Chronicles"
 ---
 
 

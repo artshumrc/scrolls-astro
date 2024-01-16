@@ -30,6 +30,7 @@ provenance: "Belgium"
 lib_lat: ""
 online_images: "http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?BBID=338111"
 _scrolls_id: "15"
+type: "Amulets"
 ---
 
 

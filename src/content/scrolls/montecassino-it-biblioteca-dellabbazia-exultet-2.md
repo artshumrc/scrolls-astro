@@ -30,6 +30,7 @@ provenance: "Italy, Sorrento"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "273"
+type: "Liturgical"
 ---
 
 

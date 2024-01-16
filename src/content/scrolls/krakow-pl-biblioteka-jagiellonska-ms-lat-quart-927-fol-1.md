@@ -30,6 +30,7 @@ provenance: "Germany, Trier"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "653"
+type: "Mortuary Roll"
 ---
 
 

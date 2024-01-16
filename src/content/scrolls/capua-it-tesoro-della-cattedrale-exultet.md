@@ -30,6 +30,7 @@ provenance: "Montecassino? Capua?"
 lib_lat: ""
 online_images: "http://www.icpal.beniculturali.it/scheda_fotografico.html?ids_foto=84995098-3B78-4C8B-ABA5-100714C25562"
 _scrolls_id: "257"
+type: "Liturgical"
 ---
 
 

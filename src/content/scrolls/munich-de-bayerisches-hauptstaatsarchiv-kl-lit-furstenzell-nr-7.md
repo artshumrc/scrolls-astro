@@ -30,6 +30,7 @@ provenance: "Germany, Fürstenzell"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "651"
+type: "Mortuary Roll"
 ---
 
 

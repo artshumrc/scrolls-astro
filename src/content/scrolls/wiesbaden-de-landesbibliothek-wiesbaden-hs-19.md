@@ -30,6 +30,7 @@ provenance: "Germany, Mainz"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "60"
+type: "Calendar"
 ---
 
 

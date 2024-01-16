@@ -30,6 +30,7 @@ provenance: "England, Warwickshire"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "74"
+type: "Chronicles"
 ---
 
 

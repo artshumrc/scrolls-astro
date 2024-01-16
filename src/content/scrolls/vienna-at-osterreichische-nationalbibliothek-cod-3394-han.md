@@ -30,6 +30,7 @@ provenance: "Italy, Venice"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "603"
+type: "Chronicles"
 ---
 
 

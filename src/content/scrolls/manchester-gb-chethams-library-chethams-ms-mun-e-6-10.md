@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://luna.manchester.ac.uk/luna/servlet/view/all/where/England--Warwickshire--Mancetter?os=0&pgs=50"
 _scrolls_id: "32"
+type: "Archival"
 ---
 
 

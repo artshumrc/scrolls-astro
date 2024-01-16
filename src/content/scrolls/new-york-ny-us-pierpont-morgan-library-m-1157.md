@@ -30,6 +30,7 @@ provenance: "France, Northern"
 lib_lat: ""
 online_images: "http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?DB=Local&Search_Arg=%22ms+m.1157%22+ica&Search_Code=GKEY^&CNT=50&HIST=1"
 _scrolls_id: "586"
+type: "Chronicles"
 ---
 
 

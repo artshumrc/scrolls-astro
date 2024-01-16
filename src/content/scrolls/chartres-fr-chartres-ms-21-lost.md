@@ -30,6 +30,7 @@ provenance: "France, Chartres, St-Père"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "348"
+type: "Mortuary Roll"
 ---
 
 

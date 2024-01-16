@@ -30,6 +30,7 @@ provenance: "Belgium, Ghent"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "689"
+type: "Mortuary Roll"
 ---
 
 

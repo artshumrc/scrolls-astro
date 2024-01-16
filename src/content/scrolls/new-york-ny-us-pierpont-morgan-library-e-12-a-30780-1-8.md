@@ -30,6 +30,7 @@ provenance: "England, York"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "686"
+type: "Mortuary Roll"
 ---
 
 

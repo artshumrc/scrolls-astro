@@ -30,6 +30,7 @@ provenance: "France, Alsace"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "104"
+type: "Ecclesiastical"
 ---
 
 

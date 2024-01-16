@@ -30,6 +30,7 @@ provenance: "England, Easby"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "638"
+type: "Mortuary Roll"
 ---
 
 

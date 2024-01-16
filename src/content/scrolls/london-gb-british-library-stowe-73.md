@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "173"
+type: "GB Roy. Gen."
 ---
 
 

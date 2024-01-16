@@ -30,6 +30,7 @@ provenance: "Italy, Strocone"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "561"
+type: "Varia"
 ---
 
 

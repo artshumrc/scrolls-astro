@@ -30,6 +30,7 @@ provenance: "France, Valenciennes"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "644"
+type: "Mortuary Roll"
 ---
 
 

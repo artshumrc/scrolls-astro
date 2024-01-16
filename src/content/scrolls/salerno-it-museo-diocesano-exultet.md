@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://www.icpal.beniculturali.it/esito_fotografico.html?subject=1.%20Exultet%20&ids_foto=A4DEE7D7-36B6-44E3-8D63-7DB4A20C12CB&go=scheda_fotografico.html"
 _scrolls_id: "291"
+type: "Liturgical"
 ---
 
 

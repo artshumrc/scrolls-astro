@@ -30,6 +30,7 @@ provenance: "France, Angers, St. Aubin"
 lib_lat: ""
 online_images: "http://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=9048"
 _scrolls_id: "336"
+type: "Mortuary Roll"
 ---
 
 

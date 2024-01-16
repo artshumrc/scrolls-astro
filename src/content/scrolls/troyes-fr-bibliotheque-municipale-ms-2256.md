@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://bvmm.irht.cnrs.fr/consult/consult.php?COMPOSITION_ID=928&corpus=decor"
 _scrolls_id: "441"
+type: "Mortuary Roll"
 ---
 
 

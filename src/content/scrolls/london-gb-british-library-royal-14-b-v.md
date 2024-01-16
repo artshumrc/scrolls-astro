@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_14_b_v_f001r"
 _scrolls_id: "166"
+type: "GB Roy. Gen."
 ---
 
 

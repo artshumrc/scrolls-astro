@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?v1=6&ti=1,6&Search_Arg=B%2E54&Search_Code=GKEY%5E&CNT=50&PID=SX7LzgbcLPYzxjkn7wJMY3r&SEQ=20140715144846&SID=1"
 _scrolls_id: "47"
+type: "Arma Christi"
 ---
 
 

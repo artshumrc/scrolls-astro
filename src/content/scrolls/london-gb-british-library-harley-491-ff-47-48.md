@@ -30,6 +30,7 @@ provenance: "Scotland, St. Andrews"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "385"
+type: "Mortuary Roll"
 ---
 
 

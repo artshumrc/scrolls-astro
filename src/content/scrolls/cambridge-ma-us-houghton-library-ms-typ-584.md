@@ -30,6 +30,7 @@ provenance: "France"
 lib_lat: ""
 online_images: "http://pds.lib.harvard.edu/pds/view/4145783"
 _scrolls_id: "498"
+type: "Trees of Christ"
 ---
 
 

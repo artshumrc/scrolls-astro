@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://digital2.library.ucla.edu/viewItem.do?ark=21198/zz002hgbtt"
 _scrolls_id: "187"
+type: "GB Roy. Gen."
 ---
 
 

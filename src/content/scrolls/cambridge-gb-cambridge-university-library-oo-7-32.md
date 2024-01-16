@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "https://exhibitions.lib.cam.ac.uk/moving-word/artifacts/cul-msoo-7-32-table-of-descent-of-english-kings/"
 _scrolls_id: "122"
+type: "GB Roy. Gen."
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "France"
 lib_lat: ""
 online_images: "http://numelyo.bm-lyon.fr/list/?order_by=Relevance&cat=quick_filter&collection_pid=BML%3ABML_02ENL01001COL0001&search_keys[0]=863"
 _scrolls_id: "517"
+type: "Trees of Christ"
 ---
 
 

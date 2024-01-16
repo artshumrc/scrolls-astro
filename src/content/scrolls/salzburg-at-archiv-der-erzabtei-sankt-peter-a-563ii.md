@@ -30,6 +30,7 @@ provenance: "Austria, Salzburg"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "641"
+type: "Mortuary Roll"
 ---
 
 

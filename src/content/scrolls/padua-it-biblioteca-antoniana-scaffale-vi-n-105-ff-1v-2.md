@@ -30,6 +30,7 @@ provenance: "Italy, Palestrina"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "652"
+type: "Mortuary Roll"
 ---
 
 

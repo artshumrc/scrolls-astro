@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://bodley30.bodley.ox.ac.uk:8180/luna/servlet/view/search?q=Shelfmark=%22MS.%20Ash.%20Rolls%2050%22"
 _scrolls_id: "204"
+type: "GB Roy. Gen."
 ---
 
 

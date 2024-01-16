@@ -30,6 +30,7 @@ provenance: "France, Northern"
 lib_lat: ""
 online_images: "http://www.christies.com/lotfinder/lot/genealogical-and-chronicle-roll-in-french-illuminated-4747467-details.aspx?from=salesummary&intObjectID=4747467&sid=82cace2d-04fa-4211-bb8a-2f25c895195b"
 _scrolls_id: "115"
+type: "FR Roy. Gen."
 ---
 
 

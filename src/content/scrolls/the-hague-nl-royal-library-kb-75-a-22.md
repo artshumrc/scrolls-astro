@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://manuscripts.kb.nl/show/images_text/75+A+2"
 _scrolls_id: "225"
+type: "GB Roy. Gen."
 ---
 
 

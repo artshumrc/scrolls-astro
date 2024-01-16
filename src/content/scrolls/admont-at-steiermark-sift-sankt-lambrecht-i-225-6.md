@@ -30,6 +30,7 @@ provenance: "Austria, Admont"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "329"
+type: "Mortuary Roll"
 ---
 
 

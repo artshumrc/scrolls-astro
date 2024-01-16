@@ -30,6 +30,7 @@ provenance: "France, Anchin Abbey"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "663"
+type: "Mortuary Roll"
 ---
 
 

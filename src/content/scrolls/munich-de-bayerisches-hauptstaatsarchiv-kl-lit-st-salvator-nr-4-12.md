@@ -30,6 +30,7 @@ provenance: "Germany"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "646"
+type: "Mortuary Roll"
 ---
 
 

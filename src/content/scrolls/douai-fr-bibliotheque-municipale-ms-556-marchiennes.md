@@ -30,6 +30,7 @@ provenance: "France, Marchiennes"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "659"
+type: "Mortuary Roll"
 ---
 
 

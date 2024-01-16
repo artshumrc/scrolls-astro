@@ -30,6 +30,7 @@ provenance: "Flanders"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "707"
+type: "Liturgical"
 ---
 
 

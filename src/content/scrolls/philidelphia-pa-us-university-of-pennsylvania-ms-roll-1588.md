@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://dla.library.upenn.edu/dla/medren/detail.html?id=MEDREN_4934331"
 _scrolls_id: "219"
+type: "GB Roy. Gen."
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "French"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "582"
+type: "Chronicles"
 ---
 
 

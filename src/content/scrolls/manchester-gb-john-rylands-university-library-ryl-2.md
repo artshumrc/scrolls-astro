@@ -30,6 +30,7 @@ provenance: "Italy, Southeastern"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "267"
+type: "Liturgical"
 ---
 
 

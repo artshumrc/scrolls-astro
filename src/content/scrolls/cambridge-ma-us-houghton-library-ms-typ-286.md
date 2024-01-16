@@ -30,6 +30,7 @@ provenance: "Netherlands"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "474"
+type: "Prayer Roll"
 ---
 
 

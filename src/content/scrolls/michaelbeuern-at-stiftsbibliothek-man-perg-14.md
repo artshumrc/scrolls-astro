@@ -30,6 +30,7 @@ provenance: "Austria, Michaelbeuern"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "706"
+type: "Mortuary Roll"
 ---
 
 

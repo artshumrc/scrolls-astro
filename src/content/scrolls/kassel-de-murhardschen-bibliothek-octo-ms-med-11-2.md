@@ -30,6 +30,7 @@ provenance: "Germany"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "313"
+type: "Med-Alch"
 ---
 
 

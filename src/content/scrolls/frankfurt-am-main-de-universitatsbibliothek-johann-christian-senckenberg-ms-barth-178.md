@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://sammlungen.ub.uni-frankfurt.de/msma/urn/urn:nbn:de:hebis:30:2-44897"
 _scrolls_id: "90"
+type: "Dramatic Parts"
 ---
 
 

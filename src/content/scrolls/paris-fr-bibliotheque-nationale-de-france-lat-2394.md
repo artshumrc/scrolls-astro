@@ -30,6 +30,7 @@ provenance: "France, St-Martial"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "423"
+type: "Mortuary Roll"
 ---
 
 

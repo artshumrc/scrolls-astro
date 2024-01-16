@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "SDP Photos"
 _scrolls_id: "143"
+type: "GB Roy. Gen."
 ---
 
 

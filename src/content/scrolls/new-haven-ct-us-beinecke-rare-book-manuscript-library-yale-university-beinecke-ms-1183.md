@@ -30,6 +30,7 @@ provenance: "Italy, Piedmont or Lombardy"
 lib_lat: ""
 online_images: "http://www.lesenluminures.com/enlu-assets/catalogues/primer/primer-6-manuscript-production/primer6_cat.pdf"
 _scrolls_id: "533"
+type: "Trees of Christ"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "Belgium, Vorst"
 lib_lat: ""
 online_images: "http://enriqueta.man.ac.uk/luna/servlet/detail/Man4MedievalVC~4~4~759408~127420:Mortuary-Roll-of-Elizabeth-Sconincx?sort=Reference_Number%2CImage_Sequence_Number%2CCurrent_Repository&qvq=w4s:/what/Roll;sort:Reference_Number%2CImage_Sequence_Number%2CCurrent_Repository;lc:Man4MedievalVC~4~4&mi=0&trs=50"
 _scrolls_id: "391"
+type: "Mortuary Roll"
 ---
 
 

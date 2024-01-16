@@ -30,6 +30,7 @@ provenance: "England, Norfolk"
 lib_lat: ""
 online_images: "http://www.friendsofnationallibraries.org.uk/swan-roll-broadland-area-norfolk"
 _scrolls_id: "34"
+type: "Archival"
 ---
 
 

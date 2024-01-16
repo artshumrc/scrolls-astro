@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://digi.vatlib.it/view/bav_pal_lat_143/0047"
 _scrolls_id: "542"
+type: "Trees of Christ"
 ---
 
 

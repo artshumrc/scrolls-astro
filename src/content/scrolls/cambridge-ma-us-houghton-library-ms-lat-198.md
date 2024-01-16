@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://ids.lib.harvard.edu/ids/view/14634267?buttons=y"
 _scrolls_id: "464"
+type: "Poetry"
 ---
 
 

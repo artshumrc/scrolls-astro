@@ -30,6 +30,7 @@ provenance: "France"
 lib_lat: ""
 online_images: "http://bvmm.irht.cnrs.fr/consult/consult.php?COMPOSITION_ID=2626&corpus=decor"
 _scrolls_id: "601"
+type: "Chronicles"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://www.rcpe.ac.uk/library-archives/ripley-scroll"
 _scrolls_id: "310"
+type: "Med-Alch"
 ---
 
 

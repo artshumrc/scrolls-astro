@@ -30,6 +30,7 @@ provenance: "England, Kent"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "342"
+type: "Mortuary Roll"
 ---
 
 

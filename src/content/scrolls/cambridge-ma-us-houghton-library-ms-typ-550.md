@@ -30,6 +30,7 @@ provenance: "Italy"
 lib_lat: ""
 online_images: "http://pds.lib.harvard.edu/pds/view/4074278"
 _scrolls_id: "3"
+type: "Poetry"
 ---
 
 

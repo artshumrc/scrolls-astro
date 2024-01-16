@@ -30,6 +30,7 @@ provenance: "France, Corbie"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "667"
+type: "Mortuary Roll"
 ---
 
 

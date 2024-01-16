@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "SDP photos"
 _scrolls_id: "141"
+type: "GB Roy. Gen."
 ---
 
 

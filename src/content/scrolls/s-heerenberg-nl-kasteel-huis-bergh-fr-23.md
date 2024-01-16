@@ -30,6 +30,7 @@ provenance: "England, South"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "546"
+type: "Trees of Christ"
 ---
 
 

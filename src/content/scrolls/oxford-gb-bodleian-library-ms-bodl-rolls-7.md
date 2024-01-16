@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "212"
+type: "GB Roy. Gen."
 ---
 
 

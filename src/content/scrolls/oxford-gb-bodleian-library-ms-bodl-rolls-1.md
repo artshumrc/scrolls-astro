@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://bodley30.bodley.ox.ac.uk:8180/luna/servlet/view/all/what/MS.+Bodl.+Rolls+1"
 _scrolls_id: "321"
+type: "Med-Alch"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "France"
 lib_lat: ""
 online_images: "http://publications.newberry.org/digitalexhibitions/items/show/150"
 _scrolls_id: "114"
+type: "FR Roy. Gen."
 ---
 
 

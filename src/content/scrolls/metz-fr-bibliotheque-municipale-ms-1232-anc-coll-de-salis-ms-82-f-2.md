@@ -30,6 +30,7 @@ provenance: "France, Caen"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "393"
+type: "Mortuary Roll"
 ---
 
 

@@ -30,6 +30,7 @@ provenance: "England, East Anglia"
 lib_lat: ""
 online_images: "http://bodley30.bodley.ox.ac.uk:8180/luna/servlet/view/search?q=Shelfmark=%22MS.%20Fr.%20d.%201%20(R)%22"
 _scrolls_id: "214"
+type: "GB Roy. Gen."
 ---
 
 

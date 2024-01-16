@@ -30,6 +30,7 @@ provenance: "Germany, Formach"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "650"
+type: "Mortuary Roll"
 ---
 
 

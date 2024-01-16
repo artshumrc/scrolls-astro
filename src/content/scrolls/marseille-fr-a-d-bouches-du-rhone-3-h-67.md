@@ -30,6 +30,7 @@ provenance: "France, Baux"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "640"
+type: "Mortuary Roll"
 ---
 
 

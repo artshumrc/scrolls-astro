@@ -30,6 +30,7 @@ provenance: "Italy"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "683"
+type: "Varia"
 ---
 
 

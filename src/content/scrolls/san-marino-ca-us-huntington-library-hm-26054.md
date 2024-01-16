@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://dpg.lib.berkeley.edu/webdb/dsheh/heh_brf?Description=arma+christi+roll"
 _scrolls_id: "53"
+type: "Arma Christi"
 ---
 
 

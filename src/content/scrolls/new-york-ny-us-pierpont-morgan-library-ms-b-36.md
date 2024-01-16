@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://www.themorgan.org/exhibitions/exhibition.asp?id=77"
 _scrolls_id: "484"
+type: "Recipes"
 ---
 
 

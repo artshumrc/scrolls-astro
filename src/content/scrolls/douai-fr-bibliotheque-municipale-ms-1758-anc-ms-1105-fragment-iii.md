@@ -30,6 +30,7 @@ provenance: "France, Ham"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "656"
+type: "Mortuary Roll"
 ---
 
 

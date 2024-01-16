@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://bvmm.irht.cnrs.fr/consult/consult.php?COMPOSITION_ID=8133&corpus=decor"
 _scrolls_id: "531"
+type: "Trees of Christ"
 ---
 
 

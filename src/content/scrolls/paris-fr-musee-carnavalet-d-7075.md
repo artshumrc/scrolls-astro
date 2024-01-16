@@ -30,6 +30,7 @@ provenance: "France, Noyon"
 lib_lat: ""
 online_images: "http://www.carnavalet.paris.fr/en/collections/rouleau-de-saint-eloi"
 _scrolls_id: "567"
+type: "Vitae"
 ---
 
 

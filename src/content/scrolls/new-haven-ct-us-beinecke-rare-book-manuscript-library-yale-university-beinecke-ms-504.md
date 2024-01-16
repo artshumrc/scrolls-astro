@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "http://brbl-dl.library.yale.edu/vufind/Record/3440164?image_id=1110633"
 _scrolls_id: "558"
+type: "Varia"
 ---
 
 

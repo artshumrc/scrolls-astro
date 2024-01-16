@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=18445&CollID=8&NStart="
 _scrolls_id: "566"
+type: "Vitae"
 ---
 
 

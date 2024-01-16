@@ -30,6 +30,7 @@ provenance: "Unknown Provenance"
 lib_lat: ""
 online_images: "Images can be found on p 161 in Kossinger"
 _scrolls_id: "685"
+type: "Liturgical"
 ---
 
 

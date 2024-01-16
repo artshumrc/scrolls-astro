@@ -30,6 +30,7 @@ provenance: "France"
 lib_lat: ""
 online_images: "http://at.bc.edu/slideshows/dualpurpose/3.html"
 _scrolls_id: "572"
+type: "Chronicles"
 ---
 
 

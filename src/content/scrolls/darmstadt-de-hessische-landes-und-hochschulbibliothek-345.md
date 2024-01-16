@@ -30,6 +30,7 @@ provenance: "Belgium, S. Jacques-en-l'Ile de Liège"
 lib_lat: ""
 online_images: ""
 _scrolls_id: "674"
+type: "Mortuary Roll"
 ---
 
 

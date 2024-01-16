@@ -30,6 +30,7 @@ provenance: "Italy"
 lib_lat: ""
 online_images: "http://enriqueta.man.ac.uk/luna/servlet/detail/Manchester~91~1~2737~100100:Detail?sort=Reference_Number%2CPage%2CCurrent_Repository&qvq=q:%3D%22Latin%2BMS%2B2%22;sort:Reference_Number%2CPage%2CCurrent_Repository;lc:Manchester~91~1&mi=0&trs=6"
 _scrolls_id: "266"
+type: "Liturgical"
 ---
 
 

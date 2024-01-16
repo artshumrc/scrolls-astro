@@ -30,6 +30,7 @@ provenance: "England"
 lib_lat: ""
 online_images: "http://brbl-dl.library.yale.edu/vufind/Record/3526527"
 _scrolls_id: "46"
+type: "Arma Christi"
 ---
 
 
