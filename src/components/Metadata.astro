@@ -1,0 +1,10 @@
+---
+interface Props {
+    classNames?: string;
+    item: any
+}
+const { classNames, item } = Astro.props;
+---
+{ 
+    item ? <p class="meta"><slot /></p> : null
+}

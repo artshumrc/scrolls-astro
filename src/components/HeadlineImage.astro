@@ -4,8 +4,8 @@ interface Props {
     imgPath: string;
 }
 const { title, imgPath } = Astro.props;
-import scroll from '../images/houghton_scroll5.jpg';
-const headlineStyle = `transform: translate3d(0px, 0px, 0px); background: url('${scroll.src}');`
+import scrollImg from '../images/houghton_scroll5.jpg';
+const headlineStyle = `transform: translate3d(0px, 0px, 0px); background: url('${scrollImg.src}');`
 
 // Tried to use glob to get all images in a folder, but it doesn't work: https://docs.astro.build/en/recipes/dynamically-importing-images/
 // For now just hardcoding the one image instead
@@ -14,7 +14,7 @@ const headlineStyle = `transform: translate3d(0px, 0px, 0px); background: url('$
 ---
 <section class="headline-image page-headline-image parallax ">
     <div class="background-image-holder fadeIn less-blur" style={headlineStyle}>
-        <img alt="Background Image" class="background-image" src={ scroll.src } style="display: none;">
+        <img alt="Background Image" class="background-image" src={ scrollImg.src } style="display: none;">
         <!-- <Image src={images[imgPath]()} alt="" /> -->
     </div>
     <div class="background-screen"></div>
