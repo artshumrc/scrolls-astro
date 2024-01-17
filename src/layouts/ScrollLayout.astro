@@ -87,8 +87,11 @@ const headlineStyle = `transform: translate3d(0px, 0px, 0px); background: url('$
                         <Metadata item={scroll.description} classNames="description">
                             <span class="label">Description:</span> <span class="value">{scroll.description}</span>
                         </Metadata>
-                        <Metadata item={scroll.online_bibliography_record} classNames="biblio">
+                        <Metadata item={scroll.online_bibliography_record} classNames="online_biblio">
                             <span class="label">Bibliography:</span> <span class="value"><a href={scroll.online_bibliography_record}>{scroll.online_bibliography_record}</a></span>
+                        </Metadata>
+                        <Metadata item={scroll.bibliography} classNames="biblio">
+                            <span class="label">Bibliography:</span></br><span class="value" set:html={scroll.bibliography}></span>
                         </Metadata>
                         <Metadata item={scroll.online_images} classNames="online-images">
                             <span class="label">Online images:</span> <span class="value"><a href={scroll.online_images}>{scroll.online_images}</a></span>
