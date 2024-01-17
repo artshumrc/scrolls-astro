@@ -12,6 +12,7 @@ const scrolls = (await getCollection('scrolls')).sort();
 <BaseLayout title="Database">
     <div class="archive-page page">
         <div class="search-page">
+            <h1>Medieval Scrolls Database</h1>
             <div id="search"></div>
         </div>
     </div>
@@ -33,6 +34,7 @@ const scrolls = (await getCollection('scrolls')).sort();
 <style>
     .search-page {
         min-height: 500px;
+        padding: 100px;
     }
     #search {
         margin-top: 60px;
