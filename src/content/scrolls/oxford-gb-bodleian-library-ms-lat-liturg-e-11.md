@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "17"
 type: "Amulets"
+bibliography: "Hunt, Richard William. A Summary Catalogue of Western Manuscripts in the Bodleian Library at Oxford Which Have Not Hitherto Been Catalogued in the Quarto Series: With References to the Oriental and Other Manuscripts. Oxford: Clarendon Press, 1895, no. 30560<br/> Robbins, Rossell Hope. “The‘ Arma Christi’ Rolls.” The Modern Language Review 34, no. 3 (1939): 415–21."
 ---
 
 

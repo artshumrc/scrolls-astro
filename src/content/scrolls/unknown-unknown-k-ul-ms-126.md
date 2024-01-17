@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "55"
 type: "Arma Christi"
+bibliography: "Skemer, Don C. “Written Amulets and the Medieval Book.” Scrittura E Civiltà 23 (1999): 253–305.<br/> Stork, Hans-Walter. “Spätmittelalterliche Gebetsbücher in Rollenform in Überlieferung Und Bild.” Gutenberg Jahrschrift 20 (2010): 43–78.<br/>"
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "456"
 type: "Music"
+bibliography: "Droz, E. “Un Manuscrit de Guillaume de Machault.” Revue de Musicologie 8 (1927): 44.<br/> Earp, Lawrence. Guillaume de Machaut: A Guide to Research. London: Routledge, 1996, 104."
 ---
 
 

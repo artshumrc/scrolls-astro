@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "311"
 type: "Med-Alch"
+bibliography: "Bischoff, Bernhard. Latin Palaeography: Antiquity and the Middle Ages. Cambridge: Cambridge University Press, 1990. p. 33 n112."
 ---
 
 

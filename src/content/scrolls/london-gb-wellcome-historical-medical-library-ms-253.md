@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "614"
 type: "GB Roy. Gen."
+bibliography: "Moorat, S.A.J. Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library. I. MSS. Written before 1650 A. D. London: The Wellcome Historical Medical Library, 1962. p.156.<br/> Smith, J. Beverley, and Llinos Smith. History of Merioneth II: The Middle Ages. Cardiff: University of Wales Press, 2001, p. 47.<br/> Smith, J. Beverley. Llywelyn Ap Gruffudd: Prince of Wales. Chicago: University of Chicago Press, 1998, pp. 426, 433, 449<br/> Taylor, A. J. P. Studies in Castles and Castle-Building. London: Hambledon, 1985, p. 178."
 ---
 
 

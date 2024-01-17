@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://bvmm.irht.cnrs.fr/consult/consult.php?COMPOSITION_ID=928&corpus=decor"
 _scrolls_id: "441"
 type: "Mortuary Roll"
+bibliography: "Dufour, Jean. Les Rouleaux Des Morts. Vol. 3. Monumenta Palaeographica Medii Aevi. Series Gallica. Turnhout: Brepols, 2009. no. 317 and no. 333."
 ---
 
 

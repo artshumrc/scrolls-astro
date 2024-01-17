@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "245"
 type: "Heraldic Roll"
+bibliography: "Merz, Walther, and Friedrich Hermann Hegi, eds. Die Wappenrolle von Zürich<br/> Ein Heraldisches Denkmal Des Vierzehnten Jahrhunderts in Getreuer Farbiger Nachbildung Des Originals. Zürich, Leipzig: Orell Füssli, 1930.<br/> Runge, Heinrich. Die wappenrolle von Zürich. Ein heraldisches denkmal des vierzehnten jahrhunderts. Edited by Gesellschaft in Zürich Antiquarische. Zürich: Selbstverlag der Gesellschaft<br/> druck von D. Bürkli, 1860.<br/> Wattenbach, Wilhelm. Das schriftwesen im mittelalter. 3rd ed. Leipzig: S. Hirzel, 1896, 170."
 ---
 
 

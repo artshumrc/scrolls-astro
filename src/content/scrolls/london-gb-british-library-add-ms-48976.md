@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "74"
 type: "Chronicles"
+bibliography: "Marks, Richard, and Paul Williamson. Gothic: Art for England 1400-1547. London: V&A, 2003."
 ---
 
 

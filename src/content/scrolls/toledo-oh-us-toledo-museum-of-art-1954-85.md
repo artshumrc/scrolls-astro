@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://classes.toledomuseum.org:8080/emuseum/view/objects/asitem/178/642/title-desc?t:state:flow=209834dc-649d-44c0-bab5-141632ee809d"
 _scrolls_id: "568"
 type: "Vitae"
+bibliography: "Cavallo, Adolph S. “A Newly Discovered Trecento Orphrey from Florence.” Burlington Magazine CII (December 1960). p. 505, no. 4, p. 510, no. 16.<br/> Grönwoldt, Ruth. “A Florentine Fourteenth Century Orphrey in the Toledo Museum of Art.” Apollo 89, no. 87 (May 1969): 350–55. repr. p. 351, fig. 1.<br/> Toledo Museum of Art. “Accessions of American and Canadian Museums, Jan.-Mar. 1961.” Art Quarterly XXIV, no. 2 (Summer 1961). p. 200, repr. p. 198.<br/>"
 ---
 
 

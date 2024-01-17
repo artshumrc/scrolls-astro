@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "451"
 type: "Music"
+bibliography: "Wathey, Andrew, ed. Berkeley Castle, Select Roll 55: Motets and Sequences from the Early Fourteenth Century. Newton Abbot, Devon, England: Antico Edition, 1991."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "104"
 type: "Ecclesiastical"
+bibliography: "Bischoff, Bernhard. Katalog Der Festländischen Handschriften Des Neunten Jahrhunderts: Aachen-Lambach. Basel: Otto Harrassowitz Verlag, 1998, 203, no. 901.<br/> Mordek, Hubert. Bibliotheca Capitularium Regum Francorum Manuscripta: Uberlieferung Und Traditionszusammenhang Der Frankischen Herrschererlasse. Munich: Monumenta Germaniae Historica, 1995. 112-113.<br/> Mordek, Hubert. “Karolingische Kapitularen.” In Überlieferung Und Geltung Normativer Texte Des Frühen Und Hohen Mittelalters: Vier Vorträge, Gehalten Auf Dem 35. Deutschen Historikertag: 1984 in Berlin, 25–50."
 ---
 
 

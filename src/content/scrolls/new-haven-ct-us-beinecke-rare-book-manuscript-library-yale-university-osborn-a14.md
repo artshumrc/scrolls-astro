@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://brbl-dl.library.yale.edu/pdfgen/exportPDF.php?bibid=10877313&solrid=3812495"
 _scrolls_id: "190"
 type: "GB Roy. Gen."
+bibliography: "Unknown Bibliography"
 ---
 
 

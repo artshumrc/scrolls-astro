@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "480"
 type: "Prayer Roll"
+bibliography: "Drimmer, Sonja. “Beyond Private Matter: A Prayer Roll for Queen Margaret of Anjou.” Gesta 53, no. 1 (2014): 95–120.<br/> McKendrick, Scott, John Lowden, Kathleen Doyle, Joanna Frońska, and Deirdre Elizabeth Jackson. Royal Manuscripts: The Genius of Illumination. London: British Library, 2011."
 ---
 
 

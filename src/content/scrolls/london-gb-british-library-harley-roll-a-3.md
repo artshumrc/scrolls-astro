@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "106"
 type: "Ecclesiastical"
+bibliography: "Clanchy, M. T. From Memory to Written Record, England 1066-1307. 2nd ed. Oxford: Blackwell, 1993. p. 138"
 ---
 
 

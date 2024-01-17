@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "134"
 type: "GB Roy. Gen."
+bibliography: "Turner, Marie. “Historical Context: Background Essay by Marie Turner.” Penn Libraries, 2013."
 ---
 
 

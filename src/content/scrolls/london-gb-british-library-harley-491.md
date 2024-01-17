@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "384"
 type: "Mortuary Roll"
+bibliography: "Harrison, Julian. “The Mortuary Roll of Turgot of Durham (d. 1115).” Scriptorium: Revue Internationale Des Études Relatives Aux Manuscrits 58 (2004): 18–20."
 ---
 
 

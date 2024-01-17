@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.themorgan.org/exhibitions/exhibition.asp?id=77"
 _scrolls_id: "484"
 type: "Recipes"
+bibliography: "Bühler, Curt F. “Prayers and Charms in Certain Middle English Scrolls.” Speculum 39, no. 2 (1964): 270–78. n. 5."
 ---
 
 

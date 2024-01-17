@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "92"
 type: "Dramatic Parts"
+bibliography: "Guillaume, Abbé. Mystère de Saint Eustache Joué En 1504. Montpellier, 1891, pp. 13-16.<br/> Lalou, Elizabeth. “Les Rolets de Théâtre: Étude Codicologique.” In Actes Du 115e Congrès National Des Sociétés Savantes, Avignon, 1990, 51–71. Paris: Editions du CTHS, 1991, p.64-7."
 ---
 
 

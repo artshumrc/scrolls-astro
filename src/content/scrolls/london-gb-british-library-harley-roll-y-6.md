@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=18445&CollID=8&NStart="
 _scrolls_id: "566"
 type: "Vitae"
+bibliography: "Morgan, Nigel. “Early Gothic Manuscripts I (1190-1250)<br/> II (1250-1285).” In A Survey of Manuscripts Illuminated in the British Isles, edited by J.J.G. Alexander, Vol. 1. London: Harvey Miller, 1982. 67-8, ills 72-75.<br/> Roberts, Jane. “An Inventory of Early Guthlac Materials.” Mediaeval Studies 32 (1970): 193–233. p. 208."
 ---
 
 

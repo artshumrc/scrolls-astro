@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://bodley30.bodley.ox.ac.uk:8180/luna/servlet/view/search?q=Shelfmark=%22MS.%20Ash.%20Rolls%2052%22"
 _scrolls_id: "318"
 type: "Med-Alch"
+bibliography: "Hunt, Summary Catalogue, no. 7662<br/> Black, Quarto Catalogue X, no. 1535<br/> McCallum, R. Ian. “Alchemical Scrolls Associated with George Ripley.” In Mystical Metal of Gold, edited by Stanton J. Linden, 161–88. New York: AMS Press, 2007."
 ---
 
 

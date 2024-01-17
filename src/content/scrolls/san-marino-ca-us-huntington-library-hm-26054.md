@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://dpg.lib.berkeley.edu/webdb/dsheh/heh_brf?Description=arma+christi+roll"
 _scrolls_id: "53"
 type: "Arma Christi"
+bibliography: "Edsall, Mary Agnes. “Arma Christi Rolls or Textual Amulets?: The Narrow Roll Format Manuscripts of ‘O Vernicle.’” Magic, Ritual, and Witchcraft 9, no. 2 (2014): 178–209.<br/> Morris, Richard. Legends of the Holy Rood: Symbols of the Passion and Cross-Poems. London: M. Trübner & Co., 1871."
 ---
 
 

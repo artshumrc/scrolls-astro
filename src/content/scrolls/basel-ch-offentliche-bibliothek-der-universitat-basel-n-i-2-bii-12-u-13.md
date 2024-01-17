@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "298"
 type: "Map or Guide"
+bibliography: "McCormick, Michael. Charlemagne’s Survey of the Holy Land: Wealth, Personnel, and Buildings of a Mediterranean Church between Antiquity and the Middle Ages: With a Critical Edition and Translation of the Original Text. Dumbarton Oaks Medieval Humanities. Washington: Dumbarton Oaks, 2011."
 ---
 
 

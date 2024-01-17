@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "569"
 type: "Vitae"
+bibliography: "Amato, Pietro, ed. Mostra, Roma, Castel Sant’Angelo 18 Dicembre 1986 - 31 Gennaio 1987. Tesori D’arte Dei Musei Diocesano. Torino: Umberto Allemandi, 1986. p. 238-9.<br/> Morgan, Nigel. “Early Gothic Manuscripts.” In A Survey of Manuscripts Illuminated in the British Isles, edited by J.J.G. Alexander, Vol. 4. London: Harvey Miller, 1982. p. 270-73.<br/> Stork, Hans-Walter. “Spätmittelalterliche Gebetsbücher in Rollenform in Überlieferung Und Bild.” Gutenberg Jahrschrift 20 (2010): 43–78. n. 34."
 ---
 
 

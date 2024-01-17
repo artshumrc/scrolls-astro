@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "105"
 type: "Ecclesiastical"
+bibliography: "Johanek, P. “Studien zur Überlieferung der Konstitutionen des II. Konzils von Lyon.” Zeitschrift der Savigny-Stiftung für Rechtsgeschichte, Kanonistische Abteilung 65 (1979): 149–216.<br/> Van Balberghe, Emilie. “Une Copie Exceptionnelle Du Libellus de Episcoporum Electionibus de Guillaume de Mandragout.” In Miscellanea Martin Wittek: Album de Codicologie et de Paléographie Offert À Martin Wittek, edited by Anny Raman, Eugène Manning, and Martin Wittek, 315–22. Louvain: Peeters, 1993. p. 317, n5."
 ---
 
 

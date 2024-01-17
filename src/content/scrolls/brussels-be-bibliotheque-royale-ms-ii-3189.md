@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "565"
 type: "Vitae"
+bibliography: "Branner, Robert. “The Saint-Quentin Rotulus.” Scriptorium 21 (1967): 252–60."
 ---
 
 

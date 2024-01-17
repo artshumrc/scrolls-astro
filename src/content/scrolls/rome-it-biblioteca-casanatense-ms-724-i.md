@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "283"
 type: "Liturgical"
+bibliography: "Kelly, Thomas Forrest. The Exultet in Southern Italy. New York: Oxford University Press, 1996.<br/> Lowe, Elias Avery. The Beneventan Script: A History of the South Italian Minuscule. Edited by Virginia Brown. Sussidi Eruditi 34. Rome: Ed. di Storia e Letteratura, 1980, 122<br/> Suski, Andrzej Wojciech, Giacomo Baroffio, and Manlio Sodi. “Rotoli Liturgici Medievali (Secoli VII-XV). Censimento E Bibliografia.” Revista Liturgica 101, no. 3 (2014): 603–21."
 ---
 
 

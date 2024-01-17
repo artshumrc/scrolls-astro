@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "160"
 type: "GB Roy. Gen."
+bibliography: "Anglo, Sidney. The British History, in Early Tudor Propaganda. Manchester: John Rylands Library, 1961."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?BBID=338111"
 _scrolls_id: "15"
 type: "Amulets"
+bibliography: "Skemer, Don C. “Amulet Rolls and Female Devotion in the Late Middle Ages.” Scriptorium 55 (2001): 197–227."
 ---
 
 

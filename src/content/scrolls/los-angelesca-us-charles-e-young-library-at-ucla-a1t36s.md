@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "457"
 type: "Music"
+bibliography: "Bäuml, Franz H., and Richard H. Rouse. “Roll and Codex: A New Manuscript Fragment of Reinmar von Zweter.” Beiträge Zur Geschichte Der Deutschen Sprache Und Literatur (PBB) 105, no. 1 (1983): 192–231, 317–30.<br/> Rouse, Richard H. “Roll and Codex: The Transmission of the Works of Reinmar von Zweter.” In Paläographie 1981: Colloquium Des Conité International de Paléographie. München, 15.-18. September 1981, edited by Gabriel Silagi, 107–23, XI – XV pl. Münchener Beiträge Zur Mediävistik Und Renaissance-Forschung 32. Munich: Arbeo-Gesellschaft, 1982."
 ---
 
 

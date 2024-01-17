@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "88"
 type: "Dramatic Parts"
+bibliography: "Lalou, Elizabeth. “Les Rolets de Théâtre: Étude Codicologique.” In Actes Du 115e Congrès National Des Sociétés Savantes, Avignon, 1990, 51–71. Paris: Editions du CTHS, 1991."
 ---
 
 

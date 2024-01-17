@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "10"
 type: "Amulets"
+bibliography: "Bühler, Curt F. “Prayers and Charms in Certain Middle English Scrolls.” Speculum 39, no. 2 (1964): 270–78. 272n23.<br/> Moorat, S.A.J. Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library. I. MSS. Written before 1650 A. D. London: The Wellcome Historical Medical Library, 1962. 491-3<br/> Stork, Hans-Walter. “Spätmittelalterliche Gebetsbücher in Rollenform in Überlieferung Und Bild.” Gutenberg Jahrschrift 20 (2010): 43–78."
 ---
 
 

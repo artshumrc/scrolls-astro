@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://bodley30.bodley.ox.ac.uk:8180/luna/servlet/view/search?q=Shelfmark=%22MS.%20Fr.%20d.%201%20(R)%22"
 _scrolls_id: "214"
 type: "GB Roy. Gen."
+bibliography: "Beal, Peter, and Jeremy Griffiths. Manuscripts in The Schøyen Collection Copied or Owned in the British Isles before 1700. Vol. 5. English Manuscript Studies 1100-1700. London, 1995. p. 42.<br/> Dean, Ruth J. Anglo-Norman Literature: A Guide to Texts and Manuscripts. London: Anglo-Norman Text Society from Birkbeck College, 1999, no. 6<br/> Hunt, Richard William. A Summary Catalogue of Western Manuscripts in the Bodleian Library at Oxford Which Have Not Hitherto Been Catalogued in the Quarto Series: With References to the Oriental and Other Manuscripts. Oxford: Clarendon Press, 1895, no. 32859.<br/> Tyson, Diana B. “The Manuscript Tradition of Old French Prose Brut Rolls.” Scriptorium 55 (2001): 107–18, O4."
 ---
 
 

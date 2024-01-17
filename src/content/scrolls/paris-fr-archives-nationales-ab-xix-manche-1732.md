@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "95"
 type: "Dramatic Parts"
+bibliography: "Lalou, Elizabeth. “Les Rolets de Théâtre: Étude Codicologique.” In Actes Du 115e Congrès National Des Sociétés Savantes, Avignon, 1990, 51–71. Paris: Editions du CTHS, 1991.<br/> Runnalls, Graham A. “An Actor’s Rôle in a French Morality Play.” French Studies XLII (1988): 398–407."
 ---
 
 

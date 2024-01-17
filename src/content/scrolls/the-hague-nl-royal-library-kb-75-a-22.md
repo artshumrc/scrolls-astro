@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://manuscripts.kb.nl/show/images_text/75+A+2"
 _scrolls_id: "225"
 type: "GB Roy. Gen."
+bibliography: "Tyson, Diana B. “The Manuscript Tradition of Old French Prose Brut Rolls.” Scriptorium 55 (2001): 107–18, H."
 ---
 
 

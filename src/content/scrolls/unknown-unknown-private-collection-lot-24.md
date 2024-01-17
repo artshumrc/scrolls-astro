@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.sothebys.com/en/auctions/ecatalogue/2010/western-manuscripts-and-miniatures-l10240/lot.24.html"
 _scrolls_id: "227"
 type: "GB Roy. Gen."
+bibliography: "Unknown Bibliography"
 ---
 
 

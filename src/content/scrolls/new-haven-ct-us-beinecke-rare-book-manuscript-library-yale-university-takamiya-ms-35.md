@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "616"
 type: "GB Roy. Gen."
+bibliography: "Boffey, Julia, and A.S.G. Edwards. A New Index of Middle English Verse. London: The British Library, 2005, 32 (#444).<br/> Takamiya, Toshiyuki. “A Handlist of Western Medieval Manuscripts in the Takamiya Collection.” In The Medieval Book: Glosses from Friends & Colleagues of Christopher de Hamel, edited by James H. Marrow, Richard A. Linenthal, and William Noel, 421–40. Houten, Netherlands: Hes & De Graaf Publishers, 2010, 429."
 ---
 
 

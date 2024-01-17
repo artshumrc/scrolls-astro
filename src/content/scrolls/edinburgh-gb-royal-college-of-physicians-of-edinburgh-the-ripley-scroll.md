@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.rcpe.ac.uk/library-archives/ripley-scroll"
 _scrolls_id: "310"
 type: "Med-Alch"
+bibliography: "McCallum, R.Ian. “The Ripley Scroll of the Royal College of Physicians of Edinburgh.” Vesalius 2 (1996): 39–49."
 ---
 
 

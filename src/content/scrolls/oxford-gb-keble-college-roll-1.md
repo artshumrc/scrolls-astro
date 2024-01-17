@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "277"
 type: "Liturgical"
+bibliography: "Parkes, M.B. The Medieval Manuscripts of Keble College Oxford. London: Scholar Press, 1979, 332.<br/> Suski, Andrzej Wojciech, Giacomo Baroffio, and Manlio Sodi. “Rotoli Liturgici Medievali (Secoli VII-XV). Censimento E Bibliografia.” Revista Liturgica 101, no. 3 (2014): 603–21."
 ---
 
 

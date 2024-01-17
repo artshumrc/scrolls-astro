@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.abbazianovalesa.org/secolo_xi.htm"
 _scrolls_id: "86"
 type: "Chronicles"
+bibliography: "Cipolla, Carlo. Monumenta Novaliciensia Vetustiora<br/> Raccolta Degli Atti E Delle Cronache Riguardanti L’abbazia Della Novalesa. Fonti per La Storia d’Italia Pubblicate Dall’ Istituto Storico Italiano. Scrittori, Secoli VIII-XI 31-32. Roma: Forzani, 1898."
 ---
 
 

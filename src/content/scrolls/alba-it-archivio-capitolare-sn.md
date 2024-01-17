@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "563"
 type: "Vitae"
+bibliography: "Buccolo, Marco. “Un antico antifonario sul verso del Rotulo di San Teobaldo.” Alba Pompeia 10 (n.d.): 82–90."
 ---
 
 

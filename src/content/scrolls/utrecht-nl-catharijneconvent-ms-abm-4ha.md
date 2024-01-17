@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.bl.uk/eblj/2011articles/pdf/ebljarticle52011.pdf"
 _scrolls_id: "24"
 type: "Amulets"
+bibliography: "Marks, Richard, and Paul Williamson. Gothic: Art for England 1400-1547. London: V&A, 2003.<br/> Rudy, Kathryn M. “Kissing Images, Unfurling Rolls, Measuring Wounds, Sewing Badges and Carrying Talismans: Considering Some Harley Manuscripts through the Physical Rituals They Reveal.” Electronic British Library Journal, 2011.<br/> Van der Velden, Hugo. “A Prayer Roll of Henry Beauchamp, Earl of Warwick.” In Tributes in Honor of James H. Marrow: Studies in Painting and Manuscript Illumination of the Late Middle Ages and Northern Renaissance, edited by Jeffrey F. Hamburger and A. S. Korteweg, 521–49. London: Harvey Miller, 2006."
 ---
 
 

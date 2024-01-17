@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://digitalgallery.nypl.org/nypldigital/dgkeysearchresult.cfm?parent_id=185814"
 _scrolls_id: "191"
 type: "GB Roy. Gen."
+bibliography: "De Laborderie, Olivier. “Les Généalogies Des Rois d’Angleterre Sur Rouleaux Manuscrits (milieu XIIIe-Début 15e S.” In La Généalogie Entre Science et Passion, 181–99. Paris: Editions du CTHS, 1997."
 ---
 
 

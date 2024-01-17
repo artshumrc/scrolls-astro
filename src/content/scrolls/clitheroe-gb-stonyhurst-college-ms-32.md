@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "37"
 type: "Arma Christi"
+bibliography: "Robbins, Rossell Hope. “The‘ Arma Christi’ Rolls.” The Modern Language Review 34, no. 3 (1939): 415–21"
 ---
 
 

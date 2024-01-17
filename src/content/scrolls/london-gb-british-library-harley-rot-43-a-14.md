@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "8"
 type: "Amulets"
+bibliography: "Bühler, Curt F. “Prayers and Charms in Certain Middle English Scrolls.” Speculum 39, no. 2 (1964): 270–78. 274"
 ---
 
 

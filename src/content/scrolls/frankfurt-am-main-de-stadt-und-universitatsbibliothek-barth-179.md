@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "259"
 type: "Liturgical"
+bibliography: "Bischoff, Bernhard. Lorsch Im Spiegel Seiner Handschriften. Münchener Beiträge Zur Mediävistik Und Renaissance-Forschung: Beiheft. München: Bei der Arben-Gesellschaft, 1974. p. 45<br/> Powitz, Gerhard. Die Datierten Handschriften Der Stadt- Und Universitätsbibliothek Frankfurt Am Main. Datierte Handscriften in Bibliotheken Des Bundesrepubliks Deutschland, Ed. Johann Autenrieth 1. Stuttgart: Anton Hiersmann, 1984.<br/> Suski, Andrzej Wojciech, Giacomo Baroffio, and Manlio Sodi. “Rotoli Liturgici Medievali (Secoli VII-XV). Censimento E Bibliografia.” Revista Liturgica 101, no. 3 (2014): 603–21."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "470"
 type: "Poetry"
+bibliography: "Edsall, Mary Agnes. “Arma Christi Rolls or Textual Amulets?: The Narrow Roll Format Manuscripts of ‘O Vernicle.’” Magic, Ritual, and Witchcraft 9, no. 2 (2014): 178–209.<br/> Hunt, Richard William. A Summary Catalogue of Western Manuscripts in the Bodleian Library at Oxford Which Have Not Hitherto Been Catalogued in the Quarto Series: With References to the Oriental and Other Manuscripts. Oxford: Clarendon Press, 1895, no. 30314<br/>"
 ---
 
 

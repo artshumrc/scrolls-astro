@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Royal_MS_14_B_VI&index=26"
 _scrolls_id: "167"
 type: "GB Roy. Gen."
+bibliography: "McKendrick, Scott, John Lowden, Kathleen Doyle, Joanna Frońska, and Deirdre Elizabeth Jackson. Royal Manuscripts: The Genius of Illumination. London: British Library, 2011. no. 118, pp. 344-347.<br/> Tyson, Diana B. “The Manuscript Tradition of Old French Prose Brut Rolls.” Scriptorium 55 (2001): 107–18. BL8."
 ---
 
 

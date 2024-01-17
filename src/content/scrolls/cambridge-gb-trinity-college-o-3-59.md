@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "235"
 type: "Heraldic Roll"
+bibliography: "Binski, P., and S. Panayotova. The Cambridge Illuminations: Ten Centuries of Book Production in the Medieval West. Studies in Medieval and Early Renaissance Art History 42. Turnhout: Brepols, 2005.<br/> Marks, Richard, and Paul Williamson. Gothic: Art for England 1400-1547. London: V&A, 2003."
 ---
 
 

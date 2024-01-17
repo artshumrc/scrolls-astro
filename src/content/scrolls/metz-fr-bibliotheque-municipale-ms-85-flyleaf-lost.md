@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "394"
 type: "Mortuary Roll"
+bibliography: "Delisle, Léopold. “Supplément À La Liste Des Rouleaux Mortuaires Publiés Ou Cités Dans Le Recueil Imprimé En 1866 Pour La Société Pour l’Histoire de France.” In Rouleau Mortuaire Du B. Vital, Abbé de Savigni, Contenant 207 Titres Écrits En 1122-1123 Dans Différentes Église de France et d’Angleterre<br/> Édition Phototypique Avec Introduction, 25–37. Paris: Phototypie Berthaud frères, 1909. no. 3, pp. 26-7"
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "9"
 type: "Amulets"
+bibliography: "Skemer, Don C. “Amulet Rolls and Female Devotion in the Late Middle Ages.” Scriptorium 55 (2001): 197–227.<br/> Skemer, Don C. Binding Words: Textual Amulets in the Middle Ages. Magic in History. University Park, PA: Pennsylvania State University Press, 2006, 251-259, 305-307."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "65"
 type: "Chronicles"
+bibliography: "Shailor, Barbara A. The Medieval Book: Catalogue of an Exhibition at the Beinecke Rare Book & Manuscript Library, Yale University. New Haven: Yale University Library, 1988, 92-94."
 ---
 
 

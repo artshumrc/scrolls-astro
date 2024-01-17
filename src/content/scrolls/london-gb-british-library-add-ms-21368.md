@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "SDP photos"
 _scrolls_id: "144"
 type: "GB Roy. Gen."
+bibliography: "De la Mare, Albinia Catherine. Catalogue of the Collection of Medieval Manuscripts Bequeathed to the Bodleian Library, Oxford by James P. R. Lyell. Oxford: Clarendon P., 1971.<br/> Tyson, Diana B. “The Manuscript Tradition of Old French Prose Brut Rolls.” Scriptorium 55 (2001): 107–18. BL3."
 ---
 
 

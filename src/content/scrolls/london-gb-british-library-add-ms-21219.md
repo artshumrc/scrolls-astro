@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "510"
 type: "Trees of Christ"
+bibliography: "Hilpert, Hans-Eberhard. “Geistliche Bildung Und Laienbildung: Zur Uberlieferung Der Schulschrift, Compendium Historiae in Genealogia Christi (Compendium Veteris Testamenti) Des Petrus von Poitiers (d. 1205) in England.” Journal of Medieval History 11 (1985): 315–31."
 ---
 
 

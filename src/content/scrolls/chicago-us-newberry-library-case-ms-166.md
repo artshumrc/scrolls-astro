@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://publications.newberry.org/digitalexhibitions/exhibits/show/frenchrenaissance/dukes/item/147"
 _scrolls_id: "135"
 type: "GB Roy. Gen."
+bibliography: "Bauer-Smith, Charlotte. “Mapping Family Lines: A Late Fifteenth-Century Example of Genealogical Display.” In Reputation and Representation in Fifteenth Century Europe, edited by Douglas L. Biggs, Sharon D. Michalove, and Albert Compton Reeves, 123–44. Leiden: Brill, 2004. p.123."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "263"
 type: "Liturgical"
+bibliography: "Altet, Xavier Barral i, François Avril, and Danielle Gaborit-Chopin. Le Temps Des Croisades. Paris: Gallimard, 1982.<br/> Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.<br/> Kelly, Thomas Forrest. The Exultet in Southern Italy. New York: Oxford University Press, 1996.<br/> Suski, Andrzej Wojciech, Giacomo Baroffio, and Manlio Sodi. “Rotoli Liturgici Medievali (Secoli VII-XV). Censimento E Bibliografia.” Revista Liturgica 101, no. 3 (2014): 603–21."
 ---
 
 

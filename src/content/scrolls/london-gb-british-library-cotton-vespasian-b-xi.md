@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "76"
 type: "Chronicles"
+bibliography: "Gribbin, Joseph A. The Premonstratensian Order in Late Medieval England. Woodbridge, Suffolk: The Boydell Press, 2001."
 ---
 
 

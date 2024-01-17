@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "75"
 type: "Chronicles"
+bibliography: "Cleaver, Laura. “Past, Present and Future for Thirteenth-Century Wales: Two Diagrams in British Library, Cotton Roll XIV.12.” Electronic British Library Journal, 2013, 1–26."
 ---
 
 

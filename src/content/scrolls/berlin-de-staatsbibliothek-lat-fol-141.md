@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.manuscripta-mediaevalia.de/dokumente/html/hsk0537"
 _scrolls_id: "495"
 type: "Trees of Christ"
+bibliography: "Devisse, Jean. The Image of the Black in Western Art. Vol. 2. Belknap Press, 2010. p. 143--44, figs. 108, 109.<br/> Moore, Philip S. The Works of Peter of Poitiers, Master in Theology and Chancellor of Paris (1193-1205). Notre Dame, IN: The University of Notre Dame, 1936, 103."
 ---
 
 

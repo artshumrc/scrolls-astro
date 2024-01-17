@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "390"
 type: "Mortuary Roll"
+bibliography: "Revilla, P.A. Catálogo de Los Códices Griegos de La Biblioteca de El Escorial. 3 vols. Madrid: Helénica, 1936."
 ---
 
 

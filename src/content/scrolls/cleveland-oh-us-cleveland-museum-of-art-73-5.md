@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "501"
 type: "Trees of Christ"
+bibliography: "Monroe, William H. “A Roll Manuscript of Peter of Poitiers’ Compendium.” The Bulletin of the Cleveland Museum of Art, no. 65 (1978): 92–107.<br/> Morgan, Nigel. “Early Gothic Manuscripts.” In A Survey of Manuscripts Illuminated in the British Isles, edited by J.J.G. Alexander, Vol. 4. London: Harvey Miller, 1982. ill. 144."
 ---
 
 

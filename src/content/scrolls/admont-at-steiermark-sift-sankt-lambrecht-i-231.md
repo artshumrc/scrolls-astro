@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "331"
 type: "Mortuary Roll"
+bibliography: "Schmid, Otto. “Die St. Lambrechter Todtenrotel von 1501-1502.” Studien Und Mittheilungen Aus Dem Benediktiner- Und Dem Cistercienser Orden 10 (1889): 106–18."
 ---
 
 

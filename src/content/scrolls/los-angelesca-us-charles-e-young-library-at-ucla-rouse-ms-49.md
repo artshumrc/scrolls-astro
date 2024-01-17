@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://digital2.library.ucla.edu/viewItem.do?ark=21198/zz002hgbtt"
 _scrolls_id: "187"
 type: "GB Roy. Gen."
+bibliography: "Holladay, Joan A. “Charting the Past: Visual Configurations of Myth and History and the English Claim to Scotland.” In Representing History 900-1300: Art, Music, History, edited by Robert Allan Maxwell. University Park, PA: Pennsylvania State University Press, 2010. p.233"
 ---
 
 

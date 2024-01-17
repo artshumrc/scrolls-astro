@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "330"
 type: "Mortuary Roll"
+bibliography: "Bünger, Fritz. Admonter Totenroteln (1422-1496). Vol. 19. Beiträge Zur Geschichte Des Alten Mönchtums Und Des Benediktinerordens. Münster in Westfalia: Aschendorff, 1935."
 ---
 
 

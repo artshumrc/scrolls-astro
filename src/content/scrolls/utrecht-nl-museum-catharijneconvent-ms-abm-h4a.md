@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "296"
 type: "Liturgical"
+bibliography: "Wustefeld, W. C. M. “A Remarkable Prayer Roll Attributed to the Master of Sir John Fastolf (Rouen, c .1440, Museum Catharijneconvent Utrecht, MS ABM h4a).” Quaerendo 33 (2003): 233–46."
 ---
 
 

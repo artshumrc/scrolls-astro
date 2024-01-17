@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://pds.lib.harvard.edu/pds/view/4145783"
 _scrolls_id: "498"
 type: "Trees of Christ"
+bibliography: "Monroe, William H. “A Roll Manuscript of Peter of Poitiers’ Compendium.” The Bulletin of the Cleveland Museum of Art, no. 65 (1978): 92–107. fn. 15"
 ---
 
 

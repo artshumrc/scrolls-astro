@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "607"
 type: "Med-Alch"
+bibliography: "Moorat, S.A.J. Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library. I. MSS. Written before 1650 A.D. London: The Wellcome Historical Medical Library, 1962. p. 278.<br/> Skemer, Don C. Binding Words: Textual Amulets in the Middle Ages. Magic in History. University Park, PA: Pennsylvania State University Press, 2006, p. 160."
 ---
 
 

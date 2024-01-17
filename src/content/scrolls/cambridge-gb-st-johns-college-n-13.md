@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "300"
 type: "Map or Guide"
+bibliography: "Clanchy, M. T. From Memory to Written Record, England 1066-1307. 2nd ed. Oxford: Blackwell, 1993, 113.<br/> Oschinsky, D., ed. Walter of Henley and Other Treatises on Estate Management and Accounting. Oxford, 1971, 59."
 ---
 
 

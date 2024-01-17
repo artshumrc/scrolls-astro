@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "364"
 type: "Mortuary Roll"
+bibliography: "Raine, James, ed. The Obituary Roll of William Ebchester and John Burnby: Priors of Durham, with Notices of Similar Records Preserved at Durham. Durham, UK: George Andrews, 1856. 63-71."
 ---
 
 

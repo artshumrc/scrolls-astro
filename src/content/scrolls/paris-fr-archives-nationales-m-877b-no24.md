@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "97"
 type: "Dramatic Parts"
+bibliography: "Lalou, Elizabeth. “Les Rolets de Théâtre: Étude Codicologique.” In Actes Du 115e Congrès National Des Sociétés Savantes, Avignon, 1990, 51–71. Paris: Editions du CTHS, 1991. p. 63-4<br/> Samaran, C., ed. “Fragments de Manuscrits Latins et Français Du Moyen Age.” Romania 51 (1925): 191–195."
 ---
 
 

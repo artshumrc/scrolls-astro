@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "505"
 type: "Trees of Christ"
+bibliography: "Vennebusch, Joachim. Die Theologischen Handschriften Des Stadtarchivs Køln. Teil 4: Handschrite Der Sammlung Wallraf. Køln, 1986,185."
 ---
 
 

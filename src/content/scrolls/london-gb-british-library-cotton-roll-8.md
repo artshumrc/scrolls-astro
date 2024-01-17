@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "238"
 type: "Heraldic Roll"
+bibliography: "Greenstreet, James. “The Original Camden Roll of Arms.” In The Journal of the British Archaeological Association, Vol. 38. London: British Archaeological Association., 1882, 309–28.<br/> Wagner, Anthony. A Catalogue of English Medieval Rolls of Arms. Aspilogia 1. Woodbridge, Suffolk: Boydell Press, 2009, 16–17."
 ---
 
 

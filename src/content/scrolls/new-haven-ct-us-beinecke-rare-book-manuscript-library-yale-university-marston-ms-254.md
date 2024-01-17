@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "33"
 type: "Archival"
+bibliography: "Shailor, Barbara A. Catalogue of Medieval and Renaissance Manuscripts in the Beinecke Rare Book and Manuscript Library Yale University. Vol. III. 100. Binghamton, NY: Medieval & Renaissance Tests & Studies, 1992, 497."
 ---
 
 

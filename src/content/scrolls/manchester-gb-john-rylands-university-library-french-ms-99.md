@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://enriqueta.man.ac.uk/luna/servlet/view/all/what/French%20MS%2099?sort=Reference_Number,Page,Current_Repository"
 _scrolls_id: "583"
 type: "Chronicles"
+bibliography: "Davis, Lisa Fagin. The First and Second Recensions of the Chronique Anonyme Universelle: Houghton MS Typ 41 and MS Fr 49. Cambridge, MA: Harvard University, 2009."
 ---
 
 

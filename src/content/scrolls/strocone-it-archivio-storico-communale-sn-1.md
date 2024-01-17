@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "561"
 type: "Varia"
+bibliography: "Baroffio, Giacomo, Cristina Mastroianni, and Fabrizio Mastroianni. Frammenti Di Storia Medioevale: Mostra Di Codici E Frammenti Di Codici Liturgici Dei Secoli XI-XIV Dall’archivio Storico Del Comune Di Stroncone. Stroncone: Comune di Stroncone, 1998."
 ---
 
 

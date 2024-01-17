@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://sites.trin.cam.ac.uk/james/viewpage.php?index=749"
 _scrolls_id: "454"
 type: "Music"
+bibliography: "Edsall, Mary Agnes. “Arma Christi Rolls or Textual Amulets?: The Narrow Roll Format Manuscripts of ‘O Vernicle.’” Magic,Ritual, and Witchcraft 9, no. 2 (2014): 178–209.<br/> Fenlon, Iain, ed. Cambridge Music Manuscripts, 900-1700. Cambridge: Cambridge University Press, 1982.<br/> Stevens, John. Mediaeval Carols. Musica Britannica 4. London: Stained and Bell, 1970."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "246"
 type: "Liturgical"
+bibliography: "Dell’Oro, Ferdinando. “Frammento Di Rotolo Pontificale Del Secolo XI (Asti, Bibl. Capit., Cod. XIII).” Studia Anselmiana 95 (1988): 177–204.<br/> Suski, Andrzej Wojciech, Giacomo Baroffio, and Manlio Sodi. “Rotoli Liturgici Medievali (Secoli VII-XV). Censimento E Bibliografia.” Revista Liturgica 101, no. 3 (2014): 603–21."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://bodley30.bodley.ox.ac.uk:8180/luna/servlet/view/all/what/MS.+Bodl.+Rolls+5"
 _scrolls_id: "210"
 type: "GB Roy. Gen."
+bibliography: "Hunt, Richard William. A Summary Catalogue of Western Manuscripts in the Bodleian Library at Oxford Which Have Not Hitherto Been Catalogued in the Quarto Series: With References to the Oriental and Other Manuscripts. Oxford: Clarendon Press, 189, no. 2986"
 ---
 
 

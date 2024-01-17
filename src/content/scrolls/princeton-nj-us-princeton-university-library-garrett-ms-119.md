@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "83"
 type: "Chronicles"
+bibliography: "Skemer, Don C. “The Story of Engle and Scardying: Fragment of an Anglo-Norman Chronicle Roll.” Viator 40, no. 2 (December 2009): 255–75."
 ---
 
 

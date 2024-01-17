@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://pds.lib.harvard.edu/pds/view/12438364"
 _scrolls_id: "497"
 type: "Trees of Christ"
+bibliography: "Bühler, Curt F. “Prayers and Charms in Certain Middle English Scrolls.” Speculum 39, no. 2 (1964): 270–78.<br/>"
 ---
 
 

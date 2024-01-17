@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "252"
 type: "Liturgical"
+bibliography: "Kelly, Thomas Forrest. “The Liturgical Rotulus at Benevento.” In Laborare Fratres in Unum. Festschrift László Dobsay Zum 60. Geburtstag, edited by Janka Szendrei, David Hiley, and Spolia Berolinesia, 7:167–86. Berlin: Weidmann, 1995.<br/> Zazo, Alfredo. “L’ ‘Inventario Dei Libri Antichi’ Della Biblioteca Capitolare Di Benevento (sec. XV).” Samnium 8 (1935): 5–25."
 ---
 
 

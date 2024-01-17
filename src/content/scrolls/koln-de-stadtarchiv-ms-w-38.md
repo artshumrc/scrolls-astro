@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "506"
 type: "Trees of Christ"
+bibliography: "Stork, Hans-Walter. “Spätmittelalterliche Gebetsbücher in Rollenform in Überlieferung Und Bild.” Gutenberg Jahrschrift 20 (2010): 43–78, n. 16.<br/> Vennebusch, Joachim. Die Theologischen Handschriften Des Stadtarchivs Køln. Teil 4: Handschrite Der Sammlung Wallraf. Køln, 1986, 185."
 ---
 
 

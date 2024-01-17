@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.sothebys.com/en/auctions/ecatalogue/2014/medieval-renaissance-manuscripts-l14240/lot.48.html"
 _scrolls_id: "43"
 type: "Arma Christi"
+bibliography: "Unknown Bibliography"
 ---
 
 

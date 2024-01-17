@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "491"
 type: "Statute Roll"
+bibliography: "Skemer, Don C. “From Archives to the Book Trade: Private Statute Rolls in England, 1285-1307.” Journal of the Society of Archivists 16 (1995): 193–206."
 ---
 
 

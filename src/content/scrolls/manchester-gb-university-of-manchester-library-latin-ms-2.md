@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://enriqueta.man.ac.uk/luna/servlet/detail/Manchester~91~1~2737~100100:Detail?sort=Reference_Number%2CPage%2CCurrent_Repository&qvq=q:%3D%22Latin%2BMS%2B2%22;sort:Reference_Number%2CPage%2CCurrent_Repository;lc:Manchester~91~1&mi=0&trs=6"
 _scrolls_id: "266"
 type: "Liturgical"
+bibliography: "James, Montague Rhodes. A Descriptive Catalogue of the Latin Manuscripts in the John Rylands Library at Manchester. Munich, 1980.<br/> Suski, Andrzej Wojciech, Giacomo Baroffio, and Manlio Sodi. “Rotoli Liturgici Medievali (Secoli VII-XV). Censimento E Bibliografia.” Revista Liturgica 101, no. 3 (2014): 603–21."
 ---
 
 

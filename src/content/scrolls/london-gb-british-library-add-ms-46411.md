@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "379"
 type: "Mortuary Roll"
+bibliography: "Dufour, Jean. Les Rouleaux Des Morts. Vol. 3. Monumenta Palaeographica Medii Aevi. Series Gallica. Turnhout: Brepols, 2009, no. 355.<br/> Nichols, J. G. Archaeological Institute Proceedings: Norwich 1847. Norwich, 1851. pp. 99-114."
 ---
 
 

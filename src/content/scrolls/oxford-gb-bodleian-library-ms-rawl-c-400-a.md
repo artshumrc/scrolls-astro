@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "458"
 type: "Music"
+bibliography: "Dittmer, Luther A. “An English Discantuum Volumen.” Musica Disciplina 8 (1954): 19–58.<br/> Hohler, Christopher. “Reflections on Some Manuscripts Containing 13th Century Polyphony.” Journal of Plainsong and Medieval Music Society 1 (1978): 2–38."
 ---
 
 

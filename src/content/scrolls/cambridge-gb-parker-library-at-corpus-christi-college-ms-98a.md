@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://parkerweb.stanford.edu/parker/actions/thumbnails.do?ms_no=98A"
 _scrolls_id: "131"
 type: "GB Roy. Gen."
+bibliography: "James, Montague Rhodes. A Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi College, Cambridge. Cambridge: Cambridge University Press, 1912."
 ---
 
 

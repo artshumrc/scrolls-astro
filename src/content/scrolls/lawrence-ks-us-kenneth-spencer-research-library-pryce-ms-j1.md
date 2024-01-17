@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://spencer.lib.ku.edu/collections/special-collections/ancient-medieval-manuscripts"
 _scrolls_id: "138"
 type: "GB Roy. Gen."
+bibliography: "University of Kansas Libraries. “11. ‘Chronica Regum Brittanniae’ England, ca 1250, Pryce MS J1.” In A Silver Anniversary: The First 25 Years of the Kenneth Spencer Research Library. Lawrence, KS: Kansas University, 1994."
 ---
 
 

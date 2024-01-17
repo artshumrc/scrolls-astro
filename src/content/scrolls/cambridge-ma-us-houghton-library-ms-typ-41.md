@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "576"
 type: "Chronicles"
+bibliography: "Davis, Lisa Fagin. The First and Second Recensions of the Chronique Anonyme Universelle: Houghton MS Typ 41 and MS Fr 49. Cambridge, MA: Harvard University, 2009.<br/> Wieck, Roger S. Late Medieval and Renaissance Illuminated Manuscripts, 1350-1525, in the Houghton Library. Cambridge: Harvard College Library, 1983. p. 22-23."
 ---
 
 

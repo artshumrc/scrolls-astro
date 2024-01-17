@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "30"
 type: "Archival"
+bibliography: "Unknown Bibliography"
 ---
 
 

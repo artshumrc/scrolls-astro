@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://dms.stanford.edu/catalog/CCC545_keywords"
 _scrolls_id: "629"
 type: "Chronicles"
+bibliography: "Vaughan, Richard, and John Fines. “A Handlist of Manuscripts in the Library of Corpus Christi College, Cambridge, Not Described by M.R. James.” In Transactions of the Cambridge Bibliographic Society, III:113–23. Cambridge, 1960, 115."
 ---
 
 

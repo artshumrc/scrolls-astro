@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "237"
 type: "Heraldic Roll"
+bibliography: "Wagner, Anthony. A Catalogue of English Medieval Rolls of Arms. Aspilogia 1. Woodbridge, Suffolk: Boydell Press, 2009, 14-16."
 ---
 
 

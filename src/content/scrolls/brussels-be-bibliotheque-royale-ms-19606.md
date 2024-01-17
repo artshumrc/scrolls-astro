@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "452"
 type: "Music"
+bibliography: "Hoppin, Richard H. “A Musical Rotulus of the Fourteenth Century.” Revue Belge de Musicologie 9 (1955): 131.<br/> Hoppin, Richard H. “Some Remarks a Propos of Pic.” Revue Belge de Musicologie 10 (1956): 105–11."
 ---
 
 

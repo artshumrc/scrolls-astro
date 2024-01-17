@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "537"
 type: "Trees of Christ"
+bibliography: "Morgan, Nigel. “Early Gothic Manuscripts.” In A Survey of Manuscripts Illuminated in the British Isles, edited by J.J.G. Alexander, Vol. 2. London: Harvey Miller, 1982, 180-81."
 ---
 
 

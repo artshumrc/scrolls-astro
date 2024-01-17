@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "21"
 type: "Amulets"
+bibliography: "Dalli, Regoli G. “Una Tipologia Insolita: Un Rotolo Miniato Contenente I Salmi Pentenziali.” In La Miniatura Italiana Tra Gotico E Rinascimento: Atti Del II Congresso Di Storia Della Miniatura Italiana, Cortona 24-26 Settembre 1982, edited by Emanuela Sesti, 6:297–308. Storia Della Miniatura, 1985."
 ---
 
 

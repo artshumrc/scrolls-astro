@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "382"
 type: "Mortuary Roll"
+bibliography: "Goldschmidt, E.P. “An Obituary Rotulus from York, 1405.” In Studies in Art and Literature, edited by Miner, 379–83, 331. p. 382."
 ---
 
 

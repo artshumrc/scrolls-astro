@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "39"
 type: "Arma Christi"
+bibliography: "Denny-Brown, Andrea, and Lisa H Cooper, eds. The Arma Christi in Medieval and Early Modern Material Culture: With a Critical Edition of “O Vernicle.” Ashgate Publishing Company, 2014.<br/> Edsall, Mary Agnes. “Arma Christi Rolls or Textual Amulets?: The Narrow Roll Format Manuscripts of ‘O Vernicle.’” Magic, Ritual, and Witchcraft 9, no. 2 (2014): 178–209."
 ---
 
 

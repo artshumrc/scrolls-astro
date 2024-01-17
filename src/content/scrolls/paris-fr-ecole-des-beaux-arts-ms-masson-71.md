@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "532"
 type: "Trees of Christ"
+bibliography: "Gaborit-Chopin, Danielle. L’art Au Temps Des Rois Maudits: Philippe Le Bel et Ses Fils, 1285-1328, Exposition À Paris, Galeries Nationales Du Grand Palais. Paris: RMN, 1998."
 ---
 
 

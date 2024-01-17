@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "677"
 type: "Poetry"
+bibliography: "Wallensköld, A. Le Ms. Londres, Bibliothèque de Lambeth Palace, Misc. Rolls 1435. Mémoires de La Société Néo-Philologique À Helsingfors 6. Helsinki: Helsingfors Centraltryckeri, 1917."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://luna.manchester.ac.uk/luna/servlet/view/all/where/England--Warwickshire--Mancetter?os=0&pgs=50"
 _scrolls_id: "32"
 type: "Archival"
+bibliography: "Carpenter, C., The Armbrugh papers: the Brokholes inheritance in Warwickshire, Hertfordshire and Essex, c.1417-c.1453. (Woodbridge: Boydell, 1998)."
 ---
 
 

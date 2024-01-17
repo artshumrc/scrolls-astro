@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "678"
 type: "Liturgical"
+bibliography: "Unknown Bibliography"
 ---
 
 

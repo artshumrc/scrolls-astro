@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "609"
 type: "Recipes"
+bibliography: "Hieatt, Constance B., and Sharon Butler, eds. Curye on Inglysch: English Culinary Manuscripts of the Fourteenth Century. Oxford: Oxford University Press, 2013."
 ---
 
 

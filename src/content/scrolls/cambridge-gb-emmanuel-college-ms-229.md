@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "255"
 type: "Liturgical"
+bibliography: "James, Montague Rhodes. The Western Manuscripts in the Library of Emmanuel College. Cambridge: Cambridge University Press, 1904."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.bl.uk/eblj/2011articles/pdf/ebljarticle52011.pdf"
 _scrolls_id: "42"
 type: "Arma Christi"
+bibliography: "Bühler, Curt F. “Prayers and Charms in Certain Middle English Scrolls.” Speculum 39, no. 2 (1964): 270–78. 272n22.<br/> Rudy, Kathryn M. “Kissing Images, Unfurling Rolls, Measuring Wounds, Sewing Badges and Carrying Talismans: Considering Some Harley Manuscripts through the Physical Rituals They Reveal.” Electronic British Library Journal, 2011.<br/> Stork, Hans-Walter. “Spätmittelalterliche Gebetsbücher in Rollenform in Überlieferung Und Bild.” Gutenberg Jahrschrift 20 (2010): 43–78."
 ---
 
 

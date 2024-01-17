@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://ids.lib.harvard.edu/ids/view/14634267?buttons=y"
 _scrolls_id: "464"
 type: "Poetry"
+bibliography: "Bond, W. H., and Christopher Urdahl Faye. Supplement to the Census of Medieval and Renaissance Manuscripts in the United States and Canada. New York: Bibliographical Society of America, 1962, 240.<br/> Schröbler, Ingeborg. “Zur Überlieferung Des Mittelateinischen Gedichts von ‘Ganymed Und Helena.’” In Unterscheidung Und Bewahrung. Festschrift Für Hermann Kunisch Zum 60. Berlin: Walter de Gruyber, 1961, 321-330."
 ---
 
 

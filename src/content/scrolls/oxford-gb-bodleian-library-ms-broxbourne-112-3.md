@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://bodley30.bodley.ox.ac.uk:8180/luna/servlet/detail/ODLodl~1~1~1067~101077:Chronicle-roll-of-the-Kings-of-Engl?sort=Shelfmark%2Csort_order&qvq=q:Roll_;sort:Shelfmark%2Csort_order;lc:ODLodl~29~29,ODLodl~7~7,ODLodl~6~6,ODLodl~14~14,ODLodl~8~8,ODLodl~23~23,ODLodl~1~1,ODLodl~24~24&mi=145&trs=247"
 _scrolls_id: "213"
 type: "GB Roy. Gen."
+bibliography: "Tyson, Diana B. “The Manuscript Tradition of Old French Prose Brut Rolls.” Scriptorium 55 (2001): 107–18, O3."
 ---
 
 

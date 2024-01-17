@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "61"
 type: "Chronicles"
+bibliography: "Monroe, William H. “A Roll Manuscript of Peter of Poitiers’ Compendium.” The Bulletin of the Cleveland Museum of Art, no. 65 (1978): 92–107. fn. 15."
 ---
 
 

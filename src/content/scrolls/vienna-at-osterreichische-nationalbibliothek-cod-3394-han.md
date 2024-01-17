@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "603"
 type: "Chronicles"
+bibliography: "Carlino, Laura. Cronache universali in rotulo nel tardo Medioevo: la storia per immagini nel ms. 258 della Biblioteca statale di Cremona. Istituto Poligrafico e Zecca dello Stato, 1997. 36 n17."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "60"
 type: "Calendar"
+bibliography: "Bühler, Curt F. “Prayers and Charms in Certain Middle English Scrolls.” Speculum 39, no. 2 (1964): 270–78.<br/> Ruppel, Aloys. Johannes Gutenberg. Sein Legen Und Sein Werk. 2nd ed. Berlin: Gebr. Mann, 1947. p. 121-3."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "249"
 type: "Liturgical"
+bibliography: "Kelly, Thomas Forrest. The Exultet in Southern Italy. New York: Oxford University Press, 1996."
 ---
 
 

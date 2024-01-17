@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "469"
 type: "Poetry"
+bibliography: "Petzet, Erich, and Otto Glauning. Deutsche Schrifttafeln Aus Papierhandschriften Des XIV. Bis XVI. Jahrhunderts. Leipzig: Karl W. Hiersman, 1930."
 ---
 
 

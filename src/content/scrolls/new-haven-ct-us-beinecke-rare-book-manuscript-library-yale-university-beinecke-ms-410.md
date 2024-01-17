@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://brbl-dl.library.yale.edu/vufind/Record/3592331"
 _scrolls_id: "44"
 type: "Arma Christi"
+bibliography: "Stork, Hans-Walter. “Spätmittelalterliche Gebetsbücher in Rollenform in Überlieferung Und Bild.” Gutenberg Jahrschrift 20 (2010): 43–78."
 ---
 
 

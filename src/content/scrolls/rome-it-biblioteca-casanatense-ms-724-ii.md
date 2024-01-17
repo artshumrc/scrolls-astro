@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "284"
 type: "Liturgical"
+bibliography: "Lowe, Elias Avery. The Beneventan Script: A History of the South Italian Minuscule. Edited by Virginia Brown. Sussidi Eruditi 34. Rome: Ed. di Storia e Letteratura, 1980, 122<br/>"
 ---
 
 

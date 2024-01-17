@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://bvmm.irht.cnrs.fr/consult/consult.php?COMPOSITION_ID=2626&corpus=decor"
 _scrolls_id: "601"
 type: "Chronicles"
+bibliography: "Davis, Lisa Fagin. The First and Second Recensions of the Chronique Anonyme Universelle: Houghton MS Typ 41 and MS Fr 49. Cambridge, MA: Harvard University, 2009."
 ---
 
 

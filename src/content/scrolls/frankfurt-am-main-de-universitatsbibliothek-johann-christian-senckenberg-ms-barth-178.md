@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://sammlungen.ub.uni-frankfurt.de/msma/urn/urn:nbn:de:hebis:30:2-44897"
 _scrolls_id: "90"
 type: "Dramatic Parts"
+bibliography: "Bergmann, Rolf. Studien zu Entstehung und Geschichte der deutschen Passionsspiele des 13. und 14. Jahrhunderts. Münstersche Mittelalter-Schriften 14. München: W. Fink, 1972. p.199-201<br/> Bischoff, Bernhard. Latin Palaeography: Antiquity and the Middle Ages. Cambridge: Cambridge University Press, 1990. 32 n107<br/> Lalou, Elizabeth. “Les Rolets de Théâtre: Étude Codicologique.” In Actes Du 115e Congrès National Des Sociétés Savantes, Avignon, 1990, 51–71. Paris: Editions du CTHS, 1991.<br/> Lomnitzer, Helmut. “Ein Texfund Zur Frankfurter Dirigierrolle.” In Deutsche Handschriften 1100-1400: Oxforder Kolloquium 1985, edited by Volker Honemann and Nigel F. Palmer, 590–608. Tübingen: M. Niemeyer, 1988."
 ---
 
 

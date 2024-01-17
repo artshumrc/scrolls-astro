@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "https://exhibitions.cul.columbia.edu/exhibits/show/plimpton/item/27"
 _scrolls_id: "584"
 type: "Chronicles"
+bibliography: "Norbye, Marigold. “Genealogies and Dynastic Awareness in the Hundred Years War: The Evidence of A Tous Nobles Qui Aiment Beaux Faits et Bonnes Histoires.” Journal of Medieval History 33 (2007): 297–319."
 ---
 
 

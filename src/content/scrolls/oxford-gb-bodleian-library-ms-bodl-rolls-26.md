@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "322"
 type: "Med-Alch"
+bibliography: "Edsall, Mary Agnes. “Arma Christi Rolls or Textual Amulets?: The Narrow Roll Format Manuscripts of ‘O Vernicle.’” Magic,Ritual, and Witchcraft 9, no. 2 (2014): 178–209."
 ---
 
 

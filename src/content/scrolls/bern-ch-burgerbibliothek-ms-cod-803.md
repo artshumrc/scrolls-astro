@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "309"
 type: "Med-Alch"
+bibliography: "Bischoff, Bernhard. Latin Palaeography: Antiquity and the Middle Ages. Cambridge: Cambridge University Press, 1990. p. 33 n112.<br/> Skemer, Don C. Binding Words: Textual Amulets in the Middle Ages. Magic in History. University Park, PA: Pennsylvania State University Press, 2006. p. 81."
 ---
 
 

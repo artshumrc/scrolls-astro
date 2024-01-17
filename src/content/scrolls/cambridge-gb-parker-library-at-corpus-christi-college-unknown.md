@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "132"
 type: "GB Roy. Gen."
+bibliography: "De la Mare, Albinia Catherine. Catalogue of the Collection of Medieval Manuscripts Bequeathed to the Bodleian Library, Oxford by James P. R. Lyell. Oxford: Clarendon P., 1971. 80-82"
 ---
 
 

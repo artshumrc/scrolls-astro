@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "494"
 type: "Trees of Christ"
+bibliography: "Catalogue Général Des Manuscrits Des Bibliothèques Publiques de France Des Départements. Paris: Plon, Nourrit et Cie, 1885. p. 301."
 ---
 
 

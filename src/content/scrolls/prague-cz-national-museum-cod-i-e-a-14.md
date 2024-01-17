@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "Images can be found on p 161 in Kossinger"
 _scrolls_id: "685"
 type: "Liturgical"
+bibliography: "Kössinger, Norbert. “Gerollte Schrift: Mittelalterliche Texte Auf Rotuli.” In Schriftträger - Textträger, edited by Annette Kehnel and Diamantis Panagiotopoulos, 151–68, 2015."
 ---
 
 

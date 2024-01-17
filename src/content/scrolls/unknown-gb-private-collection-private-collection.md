@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "229"
 type: "GB Roy. Gen."
+bibliography: "Bovey, Alixe. The Chaworth Roll: A Fourteenth-Century Genealogy of the Kings of England. London: Sam Fogg, 2005."
 ---
 
 

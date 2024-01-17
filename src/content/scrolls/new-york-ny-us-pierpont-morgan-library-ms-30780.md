@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "398"
 type: "Mortuary Roll"
+bibliography: "Dufour, Jean. Les Rouleaux Des Morts. Vol. 3. Monumenta Palaeographica Medii Aevi. Series Gallica. Turnhout: Brepols, 2009., p. 192. #303.<br/> Goldschmidt, E.P. “An Obituary Rotulus from York, 1405.” In Studies in Art and Literature, edited by Miner, 379–83, 331."
 ---
 
 

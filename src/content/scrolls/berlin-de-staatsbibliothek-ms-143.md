@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "62"
 type: "Chronicles"
+bibliography: "Brandis, Tilo. “Ein mittelhochdeutscher ast-Kaiser-Rotulus des 15. Jahrhunderts.” In Festschrift Albi Rosenthal, edited by Rudolf Elvers, 67–80. Tutzing: H. Schneider, 1984.<br/> Stork, Hans-Walter. “Spätmittelalterliche Gebetsbücher in Rollenform in Überlieferung Und Bild.” Gutenberg Jahrschrift 20 (2010): 43–78, 48 and n. 21."
 ---
 
 

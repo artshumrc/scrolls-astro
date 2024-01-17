@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "170"
 type: "GB Roy. Gen."
+bibliography: "Anglo, Sidney. The British History, in Early Tudor Propaganda. Manchester: John Rylands Library, 1961.<br/> Gatfield, George. Guide to Printed Books and Manuscripts Relating to English and Foreign Heraldry and Genealogy<br/> Being a Classified Catalogue of Works of Those Branches of Literature. London: Mitchell and Hughes, 1892."
 ---
 
 

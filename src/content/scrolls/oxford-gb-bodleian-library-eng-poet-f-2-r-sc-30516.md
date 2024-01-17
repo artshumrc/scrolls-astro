@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "94"
 type: "Dramatic Parts"
+bibliography: "Davis, Norman. Non-Cycle Plays and Fragments. London<br/> New York: Oxford University Press, 1970, p. c-cxi, 106-113 also pp. lxxxv-c, 90-105.<br/> Kelly, Thomas Forrest. The Exultet in Southern Italy. New York: Oxford University Press, 1996, 17 n. 28.<br/> Lalou, Elizabeth. “Les Rolets de Théâtre: Étude Codicologique.” In Actes Du 115e Congrès National Des Sociétés Savantes, Avignon, 1990, 51–71. Paris: Editions du CTHS, 1991.<br/> McCarren, Vincent P., and Douglas Moffat. A Guide to Editing Middle English. Ann Arbor: The University of Michigan Press, 1998, 330-331.<br/> Rouse, Richard H. “Roll and Codex: The Transmission of the Works of Reinmar von Zweter.” In Gabriel Silagi, ed. Paläographie 1981: Colloquium Des Conité International de Paléographie. München, 15.-18. September 1981, 107–23, XI – XV pl. Münchener Beiträge Zur Mediävistik Und Renaissance-Forschung 32. Munich: Arbeo-Gesellschaft, 1982, 121 and n. 38."
 ---
 
 

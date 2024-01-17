@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.carnavalet.paris.fr/en/collections/rouleau-de-saint-eloi"
 _scrolls_id: "567"
 type: "Vitae"
+bibliography: "Morgan, Nigel. “Early Gothic Manuscripts.” In A Survey of Manuscripts Illuminated in the British Isles, edited by J.J.G. Alexander, Vol. 2. London: Harvey Miller, 1982, 102.<br/> Scheller, Robert Walter Hans Peter. Exemplum: Model-Book Drawings and the Practice of Artistic Transmission in the Middle Ages (ca. 900-Ca. 1470). Amsterdam University Press, 1995, p. 50."
 ---
 
 

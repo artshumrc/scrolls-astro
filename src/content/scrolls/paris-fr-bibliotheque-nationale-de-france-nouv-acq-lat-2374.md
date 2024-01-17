@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "98"
 type: "Dramatic Parts"
+bibliography: "Maxwell, J. “La Farce de Thévot Le Maire, Perruche et Colin.” Humanisme et Renaussance 6 (1939): 539–46.<br/> Samaran, C., ed. “Fragments de Manuscrits Latins et Français Du Moyen Age.” Romania 51 (1925): 199–200."
 ---
 
 

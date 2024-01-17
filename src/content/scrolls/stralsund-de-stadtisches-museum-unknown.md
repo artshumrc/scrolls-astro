@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "84"
 type: "Chronicles"
+bibliography: "Wattenbach, Wilhelm. Das schriftwesen im mittelalter. 3rd ed. Leipzig: S. Hirzel, 1896, 168."
 ---
 
 

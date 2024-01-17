@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "198"
 type: "GB Roy. Gen."
+bibliography: "Dean, Ruth J. Anglo-Norman Literature: A Guide to Texts and Manuscripts. London: Anglo-Norman Text Society from Birkbeck College, 1999, no. 6.<br/> Hunt, Richard William. A Summary Catalogue of Western Manuscripts in the Bodleian Library at Oxford Which Have Not Hitherto Been Catalogued in the Quarto Series: With References to the Oriental and Other Manuscripts. Oxford: Clarendon Press, 1895,no. 29579.<br/> Tyson, Diana B. “The Manuscript Tradition of Old French Prose Brut Rolls.” Scriptorium 55 (2001): 107–18, O1."
 ---
 
 

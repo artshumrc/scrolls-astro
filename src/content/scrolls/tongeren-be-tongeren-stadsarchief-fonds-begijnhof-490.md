@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "707"
 type: "Liturgical"
+bibliography: "Kügle, Karl, Eugeen Schreurs, and David Fallows. “Fourteenth- and Fifteenth-Century Musical Fragments in Tongeren.” In Musicology and Archival Research, edited by Barbara Haggh, Frank Daelemans, and Andre Vanrie. Brussels, 1994."
 ---
 
 

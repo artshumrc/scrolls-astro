@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "681"
 type: "Vitae"
+bibliography: "Unknown Bibliography"
 ---
 
 

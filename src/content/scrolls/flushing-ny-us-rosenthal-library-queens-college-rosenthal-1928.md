@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "301"
 type: "Map or Guide"
+bibliography: "Unknown Bibliography"
 ---
 
 

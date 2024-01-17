@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "342"
 type: "Mortuary Roll"
+bibliography: "Beadle, R. Dated and Datable Manuscripts in Cambridge Libraries. English Manuscript Studies 1100-1700 3, 1992, 243.<br/> Dufour, Jean. Les Rouleaux Des Morts. Vol. 2. Monumenta Palaeographica Medii Aevi. Series Gallica. Turnhout: Brepols, 2009, no. 172.<br/> Ker, N. R. English Manuscripts Inthe Century after the Norman Conquest. Oxford: Clarendon Press, 1960.<br/> Robinson, P. R. Catalogue of Dated and Datelable Manuscripts C. 888-1600 in London Libraries, 1: The Text<br/> 2: The Plates. London: The British Library, 2003.<br/>  Sayle, C.E. “ ’The Mortuary Roll of the Abbess of Lillechurch, Kent.” In Proceedings of the Cambridge Antiquarian Society, with Communications Made to the Society, X:383–409. New Series IV. Cambridge, 1904."
 ---
 
 

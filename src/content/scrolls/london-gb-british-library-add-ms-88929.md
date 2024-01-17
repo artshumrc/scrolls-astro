@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_88929"
 _scrolls_id: "7"
 type: "Amulets"
+bibliography: "McKendrick, Scott, John Lowden, Kathleen Doyle, Joanna Frońska, and Deirdre Elizabeth Jackson. Royal Manuscripts: The Genius of Illumination. London: British Library, 2011., no. 44, pp. 186-87."
 ---
 
 

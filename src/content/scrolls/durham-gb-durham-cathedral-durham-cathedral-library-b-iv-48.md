@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "352"
 type: "Mortuary Roll"
+bibliography: "Rollason, D.W. England and the Continent in the Tenth Century: Studies in Memory of Wilhelm Levison. Brepols: Turnhout, 2011, 215."
 ---
 
 

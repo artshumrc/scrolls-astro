@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "264"
 type: "Liturgical"
+bibliography: "Brückmann, J. “Latin Manuscript Pontificals and Benedictionals in England and Wales.” Traditio 29 (1973): 391–458. p. 438.<br/> Suski, Andrzej Wojciech, Giacomo Baroffio, and Manlio Sodi. “Rotoli Liturgici Medievali (Secoli VII-XV). Censimento E Bibliografia.” Revista Liturgica 101, no. 3 (2014): 603–21."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://pds.lib.harvard.edu/pds/view/3680635"
 _scrolls_id: "126"
 type: "GB Roy. Gen."
+bibliography: "Wieck, Wieck, Roger S. Late Medieval and Renaissance Illuminated Manuscripts, 1350-1525, in the Houghton Library. Cambridge: Harvard College Library, 1983, 22, 168, fig. 142."
 ---
 
 

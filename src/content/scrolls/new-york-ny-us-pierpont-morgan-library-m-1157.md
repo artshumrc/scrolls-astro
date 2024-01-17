@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?DB=Local&Search_Arg=%22ms+m.1157%22+ica&Search_Code=GKEY^&CNT=50&HIST=1"
 _scrolls_id: "586"
 type: "Chronicles"
+bibliography: "Davis, Lisa Fagin. The First and Second Recensions of the Chronique Anonyme Universelle: Houghton MS Typ 41 and MS Fr 49. Cambridge, MA: Harvard University, 2009."
 ---
 
 

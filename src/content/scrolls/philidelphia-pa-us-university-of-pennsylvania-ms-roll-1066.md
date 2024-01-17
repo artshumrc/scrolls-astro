@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://dla.library.upenn.edu/dla/medren/pageturn.html?id=MEDREN_4171757&"
 _scrolls_id: "218"
 type: "GB Roy. Gen."
+bibliography: "Unknown Bibliography"
 ---
 
 

@@ -88,7 +88,7 @@ function collectPosts(data, postTypes, config) {
 					// repository_nation, orientation, description, prov_lon, date_start,
 					// prov_lat, width, repository, repository_name_and_city, shelfmark,
 					// provenance, lib_lat, online_images, _scrolls_id
-					let fields = ['online_bibliography_record', 'language_1', 'language_2', 'lib_lon', 'meta_title', 'date_quality', 'length', 'repository_city', 'number_of_pieces', 'contents', 'completed', 'repository_nation', 'orientation', 'description', 'prov_lon', 'date_start', 'prov_lat', 'width', 'repository', 'repository_name_and_city', 'shelfmark', 'provenance', 'lib_lat', 'online_images', '_scrolls_id', 'type'];
+					let fields = ['online_bibliography_record', 'language_1', 'language_2', 'lib_lon', 'meta_title', 'date_quality', 'length', 'repository_city', 'number_of_pieces', 'contents', 'completed', 'repository_nation', 'orientation', 'description', 'prov_lon', 'date_start', 'prov_lat', 'width', 'repository', 'repository_name_and_city', 'shelfmark', 'provenance', 'lib_lat', 'online_images', '_scrolls_id', 'type', 'bibliography'];
 					let extraMeta = {}
 					fields.forEach(field => {
 						let value = getPostMeta(post, field);

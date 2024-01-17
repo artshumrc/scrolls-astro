@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=18841&CollID=8&NStart=7353"
 _scrolls_id: "157"
 type: "GB Roy. Gen."
+bibliography: "Radulescu, Raluca. “The Political Mentality of the English Gentry at the End of the Fifteenth Century.” New Europe College Yearbook 8 (2001 2000): 355–89. p.369.<br/> Sutton, Anne F. and Livia Visser-Fuchs. Richard III’s Books: Ideals and Reality in the Life and Library of a Medieval Prince. Stroud, Gloucestershire: Sutton, 1997, 138, 197 n. 37, pls 64, 66."
 ---
 
 

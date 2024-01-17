@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "328"
 type: "Mortuary Roll"
+bibliography: "Dufour, Jean. Les Rouleaux Des Morts. Vol. 3. Monumenta Palaeographica Medii Aevi. Series Gallica. Turnhout: Brepols, 2009, no. 371.<br/> Wichner, Jacob. “Eine Admonter Totenrotel Des 15. Jahrhunderts.” Studien Und Mittheilungen Aus Dem Benediktiner- Und Dem Cistercienser-Orden 5 (1884): 61–82, 314–40."
 ---
 
 

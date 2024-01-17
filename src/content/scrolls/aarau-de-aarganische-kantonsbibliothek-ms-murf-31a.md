@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "87"
 type: "Dramatic Parts"
+bibliography: "Bischoff, Bernhard. Latin Palaeography: Antiquity and the Middle Ages. Cambridge: Cambridge University Press, 1990, 32 n 106.<br/>  Lalou, Elizabeth. “Les Rolets de Théâtre: Étude Codicologique.” In Actes Du 115e Congrès National Des Sociétés Savantes, Avignon, 1990, 51–71. Paris: Editions du CTHS, 1991.<br/> Ranke, Friedrich, ed. Das Osterspiel von Muri, Nach Den Alten Und Neuen Fragmenten Herausgegeben. Aarau: H.R. Sauerlander, 1944."
 ---
 
 

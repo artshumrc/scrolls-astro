@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "397"
 type: "Mortuary Roll"
+bibliography: "Hauke, Hermann. Katalog Der Lateinischen Fragmente Der Bayerischen Staatsbibliothek München. Vol. 2. Wiesbaden: Harrossowitz, 2001. p.372."
 ---
 
 

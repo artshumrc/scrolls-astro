@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "535"
 type: "Trees of Christ"
+bibliography: "Wolf, Edwin, A. S. W. Rosenbach, and John Frederick Lewis. A Descriptive Catalogue of the John Frederick Lewis Collection of European Manuscripts in the Free Library of Philadelphia. Philadelphia: n.p., 1937, p. 78 and no. 72."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "217"
 type: "GB Roy. Gen."
+bibliography: "Scott, Kathleen L. Tradition and Innovation in Later Medieval English Manuscripts. London: The British Library, 2007, 169 n.309."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "258"
 type: "Liturgical"
+bibliography: "Benz, Suitbert. Der Rotulus von Ravenna: Nach Seiner Herkunft Und Seiner Bedeutung Für Die Liturgiegeschichte Kritisch Untersucht. Vol. 45. Liturgiewissenschaftliche Quellen Und Forschungen. Münster, Westfalen: Aschendorffsche, 1967.<br/> Rasponi, Alessandro Testi. Codex Pontificalis Eccesiae Ravennatis. Volume Primo (Agnelli Liber Pontificalis). Rerum Italicarium Scriptores II.3. Bologna: Zanichelli, 1924."
 ---
 
 

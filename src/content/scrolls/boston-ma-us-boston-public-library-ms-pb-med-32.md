@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://at.bc.edu/slideshows/dualpurpose/3.html"
 _scrolls_id: "572"
 type: "Chronicles"
+bibliography: "Davis, Lisa Fagin. “Scrolling through History: La Chronique Universelle, Boston Public Library MS Pb. Med. 32.” In Secular Sacred: 11th-16th Century Works from the Boston Public Library and the Museum of Fine Arts, Boston, edited by Nancy Netzer, 43–47. Chestnut Hill, MA: McMullen Museum of Art, Boston College, 2006."
 ---
 
 

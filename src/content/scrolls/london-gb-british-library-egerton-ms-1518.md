@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=18412&CollID=28&NStart=1518"
 _scrolls_id: "77"
 type: "Chronicles"
+bibliography: "Robinson, P. R. Catalogue of Dated and Datelable Manuscripts C. 888-1600 in London Libraries, 1: The Text<br/> 2: The Plates. London: The British Library, 2003."
 ---
 
 

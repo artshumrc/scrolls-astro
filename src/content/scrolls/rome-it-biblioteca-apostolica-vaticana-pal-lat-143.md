@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://digi.vatlib.it/view/bav_pal_lat_143/0047"
 _scrolls_id: "542"
 type: "Trees of Christ"
+bibliography: "Donati, Lamberto, and Luigi Michelini Tocci. Biblia Pauperum: Riproduzione Del Codice Palatino Latino 143. Vol. 4. Codices E Vaticanis Selecti. Series Minor. Città del Vaticano: Biblioteca apostolica vaticana, 1979.<br/> Lobrichon, Guy. “Le Bibbie Ad Immagini Secoli XII-XV.” In Forme E Modelli Della Tradizione Manoscritta Della Bibbia: A Cura Di Paolo Cherubini, 423–58. Littera Antiqua 13. Città del Vaticano: Scuola Vaticana di Paleografia, Diplomatica e Archivistica, 2005. p.451."
 ---
 
 

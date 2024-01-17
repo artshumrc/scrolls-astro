@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "368"
 type: "Mortuary Roll"
+bibliography: "Canivez, J. M. “Aulps.” In Dictionnaire D’histoire et de Géographie Ecclésiastiques, 5:672–74. Paris, 1931.<br/> Coutin, F. “Inventaire de l’Abbaye Notre-Dame d’Aulps.” In Mémoires et Documents Publiés Par l’Académie Salésienne, 74:71–83.<br/> Delerce, Arnaud. Une Abbaye de Montagne, Sainte-Marie d’Aulps. Son Histoire et Son Domaine Par Ses Archives. Documents D’histoire Savoyarde 4. Thonon: Académie chablaisienne, 2011."
 ---
 
 

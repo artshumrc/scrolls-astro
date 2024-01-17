@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.icpal.beniculturali.it/scheda_fotografico.html?ids_foto=95C4643C-0465-4DDB-87C6-49ADA30F3629"
 _scrolls_id: "295"
 type: "Liturgical"
+bibliography: "Kelly, Thomas Forrest. The Exultet in Southern Italy. New York: Oxford University Press, 1996."
 ---
 
 

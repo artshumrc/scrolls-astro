@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "50"
 type: "Arma Christi"
+bibliography: "Brown, Carleton Fairchild, and Rossell Hope Robbins. The Index of Middle English Verse. New York: Printed for the Index Society by Columbia University Press, 1943. p. 405, no. 257.<br/> Edsall, Mary Agnes. “Arma Christi Rolls or Textual Amulets?: The Narrow Roll Format Manuscripts of ‘O Vernicle.’” Magic, Ritual, and Witchcraft 9, no. 2 (2014): 178–209."
 ---
 
 

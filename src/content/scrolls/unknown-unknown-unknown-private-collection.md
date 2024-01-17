@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "549"
 type: "Trees of Christ"
+bibliography: "Avril, François, Nicole Reynaud, and Dominique Cordellier. “Six Fragments.” In Les Enluminures Du Louvre: Moyen Âge et Renaissance, 30–37. Paris: Louvre, 2011.<br/> Deissmann, Adolf, and Hans Wegener, eds. Die Armenbibel Des Serai: Rotulus Seragliensis NR. 52. Berlin: Walter de Gruyter, 1934."
 ---
 
 

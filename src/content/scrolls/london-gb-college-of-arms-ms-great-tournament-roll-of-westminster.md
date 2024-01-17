@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "234"
 type: "Heraldic Roll"
+bibliography: "Anglo, Sydney. The Great Tournament Roll of Westminster. Oxford: Clarendon P., 1968.<br/> Marks, Richard, and Paul Williamson. Gothic: Art for England 1400-1547. London: V&A, 2003."
 ---
 
 

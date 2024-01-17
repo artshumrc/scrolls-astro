@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.christies.com/lotfinder/lot/genealogical-and-chronicle-roll-in-french-illuminated-4747467-details.aspx?from=salesummary&intObjectID=4747467&sid=82cace2d-04fa-4211-bb8a-2f25c895195b"
 _scrolls_id: "115"
 type: "FR Roy. Gen."
+bibliography: "Davis, Lisa Fagin. The First and Second Recensions of the Chronique Anonyme Universelle: Houghton MS Typ 41 and MS Fr 49. Cambridge, MA: Harvard University, 2009."
 ---
 
 

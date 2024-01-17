@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?v1=6&ti=1,6&Search_Arg=B%2E54&Search_Code=GKEY%5E&CNT=50&PID=SX7LzgbcLPYzxjkn7wJMY3r&SEQ=20140715144846&SID=1"
 _scrolls_id: "47"
 type: "Arma Christi"
+bibliography: "Edsall, Mary Agnes. “Arma Christi Rolls or Textual Amulets?: The Narrow Roll Format Manuscripts of ‘O Vernicle.’” Magic, Ritual, and Witchcraft 9, no. 2 (2014): 178–209.<br/> Ryskamp, Charles, ed. Twenty-First Report to the Fellows of the Pierpont Morgan Library. New York: The Pierpont Morgan Library, 1989, 41."
 ---
 
 

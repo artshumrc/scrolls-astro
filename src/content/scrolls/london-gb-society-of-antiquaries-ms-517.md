@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "630"
 type: "Heraldic Roll"
+bibliography: "Brault, Gerard J. Rolls of Arms of Edward I. Suffolk, UK: Boydell & Brewer Ltd, 1997."
 ---
 
 

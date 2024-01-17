@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "236"
 type: "Heraldic Roll"
+bibliography: "London, H. S. Rolls of Arms of Henry III. Aspilogia, III. London: Society of Antiquaries, 1957."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "101"
 type: "Dramatic Parts"
+bibliography: "Aebischer, Paul. “Un Fragment de Rôle Comique Datant Du Début Du XIVe Siècle Retrouvé Dans Un Manuscrit Déposé Aux Archives Cantonales Du Valais À Sion.” Vallesia 22 (1967): 71–80.<br/> Lalou, Elizabeth. “Les Rolets de Théâtre: Étude Codicologique.” In Actes Du 115e Congrès National Des Sociétés Savantes, Avignon, 1990, 51–71. Paris: Editions du CTHS, 1991."
 ---
 
 

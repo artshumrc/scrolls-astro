@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.canterbury.ac.nz/canterburyroll/research/index.shtml"
 _scrolls_id: "136"
 type: "GB Roy. Gen."
+bibliography: "Jones, Chris. “The Canterbury Roll.” In Treasures of the University of Canterbury, edited by Chris Jones, Bronwyn Matthews, and Jennifer Clement, 85–90. Christchurch: Canterbury University Press, 2011."
 ---
 
 

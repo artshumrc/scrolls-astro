@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "121"
 type: "GB Roy. Gen."
+bibliography: "Hardwick, Charles, and Henry Richards Luard. A Catalogue of the Manuscripts Preserved in the Library of the University of Cambridge. Studies of the University Press. London: Hamilton, Adams, and Co., 1856. p. 152"
 ---
 
 

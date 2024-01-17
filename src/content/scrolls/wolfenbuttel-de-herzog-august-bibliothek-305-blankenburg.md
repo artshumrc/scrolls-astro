@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "552"
 type: "Trees of Christ"
+bibliography: "Butzmann, Hans. Die Blankenburger Handschriften. Frankfurt am Main: Klostermann, 1966."
 ---
 
 

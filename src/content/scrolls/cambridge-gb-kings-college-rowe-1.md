@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "453"
 type: "Music"
+bibliography: "Fenlon, Iain. Cambridge Music Manuscripts, 900-1700. Cambridge: California University Press, 1982."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "455"
 type: "Music"
+bibliography: "Ker, N.R. Medieval Manuscripts in British Libraries. Vol. I. Oxford: Clarendon, 1969."
 ---
 
 

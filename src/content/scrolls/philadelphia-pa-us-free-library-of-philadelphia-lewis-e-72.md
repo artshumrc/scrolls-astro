@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://libwww.freelibrary.org/medievalman/detail.cfm?searchKey=3225685800&ItemID=mca0720001"
 _scrolls_id: "538"
 type: "Trees of Christ"
+bibliography: "Unknown Bibliography"
 ---
 
 

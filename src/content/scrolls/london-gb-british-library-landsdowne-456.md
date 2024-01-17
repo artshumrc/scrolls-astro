@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=5282&CollID=15&NStart=456"
 _scrolls_id: "161"
 type: "GB Roy. Gen."
+bibliography: "Scott, Kathleen L. Later Gothic Manuscripts 1390-1490. Vol. II. A Survey of Manuscripts Illuminated in the British IsleI 6. London: Harvey Miller, 1996, 315-16."
 ---
 
 

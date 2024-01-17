@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "486"
 type: "Statute Roll"
+bibliography: "Unknown Bibliography"
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "392"
 type: "Mortuary Roll"
+bibliography: "Dufour, Jean. Les Rouleaux Des Morts. Vol. 1. Monumenta Palaeographica Medii Aevi. Series Gallica. Turnhout: Brepols, 2009, no. 330.<br/> Greenway, Diana, Christopher Holdsworth, and Jane Sayers, eds. Tradition and Change: Essays in Honour of Marjorie Chibnall Presented by Her Friends on the Occasion of Her Seventieth Birthday. Cambridge: Cambridge University Press, 2002, 113.<br/>"
 ---
 
 

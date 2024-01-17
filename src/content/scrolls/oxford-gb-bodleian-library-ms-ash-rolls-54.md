@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "320"
 type: "Med-Alch"
+bibliography: "Hunt, Richard William. A Summary Catalogue of Western Manuscripts in the Bodleian Library at Oxford Which Have Not Hitherto Been Catalogued in the Quarto Series: With References to the Oriental and Other Manuscripts. Oxford: Clarendon Press, 1895, no. 8447<br/>"
 ---
 
 

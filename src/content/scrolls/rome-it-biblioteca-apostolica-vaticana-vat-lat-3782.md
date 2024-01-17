@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "543"
 type: "Trees of Christ"
+bibliography: "Fossier, François. “Chroniques Universelles En Forme de Rouleau À La Fin Du Moyen Age.” Bulletin de La Société Nationale Des Antiquaires de France, 1980, 171."
 ---
 
 

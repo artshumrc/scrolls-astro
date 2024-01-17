@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "289"
 type: "Liturgical"
+bibliography: "Diözesan-Museum Hildesheim. Bernward von Hildesheim Und Das Zeitalter Der Ottonen. Vol. 2. Mainz am Rhein: Roemer- un Pelizaaeus-Museum, 1993.<br/> Evans, Helen C., and William D. Wixom, eds. The Glory of Byzantium: Art and Culture of the Middle Byzantine Era, A.D. 843-1261. New York: Metropolitan Museum of Art, 1997.<br/> Kelly, Thomas Forrest. The Exultet in Southern Italy. New York: Oxford University Press, 1996.<br/> Suski, Andrzej Wojciech, Giacomo Baroffio, and Manlio Sodi. “Rotoli Liturgici Medievali (Secoli VII-XV). Censimento E Bibliografia.” Revista Liturgica 101, no. 3 (2014): 603–21."
 ---
 
 

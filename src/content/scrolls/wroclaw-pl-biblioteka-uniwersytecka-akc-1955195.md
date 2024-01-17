@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "460"
 type: "Music"
+bibliography: "Brewer, Charles E. “A Fourteenth-Century Polyphonic Manuscript Rediscovered.” Studia Musicologica Academiae Scientiarum Hungaricae 24, no. 1/2 (1982): 5–19.<br/> Gancarczyk, Paweł. “Abbot Martin Rinkenberg and the Origins of the ‘Glogauer Liederbuch.’” Early Music 37, no. 1 (February 1, 2009): 27–36."
 ---
 
 

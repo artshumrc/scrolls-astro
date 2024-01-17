@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "275"
 type: "Liturgical"
+bibliography: "Martimort, A. G. “Répertoires Des Livres Liturgiques Du Languedoc, Antérieurs Au Concile de Trente.” In Liturgie et Musique (IXe–XIVe S.), 51–80. Cahiers de Fanjeaux 17. Toulouse: Edouard Privat, 1982, p. 65."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://daten.digitale-sammlungen.de/~db/0001/bsb00011837/images/index.html?id=00011837&fip=xdsydenyztsfsdrxsfsdrxdsydenen&no=2&seite=4"
 _scrolls_id: "108"
 type: "Ecclesiastical"
+bibliography: "Klemm, Elisabeth. “Ein Illustriertes Reliquienverzeichnes in Der BSB. Beitrag Zur Pasauer Buchmalerei Des 14 Jahrhundersts.” In Diversarum Artium Studia: Beiträge Zu Kunstwissenschaft, edited by Heinz Roosen-Runge, Helmut Engelhart, and Gerda Kempter, 75–104. Wiesbaden: Reichert, 1982.<br/> Stork, Hans-Walter. “Spätmittelalterliche Gebetsbücher in Rollenform in Überlieferung Und Bild.” Gutenberg Jahrschrift 20 (2010): 43–78, n.42."
 ---
 
 

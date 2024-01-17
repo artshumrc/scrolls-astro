@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "544"
 type: "Trees of Christ"
+bibliography: "Moore, Philip S. The Works of Peter of Poitiers, Master in Theology and Chancellor of Paris (1193-1205). Notre Dame, IN: The University of Notre Dame, 1936, 105."
 ---
 
 

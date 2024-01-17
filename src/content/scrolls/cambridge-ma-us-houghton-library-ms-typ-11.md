@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://pds.lib.harvard.edu/pds/view/8197969"
 _scrolls_id: "125"
 type: "GB Roy. Gen."
+bibliography: "Bond, W. H., and Christopher Urdahl Faye. Supplement to the Census of Medieval and Renaissance Manuscripts in the United States and Canada. New York: Bibliographical Society of America, 1962, 251.<br/> Tyson, Diana B. “The Manuscript Tradition of Old French Prose Brut Rolls.” Scriptorium 55 (2001): 107–18, CM.<br/> Wieck, Roger S. Late Medieval and Renaissance Illuminated Manuscripts, 1350-1525, in the Houghton Library. Cambridge: Harvard College Library, 1983, 22.<br/>"
 ---
 
 

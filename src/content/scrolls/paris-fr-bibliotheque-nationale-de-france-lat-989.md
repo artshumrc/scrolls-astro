@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://gallica.bnf.fr/ark:/12148/btv1b8551117m.r=989.langEN"
 _scrolls_id: "429"
 type: "Mortuary Roll"
+bibliography: "Dufour, Jean. Les Rouleaux Des Morts. Vol. 2. Monumenta Palaeographica Medii Aevi. Series Gallica. Turnhout: Brepols, 2009., no. 212."
 ---
 
 

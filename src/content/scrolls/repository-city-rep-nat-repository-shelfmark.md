@@ -31,6 +31,7 @@ lib_lat: "Lib_Latitude"
 online_images: "Online Images"
 _scrolls_id: ""
 type: "Type"
+bibliography: "Bibliography"
 ---
 
 

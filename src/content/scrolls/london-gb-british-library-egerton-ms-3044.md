@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "476"
 type: "Prayer Roll"
+bibliography: "Collins, A. J. “A Book of Hours in Roll Form.” The British Museum Quarterly 4, no. 4 (1930): 111.<br/> Stork, Hans-Walter. “Spätmittelalterliche Gebetsbücher in Rollenform in Überlieferung Und Bild.” Gutenberg Jahrschrift 20 (2010): 43–78."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "212"
 type: "GB Roy. Gen."
+bibliography: "De la Mare, Albinia Catherine. Catalogue of the Collection of Medieval Manuscripts Bequeathed to the Bodleian Library, Oxford by James P. R. Lyell. Oxford: Clarendon P., 1971, 84-85<br/> Hunt, Richard William. A Summary Catalogue of Western Manuscripts in the Bodleian Library at Oxford Which Have Not Hitherto Been Catalogued in the Quarto Series: With References to the Oriental and Other Manuscripts. Oxford: Clarendon Press, 1895, no. 2965<br/> Moore, Philip S. The Works of Peter of Poitiers, Master in Theology and Chancellor of Paris (1193-1205). Notre Dame, IN: The University of Notre Dame, 1936, 112."
 ---
 
 

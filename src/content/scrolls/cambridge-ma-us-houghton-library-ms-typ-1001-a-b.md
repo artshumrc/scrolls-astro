@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "299"
 type: "Map or Guide"
+bibliography: "Pope-Hennessy, John Wyndham. Fra Angelico. London: Phaidon Press, 1952."
 ---
 
 

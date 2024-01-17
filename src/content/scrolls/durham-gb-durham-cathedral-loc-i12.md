@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "356"
 type: "Mortuary Roll"
+bibliography: "Dufour, Jean. Les Rouleaux Des Morts. Vol. 3. Monumenta Palaeographica Medii Aevi. Series Gallica. Turnhout: Brepols, 2009, no. 398.<br/> Raine, James, ed. The Obituary Roll of William Ebchester and John Burnby: Priors of Durham, with Notices of Similar Records Preserved at Durham. Durham, UK: George Andrews, 1856. p.51-53.<br/> Rollason, D.W. England and the Continent in the Tenth Century: Studies in Memory of Wilhelm Levison. Brepols: Turnhout, 2011, 215."
 ---
 
 

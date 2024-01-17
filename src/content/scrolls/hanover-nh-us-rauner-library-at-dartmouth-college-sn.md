@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.dartmouth.edu/~mavall/libguides/documents/collections/chronique.html"
 _scrolls_id: "578"
 type: "Chronicles"
+bibliography: "Davis, Lisa Fagin. La Chronique Anonyme Universelle Jusqu’a La Mort de Charles VII. Turnhout: Brepols, 2010."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "290"
 type: "Liturgical"
+bibliography: "Leroquias, Victor. Les Pontificaux Manuscrits Des Bibliothèques Publiques de France. Vol. 2. Paris: Macon, 1937, pp. 315-18."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "107"
 type: "Ecclesiastical"
+bibliography: "Mordek, Hubert. “Karolingische Kapitularen.” In Überlieferung Und Geltung Normativer Texte Des Frühen Und Hohen Mittelalters: Vier Vorträge, Gehalten Auf Dem 35. Deutschen Historikertag 1984 in Berlin, 25–50. Quellen Und Forschungen Zum Recht Im Mittelalter, Bd. 4. Sigmaringen: J. Thorbecke, 1986."
 ---
 
 

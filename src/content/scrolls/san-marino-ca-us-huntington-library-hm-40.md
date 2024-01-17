@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "304"
 type: "Map or Guide"
+bibliography: "De Ricci, Seymour, and W.J. Wilson. Census of Medieval and Renaissance Manuscripts in the United States and Canada. Vol. II. New York: H. W. Wilson, 1937. p.43."
 ---
 
 

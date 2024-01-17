@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "613"
 type: "Med-Alch"
+bibliography: "McCallum, R. Ian \"Alchemical Scrolls Associated with George Ripley,\" in Mystical Metal of Gold: Essays on Alchemy and Renaissance Culture, ed. Stanton J. Linden (New York: AMS, 2007), 161-188.<br/> Moorat, S.A.J. Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library. I. MSS. Written before 1650 A. D. London: The Wellcome Historical Medical Library, 1962. p.512-13."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "554"
 type: "Trees of Christ"
+bibliography: "Von Heinemann, Otto. Die Augusteischen Handschriften. Catalogs of the Herzog August Bibliothek Wolfenbüttel 8. Frankfurt am Main: Klostermann, 1966."
 ---
 
 

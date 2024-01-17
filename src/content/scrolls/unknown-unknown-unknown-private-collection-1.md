@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "230"
 type: "GB Roy. Gen."
+bibliography: "Wright, Thomas, ed. “Item vi.” In Feudal Manuals of English History: A Series of Popular Sketches of Our National History, Compiled at Different Periods, from the Thirteenth Century to the Fifteenth, for the Use of the Feudal Gentry and Nobility, 154–69. London: J. Mayer, 1872."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "6"
 type: "Amulets"
+bibliography: "Simpson, W. Sparrow. “On a Magical Roll of the Seventeenth Century.” Journal of the British Archaeological Association XL (1884): 297–332, 297."
 ---
 
 

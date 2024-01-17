@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "555"
 type: "Trees of Christ"
+bibliography: "Mohlberg, Cunibert. Katalog Der Handschriften Der Zentralbibliothek Zürich I. Mittelalterliche Handschriften. Zürich: Buchdruckerei Berichthaus, 1952. no 354, p. 152."
 ---
 
 

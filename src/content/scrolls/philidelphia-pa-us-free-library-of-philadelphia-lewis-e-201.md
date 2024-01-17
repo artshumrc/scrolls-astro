@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.freelibrary.org/medieval/part1.htm"
 _scrolls_id: "596"
 type: "Chronicles"
+bibliography: "Morse, Mary. “‘Thys Moche More Ys Ours Lady Mary Longe’: Takamiya MS 56 and the English Birth Girdle Tradition.” In Middle English Texts in Transition: A Festschrift Dedicated to Toshiyuki Takamiya on His 70th Birthday, edited by Simon Horobin and Linne Mooney, 199–219. Boydell & Brewer Ltd, 2014."
 ---
 
 

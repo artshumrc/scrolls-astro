@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://ica.princeton.edu/images/princeton/p126.001r.jpg"
 _scrolls_id: "482"
 type: "Prayer Roll"
+bibliography: "Krochalis, J. “God and Mammon: Prayers and Rents in Princeton MS. 126.” The Princeton University Library Chronicle 44 (1983): 209–21."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://ica.princeton.edu.ezp-prod1.hul.harvard.edu/images/princeton/p93.001r.jpg"
 _scrolls_id: "324"
 type: "Med-Alch"
+bibliography: "Hanford, J., \"Sixteenth-century Scroll of alchemical emblems,\" Princeton University Library Chronicle XIX (1958) 201-202.<br/> pls. IV, V (bound in between pgs. 156 and 157)<br/> McCallum, R. Ian. “Alchemical Scrolls Associated with George Ripley.” In Mystical Metal of Gold, edited by Stanton J. Linden, 161–88. New York: AMS Press, 2007. p.171<br/> Skemer, Medieval and Renaissance Manuscripts in the Princeton University Library, p. 309."
 ---
 
 

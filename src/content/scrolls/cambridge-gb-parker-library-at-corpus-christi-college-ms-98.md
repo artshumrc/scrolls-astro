@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://parkerweb.stanford.edu/parker/actions/thumbnails.do?ms_no=98"
 _scrolls_id: "130"
 type: "GB Roy. Gen."
+bibliography: "Tyson, Diana B. “The Manuscript Tradition of Old French Prose Brut Rolls.” Scriptorium 55 (2001): 107–18, C1.<br/> Tyson, Diana B. “The Adam and Eve Roll: Corpus Christi College Cambridge MS 98.” Scriptorium, no. 52 (1998): 301–16."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "251"
 type: "Liturgical"
+bibliography: "Mayo, Penelope C. “Vasa Sacra: Apostolic Authority and Episcopal Prestige in the Eleventh-Century Bari Benedictional.” Dumbarton Oaks Papers 41 (1987): 375–89."
 ---
 
 

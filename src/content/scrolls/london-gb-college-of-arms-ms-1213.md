@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "176"
 type: "GB Roy. Gen."
+bibliography: "Unknown Bibliography"
 ---
 
 

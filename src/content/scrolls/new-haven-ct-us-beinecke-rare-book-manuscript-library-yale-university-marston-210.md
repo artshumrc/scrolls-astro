@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "683"
 type: "Varia"
+bibliography: "Bond, W. H., and Christopher Urdahl Faye. Supplement to the Census of Medieval and Renaissance Manuscripts in the United States and Canada. New York: Bibliographical Society of America, 1962, 88 no. 210."
 ---
 
 

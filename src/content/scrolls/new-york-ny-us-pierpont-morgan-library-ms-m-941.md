@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?DB=Local&Search_Arg=%22ms+m.941%22+ica&Search_Code=GKEY^&CNT=50&HIST=1"
 _scrolls_id: "627"
 type: "Calendar"
+bibliography: "Bühler, Curt F., “Thunder Books Again.” Res Publica Litterarum. Studies in the Classical Tradition I (1978): 1–5."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "471"
 type: "Poetry"
+bibliography: "Dennison, Lynda. An Index of Images in English Manuscripts from the Time of Chaucer to Henry VIII, C. 1380-C. 1509. Turnhout: Harvey Miller Publishers, 2000. p. 31 no. 15.<br/> Hunt, Richard William. A Summary Catalogue of Western Manuscripts in the Bodleian Library at Oxford Which Have Not Hitherto Been Catalogued in the Quarto Series: With References to the Oriental and Other Manuscripts. Oxford: Clarendon Press, 1895. no. 29284.<br/>"
 ---
 
 

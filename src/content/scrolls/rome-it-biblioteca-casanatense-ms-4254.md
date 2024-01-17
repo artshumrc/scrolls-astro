@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.moleiro.com/en/biblical-books/genealogy-of-christ.html"
 _scrolls_id: "540"
 type: "Trees of Christ"
+bibliography: "Stork, Hans-Walter. “Spätmittelalterliche Gebetsbücher in Rollenform in Überlieferung Und Bild.” Gutenberg Jahrschrift 20 (2010): 43–78."
 ---
 
 

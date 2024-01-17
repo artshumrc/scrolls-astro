@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://numelyo.bm-lyon.fr/list/?order_by=Relevance&cat=quick_filter&collection_pid=BML%3ABML_02ENL01001COL0001&search_keys[0]=863"
 _scrolls_id: "517"
 type: "Trees of Christ"
+bibliography: "Cahn, Walter. “The Allegorical Menorah.” In Tributes in Honor of James H. Marrow: Studies in Painting and Manuscript Illumination of the Late Middle Ages and Northern Renaissance, edited by Jeffrey F. Hamburger and A. S. Korteweg, 117–26. London: Harvey Miller, 2006.<br/> Moore, Philip S. The Works of Peter of Poitiers, Master in Theology and Chancellor of Paris (1193-1205). Notre Dame, IN: The University of Notre Dame, 1936. p. 102."
 ---
 
 

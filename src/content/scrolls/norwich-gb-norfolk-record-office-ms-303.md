@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.friendsofnationallibraries.org.uk/swan-roll-broadland-area-norfolk"
 _scrolls_id: "34"
 type: "Archival"
+bibliography: "Marks, Richard, and Paul Williamson. Gothic: Art for England 1400-1547. London: V&A, 2003.<br/> Ticehurst, N.F. “The Swan-Marks of West Norfolk.” Transactions of the Norfolk and Norwich Naturalists’ Society 12, no. 5 (1929): 581–630."
 ---
 
 

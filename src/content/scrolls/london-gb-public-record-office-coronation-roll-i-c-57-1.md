@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "265"
 type: "Liturgical"
+bibliography: "Brückmann, J. “Latin Manuscript Pontificals and Benedictionals in England and Wales.” Traditio 29 (1973): 391–458. p. 443."
 ---
 
 

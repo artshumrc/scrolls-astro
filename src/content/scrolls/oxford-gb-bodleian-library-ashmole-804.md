@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "241"
 type: "Heraldic Roll"
+bibliography: "Black, William Henry. A Descriptive, Analytical, and Critical Catalog of the Manuscripts Bequethed unto the University of Oxford by Elias Ashmole, Esq. Oxford: Oxford University Press, 1845."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?DB=Local&Search_Arg=%22ms+m.486%22+ica&Search_Code=GKEY^&CNT=50&HIST=1"
 _scrolls_id: "49"
 type: "Arma Christi"
+bibliography: "Bühler, Curt F. “A Middle English Prayer Roll.” Modern Language Notes 52, no. 8 (1937): 555–62.<br/> Stork, Hans-Walter. “Spätmittelalterliche Gebetsbücher in Rollenform in Überlieferung Und Bild.” Gutenberg Jahrschrift 20 (2010): 43–78."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://archivesetmanuscrits.bnf.fr/ead.html?id=FRBNFEAD000079676"
 _scrolls_id: "655"
 type: "Mortuary Roll"
+bibliography: "Berlière, Ursmer. “Un rouleau des morts de l’abbaye de Saint-Trond de l’an 1450.” Revue bénédictine 8 (1892): 327–31. p. 327n1<br/> Dufour, Jean. Les Rouleaux Des Morts. Vol. 2. Monumenta Palaeographica Medii Aevi. Series Gallica. Turnhout: Brepols, 2009, no. 217."
 ---
 
 

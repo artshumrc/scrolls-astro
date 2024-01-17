@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "85"
 type: "Chronicles"
+bibliography: "Jansen, Katherine L., Joanna Drell, and Frances Andrews. Medieval Italy: Texts in Translation. University of Pennsylvania Press, 2011."
 ---
 
 

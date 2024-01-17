@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://daten.digitale-sammlungen.de/bsb00034959/image_1"
 _scrolls_id: "521"
 type: "Trees of Christ"
+bibliography: "Kudorfer, Dieter. Katalog Der Lateinischen Handschriften Der Bayerischen Staatsbibliothek München: Clm 28461-28615. Wiesbaden: Harrossowitz, 1991."
 ---
 
 

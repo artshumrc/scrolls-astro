@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?v1=2&ti=1,2&Search_Arg=b%2E30&Search_Code=GKEY%5E&CNT=50&PID=uqfEfYjBEd0mCkajFjBNyxxsR&SEQ=20140628143252&SID=4"
 _scrolls_id: "192"
 type: "GB Roy. Gen."
+bibliography: "Ryskamp, Charles, ed. Twenty-First Report to the Fellows of the Pierpont Morgan Library. New York: The Pierpont Morgan Library, 1989, 37."
 ---
 
 

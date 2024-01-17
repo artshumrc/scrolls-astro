@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "307"
 type: "Map or Guide"
+bibliography: "Bosio, Luciano. La Tabula Peutingeriana. Rimini: Maggioli, 1983.<br/> Hermann, Julius. “Die Frühmittelalterlichen Handschriften Des Abendlandes. Beschreibendes Verzeichmis Der Illuminierten Handschriften in Österreich, 8.” In Neue Folge: Die Illuminierten Handschriften Und Inkunablen Der Nationalbibliothek in Wien, Vol. 1. Leipzig: Karl W. Hiersman, 1923, 5-8."
 ---
 
 

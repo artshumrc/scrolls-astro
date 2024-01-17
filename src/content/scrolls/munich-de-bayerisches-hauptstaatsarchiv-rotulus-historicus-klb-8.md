@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "79"
 type: "Chronicles"
+bibliography: "Hemmerle, Josef. Die Benediktinerabtei Benediktbeuern. Vol. Neue Folge 28. Germania Sacra. Berlin: Walter de Gruyber, 1991."
 ---
 
 

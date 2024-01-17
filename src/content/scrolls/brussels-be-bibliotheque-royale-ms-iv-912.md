@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "473"
 type: "Prayer Roll"
+bibliography: "Wittek, Martin. “Les Manuscrits Grecs de La Bibliothèque Royale Albert Ier: Vingt Années D’acquisitions (1954–73).” In Le Monde Grec: Pensée, Littérature, Histoire, Documents, edited by Jean Bingen, 245–54. Brussels, 1975, 248f. and pl. I.2."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "500"
 type: "Trees of Christ"
+bibliography: "Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.<br/>"
 ---
 
 

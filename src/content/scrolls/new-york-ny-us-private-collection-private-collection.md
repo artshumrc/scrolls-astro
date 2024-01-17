@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "16"
 type: "Amulets"
+bibliography: "Stork, Hans-Walter. “Spätmittelalterliche Gebetsbücher in Rollenform in Überlieferung Und Bild.” Gutenberg Jahrschrift 20 (2010): 43–78."
 ---
 
 

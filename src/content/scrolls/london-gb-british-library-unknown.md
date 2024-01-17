@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "171"
 type: "GB Roy. Gen."
+bibliography: "Gatfield, George. Guide to Printed Books and Manuscripts Relating to English and Foreign Heraldry and Genealogy Being a Classified Catalogue of Works of Those Branches of Literature. London: Mitchell and Hughes, 1892."
 ---
 
 

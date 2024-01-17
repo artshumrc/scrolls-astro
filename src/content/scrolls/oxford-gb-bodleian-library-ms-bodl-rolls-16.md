@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://bodley30.bodley.ox.ac.uk:8180/luna/servlet/view/all/what/MS.+Bodl.+Rolls+16"
 _scrolls_id: "51"
 type: "Arma Christi"
+bibliography: "Brown, Carleton Fairchild, and Rossell Hope Robbins. The Index of Middle English Verse. New York: Printed for the Index Society by Columbia University Press, 1943. p. 405, no. 2577.<br/> Edsall, Mary Agnes. “Arma Christi Rolls or Textual Amulets?: The Narrow Roll Format Manuscripts of ‘O Vernicle.’” Magic, Ritual, and Witchcraft 9, no. 2 (2014): 178–209.<br/> Hunt, Richard William. A Summary Catalogue of Western Manuscripts in the Bodleian Library at Oxford Which Have Not Hitherto Been Catalogued in the Quarto Series: With References to the Oriental and Other Manuscripts. Oxford: Clarendon Press, 1895. no. 2975."
 ---
 
 

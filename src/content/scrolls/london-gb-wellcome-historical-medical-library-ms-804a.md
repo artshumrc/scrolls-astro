@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "12"
 type: "Amulets"
+bibliography: "Ker, N.R. Medieval Manuscripts in British Libraries. Vol. I. Oxford: Clarendon, 1969, p. 401."
 ---
 
 

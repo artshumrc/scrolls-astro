@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://ucblibrary4.berkeley.edu:8088/xtf22/search?smode=basic;text=roll;rmode=digscript;docsPerPage=1;startDoc=58;fullview=yes"
 _scrolls_id: "478"
 type: "Prayer Roll"
+bibliography: "Edsall, Mary Agnes. “Arma Christi Rolls or Textual Amulets?: The Narrow Roll Format Manuscripts of ‘O Vernicle.’” Magic, Ritual, and Witchcraft 9, no. 2 (2014): 178–209, 208."
 ---
 
 

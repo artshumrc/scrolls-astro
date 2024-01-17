@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?DB=Local&Search_Arg=%22ms+m.628%22+ica&Search_Code=GKEY^&CNT=50&HIST=1"
 _scrolls_id: "526"
 type: "Trees of Christ"
+bibliography: "Bühler, Curt F. “Prayers and Charms in Certain Middle English Scrolls.” Speculum 39, no. 2 (1964): 270–78. Cahn, Walter. “The Allegorical Menorah.” In Tributes in Honor of James H. Marrow: Studies in Painting and Manuscript Illumination of the Late Middle Ages and Northern Renaissance, edited by Jeffrey F. Hamburger and A. S. Korteweg, 117–26. London: Harvey Miller, 2006."
 ---
 
 

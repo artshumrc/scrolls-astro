@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.metmuseum.org/Collections/search-the-collections/70015999"
 _scrolls_id: "524"
 type: "Trees of Christ"
+bibliography: "“Recent Aquisitions, A Selection: 2002-2003.” The Metropolitan Museum of Art Bulletin 61, no. 2 (2003)."
 ---
 
 

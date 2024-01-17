@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "5"
 type: "Amulets"
+bibliography: "Skemer, Don C. Binding Words: Textual Amulets in the Middle Ages. Magic in History. University Park, PA: Pennsylvania State University Press, 2006, 214-217, plate on p. 214."
 ---
 
 

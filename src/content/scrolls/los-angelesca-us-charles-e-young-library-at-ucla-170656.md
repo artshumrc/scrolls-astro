@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "477"
 type: "Prayer Roll"
+bibliography: "Ferrari, Mirella, and Richard Rouse. Finding Aid for the Medieval and Renaissance Manuscripts Collection - Library Special Collections, Ca. 1198-1616. Los Angeles, CA: University of California Press, 1991."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "113"
 type: "FR Roy. Gen."
+bibliography: "Wijsman, Hanno. Luxury Bound. Illustrated Manuscript Production and Noble and Princely Book Ownership in the Burgundian Netherlands (1400-1550). Turnhout: Brepols, 2010, 233."
 ---
 
 

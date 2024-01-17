@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=7186&CollID=8&NStart="
 _scrolls_id: "159"
 type: "GB Roy. Gen."
+bibliography: "Anglo, Sidney. The British History, in Early Tudor Propaganda. Manchester: John Rylands Library, 1961.<br/> Charles L. Kingsford, English Historical Literature in the Fifteenth Century (Oxford: Clarendon Press, 1913<br/> repr. New York: Franklin, 1972), p. 164 n. 5.<br/> De la Mare, Albinia Catherine. Catalogue of the Collection of Medieval Manuscripts Bequeathed to the Bodleian Library, Oxford by James P. R. Lyell. Oxford: Clarendon P., 1971, 80-82<br/> Kathleen L. Scott, Later Gothic Manuscripts 1390-1490, A Survey of Manuscripts Illuminated in the British Isles, 6, 2 vols (London: Harvey Miller, 1996), II, p. 316."
 ---
 
 

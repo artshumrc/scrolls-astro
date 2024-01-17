@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://parkerweb.stanford.edu/parker/actions/thumbnails.do?ms_no=116"
 _scrolls_id: "128"
 type: "GB Roy. Gen."
+bibliography: "Vaughan, Richard, and John Fines. “A Handlist of Manuscripts in the Library of Corpus Christi College, Cambridge.” In Transactions of the Cambridge Bibliographic Society, Vol. III. Cambridge, 1960, 272."
 ---
 
 

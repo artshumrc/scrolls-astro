@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "153"
 type: "GB Roy. Gen."
+bibliography: "Brie, F. W. D. Geschichte Und Quellen Der Mittelenglischen Prosachronik The Brute of England Oder The Chronicles of England. Marburg, 1905.<br/> J. Taylor, English Historical Literature in the Fourteenth Century (1987), pp. 110-132<br/> Tyson, Diana B. “The Manuscript Tradition of Old French Prose Brut Rolls.” Scriptorium 55 (2001): 107–18, BL1.<br/> Tyson, Diana B., 'Handlist of manuscripts containing the French Prose Brut Chronicle', Scriptorium , xlviii (1994), pp. 333-344"
 ---
 
 

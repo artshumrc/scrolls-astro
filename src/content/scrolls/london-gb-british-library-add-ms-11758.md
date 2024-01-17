@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "508"
 type: "Trees of Christ"
+bibliography: "Unknown Bibliography"
 ---
 
 

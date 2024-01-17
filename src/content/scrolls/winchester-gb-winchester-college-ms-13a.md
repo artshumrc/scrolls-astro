@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "232"
 type: "GB Roy. Gen."
+bibliography: "Ker, N.R. Medieval Manuscripts in British Libraries. Vol. IV. Oxford: Clarendon, 1969, 611."
 ---
 
 

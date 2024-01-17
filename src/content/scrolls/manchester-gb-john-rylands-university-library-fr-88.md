@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "240"
 type: "Heraldic Roll"
+bibliography: "Ker, N.R. Medieval Manuscripts in British Libraries. Vol. III. Oxford: Clarendon, 1969, 445."
 ---
 
 

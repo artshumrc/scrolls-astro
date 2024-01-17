@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=6343&CollID=8&NStart="
 _scrolls_id: "78"
 type: "Chronicles"
+bibliography: "Norbye, Marigold. “Genealogies and Dynastic Awareness in the Hundred Years War: The Evidence of A Tous Nobles Qui Aiment Beaux Faits et Bonnes Histoires.” Journal of Medieval History 33 (2007): 297–319."
 ---
 
 

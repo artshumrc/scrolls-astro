@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://bvmm.irht.cnrs.fr/consult/consult.php?COMPOSITION_ID=8133&corpus=decor"
 _scrolls_id: "531"
 type: "Trees of Christ"
+bibliography: "Walters Art Gallery. Illuminated Books of the Middle Ages and Renaissance: An Exhibition Held at the Baltimore Museum of Art, January 27-March 13. Baltimore: Trustees of the Walters Art Gallery, 1949, n. 155, p. 57."
 ---
 
 

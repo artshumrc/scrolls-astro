@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.bodley.ox.ac.uk/dept/scwmss/wmss/online/medieval/lyell/images/00843518.jpg"
 _scrolls_id: "528"
 type: "Trees of Christ"
+bibliography: "Cleaver, Laura. “Past, Present and Future for Thirteenth-Century Wales: Two Diagrams in British Library, Cotton Roll XIV.12.” Electronic British Library Journal, 2013, 1–26."
 ---
 
 

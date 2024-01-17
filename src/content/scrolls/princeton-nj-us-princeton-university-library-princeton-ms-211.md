@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "220"
 type: "GB Roy. Gen."
+bibliography: "Skemer, Don C. Medieval & Renaissance Manuscripts in the Princeton University Library. Vol. II. Department of Art and Archaeology, Princeton University, 2013, 499."
 ---
 
 

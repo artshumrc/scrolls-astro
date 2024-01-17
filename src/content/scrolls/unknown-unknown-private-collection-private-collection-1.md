@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "445"
 type: "Mortuary Roll"
+bibliography: "Société de l’histoire de France. Annuaire-Bulletin de La Société de L’histoire de France. Vol. 137. Librarie Renouard, 1866, 88."
 ---
 
 

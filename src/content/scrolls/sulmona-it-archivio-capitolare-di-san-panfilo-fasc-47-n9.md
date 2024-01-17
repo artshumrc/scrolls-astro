@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "99"
 type: "Dramatic Parts"
+bibliography: "Young, Karl. The Drama of the Medieval Church. 2 vols. Oxford: Clarendon press, 1962, 501, 701-8.<br/> Inguanez, Mauro, ed. Un Dramma Della Passione Del Secolo XII. 2. ed. Miscellanea Cassinese 18. Badia di Montecassino, 1939, 32 and n 107."
 ---
 
 

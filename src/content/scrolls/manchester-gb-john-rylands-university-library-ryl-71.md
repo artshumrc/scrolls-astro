@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "302"
 type: "Map or Guide"
+bibliography: "Bischoff, Bernhard. Latin Palaeography: Antiquity and the Middle Ages. Cambridge: Cambridge University Press, 1990. 33 n.110."
 ---
 
 

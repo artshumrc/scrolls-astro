@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "585"
 type: "Chronicles"
+bibliography: "The Metropolitan Museum of Art. The Secular Spirit: Life and Art at the End of the Middle Ages. New York: E.P. Dutton & Co., 1975, 166."
 ---
 
 

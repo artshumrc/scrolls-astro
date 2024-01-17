@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "224"
 type: "GB Roy. Gen."
+bibliography: "McGlynn, Sean, and Elena Woodacre, eds. The Image and Perception of Monarchy in Medieval and Early Modern Europe. Newcastle: Cambridge Scholars Publishing, 2014. p.80."
 ---
 
 

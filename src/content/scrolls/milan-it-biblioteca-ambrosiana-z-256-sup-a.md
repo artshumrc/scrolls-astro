@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "268"
 type: "Liturgical"
+bibliography: "Huglo, Michel, Luigi Agustoni, Eugène Cardine, and Ernesto Moneta Caglio. Fonti E Paleografia Del Canto Ambrosiano. Archivio Ambrosiano 7. Milan, 1956. p. 77, no. 141.<br/> Suski, Andrzej Wojciech, Giacomo Baroffio, and Manlio Sodi. “Rotoli Liturgici Medievali (Secoli VII-XV). Censimento E Bibliografia.” Revista Liturgica 101, no. 3 (2014): 603–21."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "111"
 type: "Ecclesiastical"
+bibliography: "Cavallo, Guglielmo, Giulia Orofino, and Oronzo Pecere, eds. Exultet: Rotoli Liturgici Del Medioevo Meridionale. Roma: Istituto poligrafico e Zecca dello Stato, Libreria dello Stato, 1994.<br/> Maitilasso, Mario. Gli Exultet Di Troja: Un Patrimonio Di Storia, Di Fede E D’arte. Claudio Grenzi Editore, 2012."
 ---
 
 

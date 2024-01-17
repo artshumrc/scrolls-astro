@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "459"
 type: "Music"
+bibliography: "Hoppin, Richard H. “A Musical Rotulus of the Fourteenth Century.” Revue Belge de Musicologie 9 (1955): 131.<br/> Hoppin, Richard H. “Some Remarks a Propos of Pic.” Revue Belge de Musicologie 10 (1956): 105–11.<br/> Kügle, Karl. “Two Abbots and a Rotulus: New Light on Brussels 19606.” In Quomodo Cantabimus Canticum? Studies in Honor of Edward H. Roesner, edited by D.B. Cannata, G. Ilnitchi Currie, R.C. Mueller, and J.L. Nádas, 145–85. Middleton, WI: American Institute of Musicology, 2008."
 ---
 
 

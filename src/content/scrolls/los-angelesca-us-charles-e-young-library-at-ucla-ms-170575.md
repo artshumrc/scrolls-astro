@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://digital2.library.ucla.edu/viewer/viewer.do?projectNo=123&arkId=21198/zz002hgbtt#"
 _scrolls_id: "468"
 type: "Poetry"
+bibliography: "Rouse, Richard H. “Roll and Codex: The Transmission of the Works of Reinmar von Zweter.” In Paläographie 1981: Colloquium Des Conité International de Paléographie. München, 15.-18. September 1981, edited by Gabriel Silagi, 107–23, XI – XV pl. Münchener Beiträge Zur Mediävistik Und Renaissance-Forschung 32. Munich: Arbeo-Gesellschaft, 1982."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://brbl-dl.library.yale.edu/vufind/Record/3592241?image_id=1002526"
 _scrolls_id: "276"
 type: "Liturgical"
+bibliography: "Kelly, Thomas Forrest. The Exultet in Southern Italy. New York: Oxford University Press, 1996, 27.<br/> Suski, Andrzej Wojciech, Giacomo Baroffio, and Manlio Sodi. “Rotoli Liturgici Medievali (Secoli VII-XV). Censimento E Bibliografia.” Revista Liturgica 101, no. 3 (2014): 603–21."
 ---
 
 

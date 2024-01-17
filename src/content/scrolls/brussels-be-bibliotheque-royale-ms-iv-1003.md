@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "573"
 type: "Chronicles"
+bibliography: "Davis, Lisa Fagin. The First and Second Recensions of the Chronique Anonyme Universelle: Houghton MS Typ 41 and MS Fr 49. Cambridge, MA: Harvard University, 2009.<br/> Booton, Diane E. Manuscripts, Market and the Transition to Print in Late Medieval Brittany. Ashgate Publishing, Ltd., 2010."
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "483"
 type: "Prayer Roll"
+bibliography: "Rouse, R. H., C. W. Dutschke, Sara S. Hodson, and Virginia Rust. Guide to Medieval and Renaissance Manuscripts in the Huntington Library. San Marino: Huntington Library, 1989."
 ---
 
 

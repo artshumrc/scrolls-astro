@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?DB=Local&Search_Arg=%22ms+g.39%22+ica&Search_Code=GKEY^&CNT=50&HIST=1"
 _scrolls_id: "48"
 type: "Arma Christi"
+bibliography: "Bühler, Curt F. “Prayers and Charms in Certain Middle English Scrolls.” Speculum 39, no. 2 (1964): 270–78. p. 272n24.<br/> Plummer, John. The Glazier Collection of Illuminated Manuscripts. New York: Pierpont Morgan Library, 1968. p. 38, no. 50 and pl. 45.<br/> Stork, Hans-Walter. “Spätmittelalterliche Gebetsbücher in Rollenform in Überlieferung Und Bild.” Gutenberg Jahrschrift 20 (2010): 43–78."
 ---
 
 

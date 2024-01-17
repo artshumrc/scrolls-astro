@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "68"
 type: "Chronicles"
+bibliography: "Robinson, Chalfant, and Frank Jewett Mather Jr. “Two Manuscript Rolls.” Record of the Museum of Historic Art, Princeton University 5, no. 1 (1946): 6–9. pp. 140, 142"
 ---
 
 

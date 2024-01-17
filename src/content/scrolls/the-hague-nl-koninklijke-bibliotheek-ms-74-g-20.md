@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.mmdc.nl/static/site/search/detail.html?searchMode=advanced&recordId=4088&selectedRecordId=4088&maximumRecords=15&recordDisplayLevel=1&startRecord=1&showMap=1&freetextsearch=parchment+roll&shelfmark=Type+in+query...+%28autocompleted%29&author=Type+in+query...+%28autocompleted%29&title=Type+in+query...+%28autocompleted%29&startyear=Type+in+query&endyear=Type+in+query&alt-title=Type+in+query...+%28autocompleted%29&incipit=Type+in+query&annotation_contents=Type+in+query&contains=null&language=null&language_original=null&translator=Type+in+query...+%28autocompleted%29&type=null&keyword=Type+in+query&person=Type+in+query...+%28autocompleted%29&medium=null&script=Type+in+query&scribe=Type+in+query...+%28autocompleted%29&binding=null&binder=Type+in+query...+%28autocompleted%29&region=null&place=Type+in+query&patron=Type+in+query...+%28autocompleted%29&collection=Type+in+query...+%28autocompleted%29#r4088"
 _scrolls_id: "292"
 type: "Liturgical"
+bibliography: "Reidemeister, J. Superbia Und Narziß. Personifikation Und Allegorie in Miniaturen Mittelalterlicher Handschriften. Ars Nova 14. Turnhout: Brepols, 2006."
 ---
 
 

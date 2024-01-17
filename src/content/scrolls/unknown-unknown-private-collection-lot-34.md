@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.sothebys.com/en/auctions/ecatalogue/2010/western-manuscripts-and-miniatures-l10241/lot.34.html"
 _scrolls_id: "22"
 type: "Med-Alch"
+bibliography: "Unknown Bibliography"
 ---
 
 

@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "546"
 type: "Trees of Christ"
+bibliography: "Van Heek, J. “Beknopte Beschrijving van de Verzameling Middeleeuwse Handschriften, Handschriftfragmenten, Incunabelen En Fragmenten van Incunabelen, Grotendeels Bewerkt Aan de Hand van Vroegere Catalogi.”  ’S-Heerenberg, 1971."
 ---
 
 

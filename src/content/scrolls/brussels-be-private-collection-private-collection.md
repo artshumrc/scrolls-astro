@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "102"
 type: "Ecclesiastical"
+bibliography: "Van Balberghe, Emilie. “Une Copie Exceptionnelle Du Libellus de Episcoporum Electionibus de Guillaume de Mandragout.” In Miscellanea Martin Wittek: Album de Codicologie et de Paléographie Offert À Martin Wittek, edited by Anny Raman, Eugène Manning, and Martin Wittek, 315–22. Louvain: Peeters, 1993."
 ---
 
 

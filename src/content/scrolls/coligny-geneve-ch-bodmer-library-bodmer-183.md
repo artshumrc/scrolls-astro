@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "502"
 type: "Trees of Christ"
+bibliography: "Cahn, Walter. “The Allegorical Menorah.” In Tributes in Honor of James H. Marrow: Studies in Painting and Manuscript Illumination of the Late Middle Ages and Northern Renaissance, edited by Jeffrey F. Hamburger and A. S. Korteweg, 117–26. London: Harvey Miller, 2006.<br/> Stork, Hans-Walter. “Spätmittelalterliche Gebetsbücher in Rollenform in Überlieferung Und Bild.” Gutenberg Jahrschrift 20 (2010): 43–78. n.16."
 ---
 
 

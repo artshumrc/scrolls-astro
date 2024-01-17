@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "367"
 type: "Mortuary Roll"
+bibliography: "Gagnebin, François. “Français et Savoyards Dans Trois Obituaires Conservés À La Bibliothèque de Genève.” In Bulletin Philologique et Historique (jusqu’à 1610), Année 1960, 1:451–60. Paris: Imprimerie nationale, 1961."
 ---
 
 

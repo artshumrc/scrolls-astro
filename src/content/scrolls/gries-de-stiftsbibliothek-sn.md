@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "705"
 type: "Mortuary Roll"
+bibliography: "Dufour, Jean. Les Rouleaux Des Morts. Vol. 3. Monumenta Palaeographica Medii Aevi. Series Gallica. Turnhout: Brepols, 2009, no. 442.<br/> Lierheimer, Bernard Maria. “Eine Alte Rotula.” Studien Und Mittheilungen Aus Dem Benedictiner-Orden 2 (1881): 111–15."
 ---
 
 

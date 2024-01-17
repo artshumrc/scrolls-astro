@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "110"
 type: "Ecclesiastical"
+bibliography: "Hourlier, Jacques. “Remarques sur la notation clunisienne.” Revue Grégorienne, no. 30 (1951): 231–40. p. 234, n. 1."
 ---
 
 

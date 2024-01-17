@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "http://www.henslowe-alleyn.org.uk/images/MSS-1/Article-138/08r.html"
 _scrolls_id: "672"
 type: "Dramatic parts"
+bibliography: "Wiggins, Martin and Catherine Richardson. British Drama 1533-1642: A Catalogue.  5 vols. Oxford: Oxford University Press, 2012-2015, vol. 3, p. 876."
 ---
 
 

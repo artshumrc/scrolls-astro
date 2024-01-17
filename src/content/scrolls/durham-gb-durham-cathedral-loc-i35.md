@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "29"
 type: "Archival"
+bibliography: "Holmes, G.A. “Judgement on the Younger Despenser, 1326.” English Historical Review 70 (1955): 264–67.<br/> Taylor, J. “The Judgement on Hugh Despenser, the Younger”, Medievalia and Humanistica 12 (1958), p.70-77."
 ---
 
 

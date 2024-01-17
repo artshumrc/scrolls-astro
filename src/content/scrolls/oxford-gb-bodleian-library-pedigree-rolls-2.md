@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "215"
 type: "GB Roy. Gen."
+bibliography: "Turner, William H. Catalogue of Charters and Rolls Preserved in the Bodleian Library. Oxford: Clarendon Press, 1878,699."
 ---
 
 

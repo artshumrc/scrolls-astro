@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "618"
 type: "Med-Alch"
+bibliography: "McCallum, R. Ian. “Alchemical Scrolls Associated with George Ripley.” In Mystical Metal of Gold, edited by Stanton J. Linden, 161–88. New York: AMS Press, 2007."
 ---
 
 

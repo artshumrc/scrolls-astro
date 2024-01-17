@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: ""
 _scrolls_id: "545"
 type: "Trees of Christ"
+bibliography: "Kruse, Petra. Hochrenaissance Im Vatikan 1503 - 1534. Kunst Und Kultur Im Rom Der Päpste I. Bonn: Hatje Cantz Verlag, 1999."
 ---
 
 

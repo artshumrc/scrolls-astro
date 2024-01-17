@@ -31,6 +31,7 @@ lib_lat: ""
 online_images: "https://exhibitions.lib.cam.ac.uk/moving-word/artifacts/cul-msoo-7-32-table-of-descent-of-english-kings/"
 _scrolls_id: "122"
 type: "GB Roy. Gen."
+bibliography: "Tyson, Diana B. “The Manuscript Tradition of Old French Prose Brut Rolls.” Scriptorium 55 (2001): 107–18, C5."
 ---
 
 
