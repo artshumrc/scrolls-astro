@@ -1,4 +1,4 @@
-name: Build Eleventy
+name: Build and Deploy Astro
 on:
   push:
     branches:
@@ -20,7 +20,7 @@ jobs:
         run: |
           npm install --legacy-peer-deps
           npm run build
-          
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
