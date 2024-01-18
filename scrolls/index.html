@@ -13,7 +13,32 @@ Get in touch for more information on the archive and inquiries
             element: "#search",
             pageSize: 25,
             showImages: false,
-            showEmptyFilters: false
+            showEmptyFilters: false,
+            // resetStyles: false
         });
+
+        // pageFind resetStyles looks weird; we can't style a result directly without it;
+        // we can't apply styles directly because the elements don't exist until the search is run.
+        // Instead we'll use a MutationObserver to apply styles to the results after they're created.
+        // Create a new MutationObserver instance
+        var observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.addedNodes.length) {
+                    mutation.addedNodes.forEach(function(node) {
+                        // Check if the added node has the class 'pagefind-ui__result'
+                        if (node.classList && node.classList.contains('pagefind-ui__result')) {
+                            node.style.overflowWrap = 'anywhere';
+                        }
+                    });
+                }
+            });
+        });
+
+        // Configuration of the observer:
+        var config = { childList: true, subtree: true };
+
+        // Start observing the body for added nodes
+        observer.observe(document.body, config);
+
     });
 </script> 
