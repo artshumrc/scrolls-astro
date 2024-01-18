@@ -5,6 +5,7 @@ import pagefind from "astro-pagefind";
 
 // https://astro.build/config
 export default defineConfig({
-    site: "https://medievalscrolls.com",
+    site: "https://artshumrc.github.io",
+    base: "/scrolls-astro",
     integrations: [mdx(), sitemap(), pagefind()],
 });
