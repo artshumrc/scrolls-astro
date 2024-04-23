@@ -34,7 +34,7 @@ def update_csv_with_md_data(csv_path, md_data, output_csv):
          open(output_csv, mode='w', newline='', encoding='utf-8') as outfile:
         
         reader = csv.DictReader(infile)
-        fieldnames = reader.fieldnames + ['wp_type', 'wp_id', 'meta_title', 'wp_slug']
+        fieldnames = reader.fieldnames
         writer = csv.DictWriter(outfile, fieldnames=fieldnames)
         
         writer.writeheader()
