@@ -4,7 +4,9 @@ import { SITE_TITLE } from '../../consts';
 import { getCollection } from 'astro:content';
 import Search from "astro-pagefind/components/Search";
 
-const scrolls = (await getCollection('scrolls')).sort();
+// const scrolls = (await getCollection('scrolls')).sort();
+
+import scrolls from "../../data/scrolls_master_list.json"
 
 ---
 <!-- <Debug {plainText} /> -->
