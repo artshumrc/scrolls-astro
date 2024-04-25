@@ -1,13 +1,9 @@
 ---
-// const { frontmatter } = Astro.props;
-import type { CollectionEntry } from 'astro:content';
+import type { Scroll } from '../types/Scroll';
 import BaseLayout from "./BaseLayout.astro";
 import Metadata from '../components/Metadata.astro';
 
-type Props = CollectionEntry<'scrolls'>['data'];
-
-// const { meta_title, slug, language_1, length } = Astro.props;
-const scroll = Astro.props as Props;
+const scroll: Scroll = Astro.props as Scroll;
 // Formatted date should be either a single date or a range or an empty string if neither
 let formattedDate = '';
 if (scroll.date_start && scroll.date_end){
