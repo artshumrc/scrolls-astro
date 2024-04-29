@@ -23,13 +23,22 @@ jobs:
         pip install -r scrape_sheets/requirements.txt
 
     - name: Run Python script to update scrolls data
-      run: python3 scrape_sheets/scrape_sheet.py || echo "No changes detected"
+      id: scrape_script
+      run: |
+        output=$(python3 scrape_sheets/scrape_sheet.py) || echo "No changes detected"
+        echo "changed_shelfmarks=$output" >> $GITHUB_ENV
+        echo "::set-output name=changed_shelfmarks::$output"
 
     - name: Commit and push if there are changes
-      if: ${{ success() }}
+      if: ${{ steps.scrape_script.outcome == 'success' }}
       run: |
         git config --global user.name 'Cole Crawford'
         git config --global user.email 'cole_crawford@fas.harvard.edu'
         git add -A
-        git commit -m "Update scrolls data" || exit 0   # This command will not fail if there's nothing to commit
-        git push
+        if [ -z "${{ steps.scrape_script.outputs.changed_shelfmarks }}" ]; then
+          echo "No changes to commit."
+          exit 0
+        else
+          git commit -m "Scrolls updated: ${{ steps.scrape_script.outputs.changed_shelfmarks }}"
+          git push
+        fi
