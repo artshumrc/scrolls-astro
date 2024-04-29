@@ -20,7 +20,7 @@ def write_json(data, file_path):
         json.dump(data, file, indent=4, ensure_ascii=False)
 
 def main():
-    sheet_id = "1XTp_jUy8_9xjFZ7GKF9UP3zzJHAWHANluh8AQmNTNWs"
+    sheet_id = "1Cl-tRTAmrRWTYFf27ADXdyduvAgShOiTJY3sDj2c_uA"
     tab_name = "scrolls_master_list"
     local_file_path = "src/data/scrolls_master_list.json"
 
