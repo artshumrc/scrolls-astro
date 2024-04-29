@@ -1,0 +1,35 @@
+name: Update Scrolls Data
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch:
+
+jobs:
+  update_scrolls_data:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        pip install -r scrape_sheets/requirements.txt
+
+    - name: Run Python script to update scrolls data
+      run: python3 scrape_sheets/scrape_sheet.py || echo "No changes detected"
+
+    - name: Commit and push if there are changes
+      if: ${{ success() }}
+      run: |
+        git config --global user.name 'Cole Crawford'
+        git config --global user.email 'cole_crawford@fas.harvard.edu'
+        git add -A
+        git commit -m "Update scrolls data" || exit 0   # This command will not fail if there's nothing to commit
+        git push

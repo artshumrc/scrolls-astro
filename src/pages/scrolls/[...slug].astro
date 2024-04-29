@@ -1,21 +1,36 @@
 ---
-import { type CollectionEntry, getCollection } from 'astro:content';
 import ScrollLayout from '../../layouts/ScrollLayout.astro';
-import { Debug } from 'astro:components';
+import scrollsData from '../../data/scrolls_master_list.json';
+// import { Debug } from 'astro:components';
+import { type CollectionEntry } from 'astro:content';
 
-export async function getStaticPaths() {
-  const scrolls = await getCollection('scrolls');
-  return scrolls.map((scroll) => ({
-    params: { slug: scroll.slug },
-    props: scroll,
-  }));
-}
 type Props = CollectionEntry<'scrolls'>;
 
-const scroll = Astro.props;
-// const { Content } = await scroll.render();
----
+// Debugging: Log scrollsData to check structure
+// console.log("Scrolls Data:", scrollsData);
 
-<ScrollLayout {...scroll.data}>
+export async function getStaticPaths() {
+  return scrollsData
+    .filter(scroll => scroll && scroll.slug) // Filter out entries without a slug
+    .map((scroll) => ({
+      params: { slug: scroll.slug },
+    }));
+}
+// const req = Astro.request;
+// const params = Astro.request.params; // This is null for some reason
+// const scroll = scrollsData.find(s => s.slug && s.slug === params.slug);
+
+const fullUrl = new URL(Astro.request.url);
+const pathSegments = fullUrl.pathname.split('/').filter(Boolean);
+const slug = pathSegments[pathSegments.length - 1]; // Assuming slug is the last part of the path
+
+const scroll = scrollsData.find(s => s.slug === slug);
+
+if (!scroll) {
+  return Astro.redirect('/404');
+}
+---
+<!-- <Debug {req}/> -->
+<ScrollLayout {...scroll}>
     <!-- <Content /> -->
 </ScrollLayout>
