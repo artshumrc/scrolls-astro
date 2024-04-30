@@ -35,12 +35,12 @@ jobs:
         git config --global user.name 'Cole Crawford'
         git config --global user.email 'cole_crawford@fas.harvard.edu'
         git add -A
-        if [ -z "${{ steps.scrape_script.outputs.changed_shelfmarks }}" ]; then
+        if [ "${{ steps.scrape_script.outputs.changed_shelfmarks }}" == "No changes detected." ]; then
           echo "No changes to commit."
           exit 0
         else
-          git commit -m "Scrolls updated: ${{ steps.scrape_script.outputs.changed_shelfmarks }}"
-          # Using the PAT to authenticate the push
+          git commit -m "Scrolls updated: ${{ steps.scrape_script.outputs.changed_shelfmarks }}" || echo "No changes to commit, exiting..."
+          # Using the PAT to authenticate the push if commit is successful
           git push https://${{ secrets.SCROLLS_CI_PAT }}@github.com/artshumrc/scrolls-astro.git
         fi
 
