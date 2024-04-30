@@ -40,5 +40,6 @@ jobs:
           exit 0
         else
           git commit -m "Scrolls updated: ${{ steps.scrape_script.outputs.changed_shelfmarks }}"
-          git push
+          # Using the PAT to authenticate the push
+          git push https://${{ secrets.SCROLLS_CI_PAT }}@github.com/artsumrc/scrolls-astro.git
         fi
