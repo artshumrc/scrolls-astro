@@ -45,6 +45,7 @@ jobs:
         fi
 
     - name: Trigger Repository Dispatch
+      if: ${{ steps.scrape_script.outcome == 'success' && steps.scrape_script.outputs.changed_shelfmarks != 'No changes detected.' }}
       uses: peter-evans/repository-dispatch@v3
       with:
         token: ${{ secrets.SCROLLS_CI_PAT }}
