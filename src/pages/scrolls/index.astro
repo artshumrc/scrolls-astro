@@ -11,15 +11,103 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         <div class="search-page">
             <h1>Medieval Scrolls Database</h1>
             <div id="search"></div>
+            <div id="filters">
+                <div id="date_start_filter"></div>
+                <div id="date_end_filter"></div>
+                <div id="language_filter"></div>
+                <div id="repository_filter"></div>
+                <div id="type_filter"></div>
+            </div>
+            <div id="results"></div>
         </div>
     </div>
 </BaseLayout>
-<link href="/scrolls-astro/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/scrolls-astro/pagefind/pagefind-ui.js" is:inline></script>
-<script type="module">
+<!-- <link href="/scrolls-astro/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/scrolls-astro/pagefind/pagefind-ui.js" is:inline></script> -->
+<link href="/scrolls-astro/pagefind/pagefind-modular-ui.css" rel="stylesheet">
+<script src="/scrolls-astro/pagefind/pagefind-modular-ui.js" is:inline></script>
+
+<script>
     document.body.classList.add("archive-search", "grid", "primary");
     window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({
+        const instance = new PagefindModularUI.Instance();
+        instance.add(new PagefindModularUI.Input({
+            containerElement: "#search"
+        }));
+        instance.add(new PagefindModularUI.ResultList({
+            containerElement: "#results",
+            resultTemplate: (result) => {
+                console.log(result);
+                return `
+                    <li class="search-result search-result-row">
+                        <div class="result-field result-title">
+                            <a class="pagefind-modular-list-link" href="${result.url}"><h2 class="meta type">${result.meta.title}</h2></a>
+                        </div>
+                        <div class="result-field result-description">
+                            <div class="result-meta">
+                                <div><span>Date: ${result.meta.date}</span></div>
+                                <div><span>Type: ${result.meta.type}</span></div>
+                                <div><span>Language: ${result.meta.language}</span></div>
+                            </div>
+                            <div class="result-text">${result.excerpt}</div>
+                        </div>
+                    </li>
+                `;
+            },
+        }));
+        instance.add(new PagefindModularUI.FilterPills({
+            containerElement: "#date_end_filter",
+            filter: "date_end",
+            selectMultiple: true
+        }));
+        const filtersConfig = [
+            { container: "#date_end_filter", filter: "date_end" },
+            { container: "#date_start_filter", filter: "date_start" },
+            { container: "#language_filter", filter: "language" },
+            { container: "#repository_filter", filter: "repository" },
+            { container: "#type_filter", filter: "type" }
+        ];
+
+        filtersConfig.forEach(config => {
+            instance.add(new PagefindModularUI.FilterPills({
+                containerElement: config.container,
+                filter: config.filter,
+                selectMultiple: true
+            }));
+        });
+
+        // instance.on("filters", (filters) => {
+        //     console.log(filters);
+        //     filtersConfig.forEach(config => {
+        //         const availableFilters = filters.available[config.filter];
+        //         console.log("availableFilters", availableFilters)
+        //         if (availableFilters) {
+        //             // Convert the filter object to an array of {value, count} pairs
+        //             const filterArray = Object.keys(availableFilters).map(key => ({
+        //                 value: key,
+        //                 count: availableFilters[key]
+        //             }));
+        //             // Sort the array by count in descending order
+        //             filterArray.sort((a, b) => b.count - a.count);
+        //             // Extract the sorted values
+        //             const sortedValues = filterArray.map(item => item.value);
+        //             // Add the FilterPills component with the sorted order
+        //             instance.add(new PagefindModularUI.FilterPills({
+        //                 containerElement: config.container,
+        //                 filter: config.filter,
+        //                 selectMultiple: true,
+        //                 ordering: sortedValues
+        //             }));
+        //         }
+        //     });
+        // });
+    });
+</script>
+
+<!-- <script type="module">
+    document.body.classList.add("archive-search", "grid", "primary");
+    window.addEventListener('DOMContentLoaded', (event) => {
+        let search = new PagefindUI({
             element: "#search",
             pageSize: 25,
             showImages: false,
@@ -51,7 +139,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         observer.observe(document.body, config);
 
     });
-</script>
+</script> -->
 
 <style>
     .search-page {
