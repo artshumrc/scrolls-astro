@@ -13,11 +13,26 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             <div class="search-container">
                 <div class="filters-column">
                     <div id="filters">
-                        <div id="date_start_filter"></div>
-                        <div id="date_end_filter"></div>
-                        <div id="language_filter"></div>
-                        <div id="repository_filter"></div>
-                        <div id="type_filter"></div>
+                        <div class="filter-dropdown" id="date_start_dropdown">
+                            <button class="dropdown-button">Date Start</button>
+                            <div class="dropdown-content" id="date_start_filter"></div>
+                        </div>
+                        <div class="filter-dropdown" id="date_end_dropdown">
+                            <button class="dropdown-button">Date End</button>
+                            <div class="dropdown-content" id="date_end_filter"></div>
+                        </div>
+                        <div class="filter-dropdown" id="language_dropdown">
+                            <button class="dropdown-button">Language</button>
+                            <div class="dropdown-content" id="language_filter"></div>
+                        </div>
+                        <div class="filter-dropdown" id="repository_dropdown">
+                            <button class="dropdown-button">Repository</button>
+                            <div class="dropdown-content" id="repository_filter"></div>
+                        </div>
+                        <div class="filter-dropdown" id="type_dropdown">
+                            <button class="dropdown-button">Type</button>
+                            <div class="dropdown-content" id="type_filter"></div>
+                        </div>
                     </div>
                 </div>
                 <div class="main-content">
@@ -28,6 +43,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         </div>
     </div>
 </BaseLayout>
+
 <!-- <link href="/scrolls-astro/pagefind/pagefind-ui.css" rel="stylesheet">
 <script src="/scrolls-astro/pagefind/pagefind-ui.js" is:inline></script> -->
 <link href="/scrolls-astro/pagefind/pagefind-modular-ui.css" rel="stylesheet">
@@ -44,7 +60,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         instance.add(new PagefindModularUI.ResultList({
             containerElement: "#results",
             resultTemplate: (result) => {
-                console.log(result);
                 return `
                     <li class="search-result search-result-row">
                         <div class="result-field result-title">
@@ -63,11 +78,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             },
         }));
         const filtersConfig = [
-            { container: "#date_end_filter", filter: "date_end" },
-            { container: "#date_start_filter", filter: "date_start" },
-            { container: "#language_filter", filter: "language" },
-            { container: "#repository_filter", filter: "repository" },
-            { container: "#type_filter", filter: "type" }
+            { container: "#date_end_filter", filter: "date_end", dropdown: "#date_end_dropdown" },
+            { container: "#date_start_filter", filter: "date_start", dropdown: "#date_start_dropdown"},
+            { container: "#language_filter", filter: "language", dropdown: "#language_dropdown"},
+            { container: "#repository_filter", filter: "repository", dropdown: "#repository_dropdown"},
+            { container: "#type_filter", filter: "type", dropdown: "#type_dropdown"}
         ];
 
         filtersConfig.forEach(config => {
@@ -76,74 +91,24 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
                 filter: config.filter,
                 selectMultiple: true
             }));
-        });
 
-        instance.triggerSearch(null);
+            const dropdown = document.querySelector(config.dropdown);
+            const button = dropdown.querySelector('.dropdown-button');
+            button.addEventListener('click', () => {
+                dropdown.classList.toggle('show');
+            });
 
-        // instance.on("filters", (filters) => {
-        //     console.log(filters);
-        //     filtersConfig.forEach(config => {
-        //         const availableFilters = filters.available[config.filter];
-        //         console.log("availableFilters", availableFilters)
-        //         if (availableFilters) {
-        //             // Convert the filter object to an array of {value, count} pairs
-        //             const filterArray = Object.keys(availableFilters).map(key => ({
-        //                 value: key,
-        //                 count: availableFilters[key]
-        //             }));
-        //             // Sort the array by count in descending order
-        //             filterArray.sort((a, b) => b.count - a.count);
-        //             // Extract the sorted values
-        //             const sortedValues = filterArray.map(item => item.value);
-        //             // Add the FilterPills component with the sorted order
-        //             instance.add(new PagefindModularUI.FilterPills({
-        //                 containerElement: config.container,
-        //                 filter: config.filter,
-        //                 selectMultiple: true,
-        //                 ordering: sortedValues
-        //             }));
-        //         }
-        //     });
-        // });
-    });
-</script>
-
-<!-- <script type="module">
-    document.body.classList.add("archive-search", "grid", "primary");
-    window.addEventListener('DOMContentLoaded', (event) => {
-        let search = new PagefindUI({
-            element: "#search",
-            pageSize: 25,
-            showImages: false,
-            showEmptyFilters: false,
-            // resetStyles: false
-        });
-
-        // pageFind resetStyles looks weird; we can't style a result directly without it;
-        // we can't apply styles directly because the elements don't exist until the search is run.
-        // Instead we'll use a MutationObserver to apply styles to the results after they're created.
-        // Create a new MutationObserver instance
-        var observer = new MutationObserver(function(mutations) {
-            mutations.forEach(function(mutation) {
-                if (mutation.addedNodes.length) {
-                    mutation.addedNodes.forEach(function(node) {
-                        // Check if the added node has the class 'pagefind-ui__result'
-                        if (node.classList && node.classList.contains('pagefind-ui__result')) {
-                            node.style.overflowWrap = 'anywhere';
-                        }
-                    });
+            document.addEventListener('click', (e) => {
+                if (!dropdown.contains(e.target)) {
+                    dropdown.classList.remove('show');
                 }
             });
         });
 
-        // Configuration of the observer:
-        var config = { childList: true, subtree: true };
-
-        // Start observing the body for added nodes
-        observer.observe(document.body, config);
+        // instance.triggerSearch(null); // not working
 
     });
-</script> -->
+</script>
 
 <style>
     .search-page {
@@ -151,14 +116,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         padding: 100px;
     }
 
-    #search {
-        margin-top: 60px;
-        margin-bottom: 20px;
-    }
-
     .search-container {
         display: flex;
         flex-wrap: nowrap;
+        margin-top: 50px;
     }
 
     .filters-column {
@@ -172,7 +133,91 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         max-width: 75%;
     }
 
+    #search {
+        margin-bottom: 20px;
+    }
+
     #results {
         margin-top: 20px;
+    }
+
+    .filter-dropdown {
+        margin-bottom: 10px;
+    }
+
+    .dropdown-button {
+        width: 100%;
+        background-color: #f1f1f1;
+        color: black;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown-button:hover, .dropdown-button:focus {
+        background-color: #ddd;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: relative;
+        background-color: #f9f9f9;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        padding: 10px;
+        max-height: 300px;
+        overflow-y: auto;
+        z-index: 1;
+        flex-direction: column;
+    }
+
+    .filter-dropdown.show .dropdown-content {
+        display: flex;
+    }
+
+    :global(.pagefind-modular-filter-pills-wrapper) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    :global(.pagefind-modular-filter-pills) {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    :global(.pagefind-modular-filter-pill) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        appearance: none;
+        background-color: var(--pagefind-ui-background);
+        color: var(--pagefind-ui-fade);
+        border: var(--pagefind-ui-border-width) solid var(--pagefind-ui-border);
+        border-radius: calc(25px* var(--pagefind-ui-scale));
+        font-size: calc(18px * var(--pagefind-ui-scale));
+        min-height: calc(50px* var(--pagefind-ui-scale));
+        height: auto !important;
+        cursor: pointer;
+        margin: 5px 0;
+        white-space: normal !important;
+        word-wrap: break-word !important;
+        margin: 5px 0 !important; 
+        text-align: center !important;
+        padding: 10px !important;
+        border-color: #3c1612 !important;
+        color: #3c1612 !important;
+        background-color: white !important;
+    }
+
+    :global(.pagefind-modular-filter-pill:hover) {
+        background-color: #d4c4bb;
+    }
+
+    :global(.pagefind-modular-filter-pill[aria-pressed="true"]) {
+        background-color: #3c1612 !important;
+        color: #f0e5de !important;
+        border-color: #3c1612 !important;
     }
 </style>

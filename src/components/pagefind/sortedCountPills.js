@@ -19,8 +19,6 @@ export class SortedCountPills {
         this.alwaysShow = opts.alwaysShow ?? false;
         this.selectMultiple = opts.selectMultiple ?? false;
 
-        console.log("hit constructor");
-
         if (!this.filter?.length) {
             console.error(`[Pagefind FilterPills component]: No filter option supplied, nothing to display`);
             return;
@@ -35,7 +33,6 @@ export class SortedCountPills {
     }
 
     initContainer(selector) {
-        console.log("hit initContainer")
         const container = document.querySelector(selector);
         if (!container) {
             console.error(`[Pagefind FilterPills component]: No container found for ${selector} selector`);
@@ -95,7 +92,6 @@ export class SortedCountPills {
     }
 
     renderNew() {
-        console.log("hit renderNew")
         this.available.forEach(([val, count]) => {
             new El("button")
                 .class("pagefind-modular-filter-pill")
@@ -135,7 +131,6 @@ export class SortedCountPills {
     }
 
     register(instance) {
-        console.log("hit register")
         this.instance = instance;
         this.instance.on("filters", (filters) => {
             if (!this.pillContainer) return;
@@ -155,7 +150,7 @@ export class SortedCountPills {
 
             // Sort the available filters by count in descending order
             this.available.sort((a, b) => b[1] - a[1]);
-            
+
             this.available.unshift(["All", this.total]);
             this.update();
         });
