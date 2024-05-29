@@ -10,15 +10,21 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     <div class="archive-page page">
         <div class="search-page">
             <h1>Medieval Scrolls Database</h1>
-            <div id="search"></div>
-            <div id="filters">
-                <div id="date_start_filter"></div>
-                <div id="date_end_filter"></div>
-                <div id="language_filter"></div>
-                <div id="repository_filter"></div>
-                <div id="type_filter"></div>
+            <div class="search-container">
+                <div class="filters-column">
+                    <div id="filters">
+                        <div id="date_start_filter"></div>
+                        <div id="date_end_filter"></div>
+                        <div id="language_filter"></div>
+                        <div id="repository_filter"></div>
+                        <div id="type_filter"></div>
+                    </div>
+                </div>
+                <div class="main-content">
+                    <div id="search"></div>
+                    <div id="results"></div>
+                </div>
             </div>
-            <div id="results"></div>
         </div>
     </div>
 </BaseLayout>
@@ -28,6 +34,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 <script src="/scrolls-astro/pagefind/pagefind-modular-ui.js" is:inline></script>
 
 <script>
+    import { SortedCountPills } from "../../components/pagefind/sortedCountPills";
     document.body.classList.add("archive-search", "grid", "primary");
     window.addEventListener('DOMContentLoaded', (event) => {
         const instance = new PagefindModularUI.Instance();
@@ -55,11 +62,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
                 `;
             },
         }));
-        instance.add(new PagefindModularUI.FilterPills({
-            containerElement: "#date_end_filter",
-            filter: "date_end",
-            selectMultiple: true
-        }));
         const filtersConfig = [
             { container: "#date_end_filter", filter: "date_end" },
             { container: "#date_start_filter", filter: "date_start" },
@@ -69,12 +71,14 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         ];
 
         filtersConfig.forEach(config => {
-            instance.add(new PagefindModularUI.FilterPills({
+            instance.add(new SortedCountPills({
                 containerElement: config.container,
                 filter: config.filter,
                 selectMultiple: true
             }));
         });
+
+        instance.triggerSearch(null);
 
         // instance.on("filters", (filters) => {
         //     console.log(filters);
@@ -146,7 +150,29 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         min-height: 500px;
         padding: 100px;
     }
+
     #search {
         margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .search-container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .filters-column {
+        flex: 1;
+        max-width: 25%;
+        padding-right: 20px;
+    }
+
+    .main-content {
+        flex: 2;
+        max-width: 75%;
+    }
+
+    #results {
+        margin-top: 20px;
     }
 </style>
