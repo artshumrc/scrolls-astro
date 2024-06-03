@@ -1,54 +1,107 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-// import { SITE_TITLE } from '../../consts';
-// import Search from "astro-pagefind/components/Search";
-// import Debug from "astro-pagefind/components/Debug";
 ---
-<!-- <Debug {plainText} /> -->
 
 <BaseLayout title="Database">
     <div class="archive-page page">
         <div class="search-page">
             <h1>Medieval Scrolls Database</h1>
-            <div id="search"></div>
+            <div class="search-container">
+                <div class="filters-column">
+                    <div id="filters">
+                        <div class="filter-dropdown" id="date_start_dropdown">
+                            <button class="dropdown-button">Date Start</button>
+                            <div class="dropdown-content" id="date_start_filter"></div>
+                        </div>
+                        <div class="filter-dropdown" id="date_end_dropdown">
+                            <button class="dropdown-button">Date End</button>
+                            <div class="dropdown-content" id="date_end_filter"></div>
+                        </div>
+                        <div class="filter-dropdown" id="language_dropdown">
+                            <button class="dropdown-button">Language</button>
+                            <div class="dropdown-content" id="language_filter"></div>
+                        </div>
+                        <div class="filter-dropdown" id="repository_dropdown">
+                            <button class="dropdown-button">Repository</button>
+                            <div class="dropdown-content" id="repository_filter"></div>
+                        </div>
+                        <div class="filter-dropdown" id="type_dropdown">
+                            <button class="dropdown-button">Type</button>
+                            <div class="dropdown-content" id="type_filter"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content">
+                    <div id="search"></div>
+                    <div id="results"></div>
+                </div>
+            </div>
         </div>
     </div>
 </BaseLayout>
-<link href="/scrolls-astro/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/scrolls-astro/pagefind/pagefind-ui.js" is:inline></script>
-<script type="module">
+
+<link href="/scrolls-astro/pagefind/pagefind-modular-ui.css" rel="stylesheet">
+<script src="/scrolls-astro/pagefind/pagefind-modular-ui.js" is:inline></script>
+
+<script>
+    import { SortedFilterPills } from "../../components/pagefind/sortedFilterPills";
+    import { Input } from "../../components/pagefind/input";
     document.body.classList.add("archive-search", "grid", "primary");
     window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({
-            element: "#search",
-            pageSize: 25,
-            showImages: false,
-            showEmptyFilters: false,
-            // resetStyles: false
-        });
+        const instance = new PagefindModularUI.Instance();
+        window.PageFindMUIInstance = instance;
+        instance.add(new Input({
+            containerElement: "#search",
+            runInitialSearch: true,
+        }));
+        instance.add(new PagefindModularUI.ResultList({
+            containerElement: "#results",
+            resultTemplate: (result) => {
+                return `
+                    <li class="search-result search-result-row">
+                        <div class="result-field result-title">
+                            <a class="pagefind-modular-list-link" href="${result.url}"><h2 class="meta type">${result.meta.title}</h2></a>
+                        </div>
+                        <div class="result-field result-description">
+                            <div class="result-meta">
+                                <div><span>Date: ${result.meta.date}</span></div>
+                                <div><span>Type: ${result.meta.type}</span></div>
+                                <div><span>Language: ${result.meta.language}</span></div>
+                            </div>
+                            <div class="result-text">${result.excerpt}</div>
+                        </div>
+                    </li>
+                `;
+            },
+        }));
+        const filters = [
+            { container: "#language_filter", filter: "language", dropdown: "#language_dropdown", sortType: "count"},
+            { container: "#repository_filter", filter: "repository", dropdown: "#repository_dropdown", sortType: "count"},
+            { container: "#type_filter", filter: "type", dropdown: "#type_dropdown", sortType: "count"},
+            { container: "#date_start_filter", filter: "date_start", dropdown: "#date_start_dropdown", sortType: "int"},
+            { container: "#date_end_filter", filter: "date_end", dropdown: "#date_end_dropdown", sortType: "int"}
+        ];
 
-        // pageFind resetStyles looks weird; we can't style a result directly without it;
-        // we can't apply styles directly because the elements don't exist until the search is run.
-        // Instead we'll use a MutationObserver to apply styles to the results after they're created.
-        // Create a new MutationObserver instance
-        var observer = new MutationObserver(function(mutations) {
-            mutations.forEach(function(mutation) {
-                if (mutation.addedNodes.length) {
-                    mutation.addedNodes.forEach(function(node) {
-                        // Check if the added node has the class 'pagefind-ui__result'
-                        if (node.classList && node.classList.contains('pagefind-ui__result')) {
-                            node.style.overflowWrap = 'anywhere';
-                        }
-                    });
+        filters.forEach(config => {
+            instance.add(new SortedFilterPills({
+                containerElement: config.container,
+                filter: config.filter,
+                selectMultiple: true,
+                sortType: config.sortType,
+            }));
+
+            const dropdown = document.querySelector(config.dropdown);
+            const button = dropdown.querySelector('.dropdown-button');
+            button.addEventListener('click', () => {
+                dropdown.classList.toggle('show');
+            });
+
+            document.addEventListener('click', (e) => {
+                if (!dropdown.contains(e.target)) {
+                    dropdown.classList.remove('show');
                 }
             });
         });
-
-        // Configuration of the observer:
-        var config = { childList: true, subtree: true };
-
-        // Start observing the body for added nodes
-        observer.observe(document.body, config);
 
     });
 </script>
@@ -58,7 +111,112 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         min-height: 500px;
         padding: 100px;
     }
+
+    .search-container {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 50px;
+    }
+
+    .filters-column {
+        flex: 1;
+        max-width: 25%;
+        padding-right: 20px;
+    }
+
+    .main-content {
+        flex: 2;
+        max-width: 75%;
+    }
+
     #search {
-        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    #results {
+        margin-top: 20px;
+        max-height: 80vh;
+        overflow-y: auto;
+        padding: 1em;
+    }
+
+    .filter-dropdown {
+        margin-bottom: 10px;
+    }
+
+    .dropdown-button {
+        width: 100%;
+        background-color: #f1f1f1;
+        color: black;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown-button:hover, .dropdown-button:focus {
+        background-color: #ddd;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: relative;
+        background-color: #f9f9f9;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        padding: 10px;
+        max-height: 300px;
+        overflow-y: auto;
+        z-index: 1;
+        flex-direction: column;
+    }
+
+    .filter-dropdown.show .dropdown-content {
+        display: flex;
+    }
+
+    :global(.pagefind-modular-filter-pills-wrapper) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    :global(.pagefind-modular-filter-pills) {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    :global(.pagefind-modular-filter-pill) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        appearance: none;
+        background-color: var(--pagefind-ui-background);
+        color: var(--pagefind-ui-fade);
+        border: var(--pagefind-ui-border-width) solid var(--pagefind-ui-border);
+        border-radius: calc(25px* var(--pagefind-ui-scale));
+        font-size: calc(18px * var(--pagefind-ui-scale));
+        min-height: calc(50px* var(--pagefind-ui-scale));
+        height: auto !important;
+        cursor: pointer;
+        margin: 5px 0;
+        white-space: normal !important;
+        word-wrap: break-word !important;
+        margin: 5px 0 !important; 
+        text-align: center !important;
+        padding: 10px !important;
+        border-color: #3c1612 !important;
+        color: #3c1612 !important;
+        background-color: white !important;
+    }
+
+    :global(.pagefind-modular-filter-pill:hover) {
+        background-color: #d4c4bb;
+    }
+
+    :global(.pagefind-modular-filter-pill[aria-pressed="true"]) {
+        background-color: #3c1612 !important;
+        color: #f0e5de !important;
+        border-color: #3c1612 !important;
     }
 </style>
