@@ -55,6 +55,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     document.body.classList.add("archive-search", "grid", "primary");
     window.addEventListener('DOMContentLoaded', (event) => {
         const instance = new PagefindModularUI.Instance();
+        window.PageFindMUIInstance = instance;
         instance.add(new Input({
             containerElement: "#search",
             runInitialSearch: true,
@@ -140,6 +141,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
     #results {
         margin-top: 20px;
+        max-height: 80vh; /* Adjust as needed */
+        overflow-y: auto;
+        padding: 1em;
     }
 
     .filter-dropdown {
