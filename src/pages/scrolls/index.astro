@@ -44,7 +44,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 <script src="/scrolls-astro/pagefind/pagefind-modular-ui.js" is:inline></script>
 
 <script>
-    import { SortedCountPills } from "../../components/pagefind/sortedCountPills";
+    import { SortedFilterPills } from "../../components/pagefind/sortedFilterPills";
     import { Input } from "../../components/pagefind/input";
     document.body.classList.add("archive-search", "grid", "primary");
     window.addEventListener('DOMContentLoaded', (event) => {
@@ -74,19 +74,20 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
                 `;
             },
         }));
-        const filtersConfig = [
-            { container: "#date_end_filter", filter: "date_end", dropdown: "#date_end_dropdown" },
-            { container: "#date_start_filter", filter: "date_start", dropdown: "#date_start_dropdown"},
-            { container: "#language_filter", filter: "language", dropdown: "#language_dropdown"},
-            { container: "#repository_filter", filter: "repository", dropdown: "#repository_dropdown"},
-            { container: "#type_filter", filter: "type", dropdown: "#type_dropdown"}
+        const filters = [
+            { container: "#language_filter", filter: "language", dropdown: "#language_dropdown", sortType: "count"},
+            { container: "#repository_filter", filter: "repository", dropdown: "#repository_dropdown", sortType: "count"},
+            { container: "#type_filter", filter: "type", dropdown: "#type_dropdown", sortType: "count"},
+            { container: "#date_start_filter", filter: "date_start", dropdown: "#date_start_dropdown", sortType: "int"},
+            { container: "#date_end_filter", filter: "date_end", dropdown: "#date_end_dropdown", sortType: "int"}
         ];
 
-        filtersConfig.forEach(config => {
-            instance.add(new SortedCountPills({
+        filters.forEach(config => {
+            instance.add(new SortedFilterPills({
                 containerElement: config.container,
                 filter: config.filter,
-                selectMultiple: true
+                selectMultiple: true,
+                sortType: config.sortType,
             }));
 
             const dropdown = document.querySelector(config.dropdown);
@@ -101,7 +102,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
                 }
             });
         });
-
 
     });
 </script>

@@ -4,7 +4,7 @@ const asyncSleep = async (ms = 100) => {
     return new Promise(r => setTimeout(r, ms));
 };
 
-export class SortedCountPills {
+export class SortedFilterPills {
     constructor(opts = {}) {
         this.instance = null;
         this.wrapper = null;
@@ -18,6 +18,7 @@ export class SortedCountPills {
         this.ordering = opts.ordering ?? null;
         this.alwaysShow = opts.alwaysShow ?? false;
         this.selectMultiple = opts.selectMultiple ?? false;
+        this.sortType = opts.sortType ?? "alpha";
 
         if (!this.filter?.length) {
             console.error(`[Pagefind FilterPills component]: No filter option supplied, nothing to display`);
@@ -149,7 +150,30 @@ export class SortedCountPills {
             this.available = Object.entries(newlyAvailable);
 
             // Sort the available filters by count in descending order
-            this.available.sort((a, b) => b[1] - a[1]);
+            if (this.sortType === "alpha"){
+                if (Array.isArray(this.ordering)) {
+                    this.available.sort((a, b) => {
+                        const apos = this.ordering.indexOf(a[0]);
+                        const bpos = this.ordering.indexOf(b[0]);
+                        return (apos === -1 ? Infinity : apos) - (bpos === -1 ? Infinity : bpos);
+                    });
+                } else {
+                    this.available.sort((a, b) => {
+                        return a[0].localeCompare(b[0]);
+                    });
+                }
+            } else if (this.sortType === "count") {
+                this.available.sort((a, b) => b[1] - a[1]);
+            } else if (this.sortType === "int"){
+                this.available.sort((a, b) => {
+                    const aInt = parseInt(a[0], 10);
+                    const bInt = parseInt(b[0], 10);
+                    if (isNaN(aInt) && isNaN(bInt)) return 0;
+                    if (isNaN(aInt)) return 1;
+                    if (isNaN(bInt)) return -1;
+                    return aInt - bInt;
+                });
+            }
 
             this.available.unshift(["All", this.total]);
             this.update();
