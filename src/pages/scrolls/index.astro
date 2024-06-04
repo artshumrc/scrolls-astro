@@ -33,6 +33,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
                 </div>
                 <div class="main-content">
                     <div id="search"></div>
+                    <div id="summary"></div>
                     <div id="results"></div>
                 </div>
             </div>
@@ -53,6 +54,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         instance.add(new Input({
             containerElement: "#search",
             runInitialSearch: true,
+        }));
+        instance.add(new PagefindModularUI.Summary({
+            containerElement: "#summary",
         }));
         instance.add(new PagefindModularUI.ResultList({
             containerElement: "#results",

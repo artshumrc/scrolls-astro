@@ -81,8 +81,39 @@ export class SortedFilterPills {
     }
 
     pushFilters() {
+        // const selected = this.selected.filter(v => v !== "All");
+        // this.instance.triggerFilter(this.filter, selected);
+        // console.log(this.instance); // this.instance.searchFilters looks like: searchFilters: { "repository": ["Houghton Library, Cambridge MA US"]}
+
+        // this.instance.triggerSearchWithFilters(null, { [this.filter]: selected });
+        // this.instance.triggerSearchWithFilters("a", { [this.filter]: selected });
+
         const selected = this.selected.filter(v => v !== "All");
-        this.instance.triggerFilter(this.filter, selected);
+        const filters = { [this.filter]: selected };
+        const searchTerm = this.instance.searchTerm || null;
+        console.log("searchTerm", searchTerm);
+        console.log(this.instance);
+
+        (async () => {
+            await this.instance.__load__(); // Ensure __pagefind__ is initialized
+
+            // Access the __pagefind__ object
+            const pf = this.instance.__pagefind__;
+
+            if (pf) {
+                const results = await pf.search(searchTerm, { filters });
+                // this.instance.__dispatch__("search", null, filters);
+                // this.instance.__dispatch__("results", results);
+                this.instance.searchTerm = searchTerm;
+                this.instance.searchFilters = filters;
+                this.instance.__dispatch__("search", searchTerm, filters);
+                // this.instance.__search__(null, filters);
+                this.instance.__dispatch__("results", results);
+                console.log("instance", this.instance);
+            } else {
+                console.error("No __pagefind__ object found on instance");
+            }
+        })();
     }
 
     pillInner(val, count) {
@@ -94,6 +125,7 @@ export class SortedFilterPills {
     }
 
     renderNew() {
+        this.pillContainer.innerHTML = "";
         this.available.forEach(([val, count]) => {
             new El("button")
                 .class("pagefind-modular-filter-pill")
@@ -103,6 +135,7 @@ export class SortedFilterPills {
                     "type": "button",
                 })
                 .handle("click", () => {
+                    console.log("clicked", val, this.selected);
                     if (val === "All") {
                         this.selected = ["All"];
                     } else if (this.selected.includes(val)) {
@@ -117,8 +150,11 @@ export class SortedFilterPills {
                     } else if (this.selected?.length > 1) {
                         this.selected = this.selected.filter(v => v !== "All");
                     }
+                    console.log(this.selected);
                     this.update();
                     this.pushFilters();
+                    console.log("pushed filters", this.selected);
+                    console.log(this);
                 })
                 .addTo(this.pillContainer);
         });
@@ -231,30 +267,17 @@ export class SortedFilterPills {
 
                     this.available.unshift(["All", this.total]);
 
-                    // Update the component with the fetched filters
-                    if (!this.pillContainer) return;
-                    // Perform an empty search to get the real total number of results
-                    // const results = await pf.search(null, {});
-                    // this.total = results.results.length;
-                    this.total = 707;
-                    // console.log(this.total);
+                    // this.renderNew();
+                    this.update();
 
-                    // if (this.available?.[0]?.[0] === "All") {
-                    //     this.available[0][1] = this.total;
-                    // }
-
-                    this.renderNew();
+                    const results = await pf.search(null, {});
+                    this.instance.__dispatch__("results", results);
 
                 } else {
                     console.error("No __pagefind__ object found on instance");
                 }
             })().then(()=> {
                 this.wrapper.removeAttribute("data-pfmod-hidden");
-                // let wrappers = document.querySelectorAll(".pagefind-modular-filter-pills-wrapper");
-                // wrappers.forEach((wrapper) => {
-                //     console.log(wrapper);
-                //     wrapper.removeAttribute("data-pfmod-hidden");
-                // });
             });
         }
     }

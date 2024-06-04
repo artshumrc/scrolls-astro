@@ -29,7 +29,12 @@ export class Input {
 
         this.inputEl.addEventListener("input", async (e) => {
             if (this.instance && typeof e?.target?.value === "string") {
-                this.updateState(e.target.value);
+                console.log(this.instance);
+                console.log(this.instance.searchFilters);
+                console.log("Input event", e.target.value, this.searchID);
+                let inputVal = e.target.value || null;
+                console.log("Input value", inputVal);
+                this.updateState(inputVal);
 
                 const thisSearchID = ++this.searchID;
                 await asyncSleep(this.debounceTimeoutMs);
@@ -37,8 +42,14 @@ export class Input {
                 if (thisSearchID !== this.searchID) {
                     return null;
                 }
+                console.log(this.instance.searchFilters);
+                // this.instance?.triggerSearchWithFilters(inputVal, this.instance.searchFilters);
+                // instead use the dispatch method to trigger the search
 
-                this.instance?.triggerSearch(e.target.value);
+                this.instance.searchTerm = inputVal;
+                this.instance.__dispatch__("search", inputVal, this.instance.searchFilters);
+                this.instance.__search__(inputVal, filters);
+
             }
         });
         this.inputEl.addEventListener("keydown", (e) => {
