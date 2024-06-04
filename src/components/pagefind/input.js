@@ -155,7 +155,6 @@ export class Input {
                 if (pf) {
                     try {
                         const results = await pf.search(null, {});
-                        console.log("Initial search results:", results);
                         this.instance.__dispatch__("results", results);
                     } catch (error) {
                         console.error("Error during initial search:", error);

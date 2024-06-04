@@ -19,6 +19,7 @@ export class SortedFilterPills {
         this.alwaysShow = opts.alwaysShow ?? false;
         this.selectMultiple = opts.selectMultiple ?? false;
         this.sortType = opts.sortType ?? "alpha";
+        this.runInitialFilters = opts.runInitialFilters ?? false;
 
         if (!this.filter?.length) {
             console.error(`[Pagefind FilterPills component]: No filter option supplied, nothing to display`);
@@ -149,7 +150,6 @@ export class SortedFilterPills {
             }
             this.available = Object.entries(newlyAvailable);
 
-            // Sort the available filters by count in descending order
             if (this.sortType === "alpha"){
                 if (Array.isArray(this.ordering)) {
                     this.available.sort((a, b) => {
@@ -181,18 +181,81 @@ export class SortedFilterPills {
 
         instance.on("results", (results) => {
             if (!this.pillContainer) return;
-            this.total = results?.unfilteredResultCount || 0;
+            this.total = results?.unfilteredResultCount || results.results.length || 0;
 
             if (this.available?.[0]?.[0] === "All") {
                 this.available[0][1] = this.total;
             }
 
-            if (this.total || this.alwaysShow) {
-                this.wrapper.removeAttribute("data-pfmod-hidden");
-            } else {
-                this.wrapper.setAttribute("data-pfmod-hidden", "true");
-            }
+            // if (this.total || this.alwaysShow) {
+            //     this.wrapper.removeAttribute("data-pfmod-hidden");
+            // } else {
+            //     this.wrapper.setAttribute("data-pfmod-hidden", "true");
+            // }
             this.update();
         });
+
+        if (this.runInitialFilters) {
+            (async () => {
+                await this.instance.__load__(); // Ensure __pagefind__ is initialized
+
+                // Access the __pagefind__ object
+                const pf = this.instance.__pagefind__;
+
+                // Trigger the filters manually on the initial pageload
+                if (pf) {
+                    const filters = await pf.filters();
+                    let newlyAvailable = filters[this.filter];
+
+                    if (!newlyAvailable) {
+                        console.warn(`[Pagefind FilterPills component]: No possible values found for the ${this.filter} filter`);
+                        return;
+                    }
+                    this.available = Object.entries(newlyAvailable);
+
+                    // Sort the available filters based on sortType
+                    if (this.sortType === "count") {
+                        this.available.sort((a, b) => b[1] - a[1]);
+                    } else if (this.sortType === "int") {
+                        this.available.sort((a, b) => {
+                            const aInt = parseInt(a[0], 10);
+                            const bInt = parseInt(b[0], 10);
+                            if (isNaN(aInt) && isNaN(bInt)) return 0;
+                            if (isNaN(aInt)) return 1;
+                            if (isNaN(bInt)) return -1;
+                            return aInt - bInt;
+                        });
+                    } else {
+                        this.available.sort((a, b) => a[0].localeCompare(b[0]));
+                    }
+
+                    this.available.unshift(["All", this.total]);
+
+                    // Update the component with the fetched filters
+                    if (!this.pillContainer) return;
+                    // Perform an empty search to get the real total number of results
+                    // const results = await pf.search(null, {});
+                    // this.total = results.results.length;
+                    this.total = 707;
+                    // console.log(this.total);
+
+                    // if (this.available?.[0]?.[0] === "All") {
+                    //     this.available[0][1] = this.total;
+                    // }
+
+                    this.renderNew();
+
+                } else {
+                    console.error("No __pagefind__ object found on instance");
+                }
+            })().then(()=> {
+                this.wrapper.removeAttribute("data-pfmod-hidden");
+                // let wrappers = document.querySelectorAll(".pagefind-modular-filter-pills-wrapper");
+                // wrappers.forEach((wrapper) => {
+                //     console.log(wrapper);
+                //     wrapper.removeAttribute("data-pfmod-hidden");
+                // });
+            });
+        }
     }
 }

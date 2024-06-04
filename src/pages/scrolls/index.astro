@@ -88,6 +88,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
                 filter: config.filter,
                 selectMultiple: true,
                 sortType: config.sortType,
+                runInitialFilters: true,
             }));
 
             const dropdown = document.querySelector(config.dropdown);
@@ -102,7 +103,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
                 }
             });
         });
-
     });
 </script>
 
