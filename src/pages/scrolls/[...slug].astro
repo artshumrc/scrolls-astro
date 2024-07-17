@@ -1,10 +1,6 @@
 ---
 import ScrollLayout from '../../layouts/ScrollLayout.astro';
 import scrollsData from '../../data/scrolls_master_list.json';
-// import { Debug } from 'astro:components';
-
-// Debugging: Log scrollsData to check structure
-// console.log("Scrolls Data:", scrollsData);
 
 export async function getStaticPaths() {
   return scrollsData
@@ -13,9 +9,6 @@ export async function getStaticPaths() {
       params: { slug: scroll.slug },
     }));
 }
-// const req = Astro.request;
-// const params = Astro.request.params; // This is null for some reason
-// const scroll = scrollsData.find(s => s.slug && s.slug === params.slug);
 
 const fullUrl = new URL(Astro.request.url);
 const pathSegments = fullUrl.pathname.split('/').filter(Boolean);
@@ -27,7 +20,4 @@ if (!scroll) {
   return Astro.redirect('/404');
 }
 ---
-<!-- <Debug {req}/> -->
-<ScrollLayout {...scroll}>
-    <!-- <Content /> -->
-</ScrollLayout>
+<ScrollLayout {...scroll}></ScrollLayout>

@@ -41,8 +41,8 @@ const headlineStyle = `transform: translate3d(0px, 0px, 0px); background: url('$
                     {formattedDate && <span style="display:none;" data-pagefind-meta=`date:${formattedDate}`></span>}
                     {scroll.type && <span style="display:none;" data-pagefind-meta=`type:${scroll.type}`></span>}
                     {scroll.description && <span style="display:none;" data-pagefind-meta=`description:${scroll.description}`></span>}
-                    {scroll.date_start && <span style="display:none;" data-pagefind-filter=`date_start:${scroll.date_start}`></span>}
-                    {scroll.date_end && <span style="display:none;" data-pagefind-filter=`date_end:${scroll.date_end}`></span>}
+                    {scroll.date_start && <span style="display:none;" data-pagefind-filter=`Start Date:${scroll.date_start}`></span>}
+                    {scroll.date_end && <span style="display:none;" data-pagefind-filter=`End Date:${scroll.date_end}`></span>}
                     {scroll.language_1 && <span style="display:none;" data-pagefind-filter=`language:${scroll.language_1}`></span>}
                     {scroll.language_2 && <span style="display:none;" data-pagefind-filter=`language:${scroll.language_2}`></span>}
                     <h1 data-pagefind-meta="title">{scroll.meta_title}</h1>

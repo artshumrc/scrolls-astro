@@ -1,10 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-// import { SITE_TITLE } from '../../consts';
-// import Search from "astro-pagefind/components/Search";
-// import Debug from "astro-pagefind/components/Debug";
 ---
-<!-- <Debug {plainText} /> -->
 
 <BaseLayout title="Database">
     <div class="archive-page page">
@@ -19,17 +15,23 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 <script type="module">
     document.body.classList.add("archive-search", "grid", "primary");
     window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({
+        window.search = new PagefindUI({
             element: "#search",
             pageSize: 25,
             showImages: false,
             showEmptyFilters: false,
-            // resetStyles: false
+            translations: {
+                placeholder: "Type to search for scrolls"
+            },
+            autofocus: true,
+            // openFilters: ['type']
         });
+
+        // search.triggerSearch(null, true); // this doesn't work, and can't import the JS API alongside Default UI
 
         // pageFind resetStyles looks weird; we can't style a result directly without it;
         // we can't apply styles directly because the elements don't exist until the search is run.
-        // Instead we'll use a MutationObserver to apply styles to the results after they're created.
+        // Instead, use a MutationObserver to apply styles to the results after they're created.
         // Create a new MutationObserver instance
         var observer = new MutationObserver(function(mutations) {
             mutations.forEach(function(mutation) {
