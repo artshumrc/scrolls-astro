@@ -7,6 +7,10 @@ on:
   repository_dispatch:
     types: [build-trigger]
 
+concurrency: 
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,24 +27,6 @@ jobs:
         run: |
           npm install --legacy-peer-deps
           npm run build
-
-      - name: Cancel Previous Deployments
-        id: cancel_previous_deployments
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const deployments = await github.repos.listDeployments({
-              owner: context.repo.owner,
-              repo: context.repo.repo
-            });
-            const inProgressDeployments = deployments.data.filter(deployment => deployment.status === 'in_progress');
-            for (const deployment of inProgressDeployments) {
-              await github.repos.deleteDeployment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                deployment_id: deployment.id
-              });
-            }
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
