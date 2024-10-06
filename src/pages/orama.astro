@@ -1,0 +1,106 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+---
+
+<PageLayout
+  title="Orama Test"
+  imgPath="houghton_scroll5.jpg"
+>
+  <main>
+    <section class="article-content">
+      <div class="article-body">
+        <h2>Testing Orama search</h2>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Astro will do the job of bundling everything for you
+    import { getOramaDB, search } from "@orama/plugin-astro/client"
+
+    // We load the DB that we generated at build time, this is an asynchronous
+    // operation, so we must either await, or rely on `.then` calls.
+    const db = await getOramaDB('scrolls')
+
+    // Now we can search inside our DB. Of course, feel free to use it in more
+    // interesting ways.
+    console.log('Search Results: term "Bibliothek"')
+    console.log(await search(db, { term: 'Bibliothek' }))
+
+    const boostedSearchResult = await search(db, {
+      term: "Harley Rot", // Replace with your actual search term
+      properties: "*",
+      boost: {
+        meta_title: 2, // Boost the meta_title field by 2
+      },
+    });
+    console.log('Search Results: term "Harley Rot" with boost')
+    console.log(boostedSearchResult)
+
+      // Search with faceting
+  const searchTerm = "Prayers";
+  const searchResults = await search(db, {
+    term: searchTerm,
+    properties: "*",
+    facets: {
+      "type": {
+        limit: 10,
+      },
+      "repository_nation": {
+        limit: 10,
+      }
+    },
+  });
+
+  console.log(`Search Results for term "${searchTerm}" with Facets:`);
+  console.log(searchResults);
+  console.log(searchResults.facets?.['type'].count)
+  console.log(searchResults.facets?.['repository_nation'].values)
+
+  // apply a facet
+  const facetSearch = await search(db, {
+    where: {
+      type: ['Prayer Roll']
+    }
+  });
+
+  console.log(`Results with facet "type: ['Prayer Roll']" applied`);
+  console.log(facetSearch);
+
+  const facetSearch2 = await search(db, {
+    where: {
+      repository_city: ['Brussels'],
+      type: ['Prayer Roll']
+    }
+  });
+
+  console.log(`Results with facet "repository_nation: ['Brussels']" and "type: ['Prayer Roll']" applied`);
+  console.log(facetSearch2);
+
+  const facetSearch3 = await search(db, {
+    where: {
+      repository_city: { eq: "Brussels" }, // Exact matching for repository_city
+      type: { eq: "Prayer Roll" } // Exact matching for type
+    }
+  });
+  console.log(`eq Results with facet "repository_city: ['Brussels']" and "type: ['Prayer Roll']" applied`);
+  console.log(facetSearch3);
+
+  const facetSearch4 = await search(db, {
+    properties: "*",
+    term: "Wittek",
+    where: {
+      repository_city: { eq: "Brussels" }, // Exact matching for repository_city
+      type: { eq: "Prayer Roll" } // Exact matching for type
+    }
+  });
+  console.log(`Wittek eq Results with facet "repository_city: ['Brussels']" and "type: ['Prayer Roll']" applied`);
+  console.log(facetSearch4);
+
+  const facetSearch5 = await search(db, {});
+  console.log(`empty search`);
+  console.log(facetSearch5);
+
+    
+  </script>
+</PageLayout>
