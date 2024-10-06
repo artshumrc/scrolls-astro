@@ -1,6 +1,10 @@
 <template>
     <div class="search-component">
-      <input v-model="searchTerm" @input="performSearch" placeholder="Search..." />
+        <SearchBar
+        :searchTerm="searchTerm"
+        @update:searchTerm="handleSearchTermUpdate"
+        placeholder="Search for a scroll..."
+        />
 
       <FacetCheckbox
         title="Type"
@@ -37,12 +41,14 @@
   import SearchResult from './SearchResult.vue';
   import Pagination from './Pagination.vue';
   import FacetCheckbox from './FacetCheckbox.vue';
+  import SearchBar from './SearchBar.vue';
 
   export default {
     components: {
       SearchResult,
       Pagination,
-      FacetCheckbox
+      FacetCheckbox,
+      SearchBar
     },
     data() {
       return {
@@ -66,6 +72,7 @@
     },
     methods: {
         async performSearch() {
+            console.log(`searchTerm: ${this.searchTerm}`);
             let results;
             const searchParams = {
               limit: this.resultsPerPage,
@@ -113,6 +120,10 @@
             }
           }
           return where;
+        },
+        handleSearchTermUpdate(searchTerm) {
+            this.searchTerm = searchTerm;
+            this.performSearch();
         },
         handlePageChange(page) {
             this.currentPage = page;
