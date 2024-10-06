@@ -22,5 +22,6 @@
     border: 1px solid #ccc;
     padding: 1em;
     margin-bottom: 1em;
+    max-width: 100%;
   }
   </style>

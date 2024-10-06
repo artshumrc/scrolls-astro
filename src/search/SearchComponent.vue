@@ -5,26 +5,30 @@
         @update:searchTerm="handleSearchTermUpdate"
         placeholder="Search for a scroll..."
         />
+    
+        <div class="search-layout">
+            <div class="facet-sidebar">
+                <FacetCheckbox
+                    title="Type"
+                    :options="facetOptions.type"
+                    field="type"
+                    @update-facet="updateFacets"
+                    :showCount="5"
+                />
 
-      <FacetCheckbox
-        title="Type"
-        :options="facetOptions.type"
-        field="type"
-        @update-facet="updateFacets"
-        :showCount="5"
-      />
+                <FacetCheckbox
+                    title="Repository"
+                    :options="facetOptions.repository"
+                    field="repository"
+                    @update-facet="updateFacets"
+                    :showCount="5"
+                />
+            </div>
+            <div class="search-results">
+                <SearchResult v-for="result in searchResults" :key="result.id" :result="result" />
+            </div>
+        </div>
 
-      <FacetCheckbox
-        title="Repository"
-        :options="facetOptions.repository"
-        field="repository"
-        @update-facet="updateFacets"
-        :showCount="5"
-      />
-
-      <div class="search-results">
-        <SearchResult v-for="result in searchResults" :key="result.id" :result="result" />
-      </div>
       <Pagination
         :resultsPerPage="resultsPerPage"
         :totalResults="totalResults"
@@ -145,7 +149,30 @@
   </script>
   
   <style scoped>
-  .search-results {
-    margin-top: 2em;
-  }
+    .search-component {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .search-layout {
+        display: flex;
+        margin-top: 1em;
+        align-items: flex-start;
+        overflow: hidden;
+    }
+
+    .facet-sidebar {
+        flex: 0 0 225px;
+        margin-right: 1em;
+        box-sizing: border-box;
+    }
+
+    .search-results {
+        flex: 1;
+        margin-top: 2em;
+        box-sizing: border-box;
+        overflow: visible;
+        word-wrap: break-word;
+        max-width: calc(100% - 225px - 1em);
+    }
   </style>
