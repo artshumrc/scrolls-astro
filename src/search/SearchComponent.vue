@@ -1,11 +1,16 @@
 <template>
     <div class="search-component">
       <input v-model="searchTerm" @input="performSearch" placeholder="Search..." />
+
+      <div class="search-results">
+        <SearchResult v-for="result in searchResults" :key="result.id" :result="result" />
+      </div>
     </div>
   </template>
   
   <script>
   import { getOramaDB, search } from "@orama/plugin-astro/client";
+  import { getInMemoryTestDatabase } from '../../scripts/get-test-db';
   import SearchResult from './SearchResult.vue';
 
   export default {
@@ -21,7 +26,11 @@
       };
     },
     async created() {
-        this.db = await getOramaDB('scrolls');
+        if (import.meta.env.MODE === 'development') {
+            this.db = await getInMemoryTestDatabase();
+        } else {
+            this.db = await getOramaDB('scrolls');
+        }
         await this.performSearch();
     },
     methods: {
