@@ -5,6 +5,14 @@
       <div class="search-results">
         <SearchResult v-for="result in searchResults" :key="result.id" :result="result" />
       </div>
+
+      <Pagination
+        :resultsPerPage="resultsPerPage"
+        :totalResults="totalResults"
+        v-model:currentPage="currentPage"
+        :maxPagesShown="5"
+        @update:currentPage="handlePageChange"
+      />
     </div>
   </template>
   
@@ -12,10 +20,12 @@
   import { getOramaDB, search } from "@orama/plugin-astro/client";
   import { getInMemoryTestDatabase } from '../../scripts/get-test-db';
   import SearchResult from './SearchResult.vue';
+  import Pagination from './Pagination.vue';
 
   export default {
     components: {
       SearchResult,
+      Pagination,
     },
     data() {
       return {
@@ -23,6 +33,8 @@
         searchResults: [],
         totalResults: 0,
         db: null,
+        currentPage: 1,
+        resultsPerPage: 10
       };
     },
     async created() {
@@ -36,12 +48,17 @@
     methods: {
         async performSearch() {
             let results;
-            const searchParams = {};
+            const searchParams = {
+              limit: this.resultsPerPage,
+              offset: (this.currentPage - 1) * this.resultsPerPage,
+            };
 
             if (this.searchTerm.trim() !== '') {
                 searchParams.term = this.searchTerm;
                 searchParams.properties = "*";
             }
+
+            console.log(`searchParams: ${JSON.stringify(searchParams)}`);
 
             results = await search(this.db, searchParams);
 
@@ -50,13 +67,15 @@
             console.log(`totalResults: ${this.totalResults}`);
             console.log(results);
         },
+        handlePageChange(page) {
+            this.currentPage = page;
+            this.performSearch();
+        },
     },
   };
   </script>
   
   <style scoped>
-  .search-component {}
-
   .search-results {
     margin-top: 2em;
   }
