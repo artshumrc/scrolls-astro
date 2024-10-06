@@ -4,6 +4,8 @@ import sitemap from '@astrojs/sitemap';
 import pagefind from "astro-pagefind";
 import orama from "@orama/plugin-astro";
 
+import vue from "@astrojs/vue";
+
 // https://astro.build/config
 export default defineConfig({
     site: "https://medievalscrolls.com",
@@ -15,5 +17,5 @@ export default defineConfig({
           language: "english",
           contentSelectors: ["main"],
         },
-      })],
+      }), vue()],
 });
