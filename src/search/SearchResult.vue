@@ -1,4 +1,5 @@
 <template>
+  <a :href="`/scrolls/${result.document.slug}`" class="search-result-link">
     <div class="search-result">
       <h4>{{ result.document.meta_title }}</h4>
       <p>{{ result.document.description }}</p>
@@ -11,6 +12,7 @@
         />
       </div>
     </div>
+  </a>
 </template>
 
 <script>
