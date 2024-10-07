@@ -23,6 +23,14 @@
                     @update-facet="updateFacets"
                     :showCount="5"
                 />
+
+                <FacetCheckbox
+                    title="Repository Nation"
+                    :options="facetOptions.repository_nation"
+                    field="repository_nation"
+                    @update-facet="updateFacets"
+                    :showCount="5"
+                />
             </div>
             <div class="search-results">
                 <SearchResult v-for="result in searchResults" :key="result.id" :result="result" />
@@ -89,6 +97,10 @@
                 "repository": {
                   "limit": 10,
                   "order": "asc"
+                },
+                "repository_nation": {
+                  "limit": 10,
+                  "order": "asc"
                 }
               }
             };
@@ -111,7 +123,8 @@
             this.totalResults = results.count;
             this.facetOptions = {
               type: results.facets.type.values || {},
-              repository: results.facets.repository.values || {}
+              repository: results.facets.repository.values || {},
+              repository_nation: results.facets.repository_nation.values || {}
             };
             console.log(`totalResults: ${this.totalResults}`);
             console.log(results);
