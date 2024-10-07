@@ -4,10 +4,10 @@
       <p>{{ result.document.description }}</p>
       <div class="metadata-pills">
         <MetadataPill
-          v-for="(value, key) in result.document"
+          v-for="(displayTitle, key) in filteredMetadata"
           :key="key"
-          :propertyName="key"
-          :propertyValue="value"
+          :propertyName="displayTitle"
+          :propertyValue="result.document[key]"
         />
       </div>
     </div>
@@ -24,6 +24,29 @@ export default {
     result: {
       type: Object,
       required: true,
+    },
+  },
+  computed: {
+    filteredMetadata() {
+      const mapping = {
+        type: 'Type',
+        repository: 'Repository',
+        shelfmark: 'Shelfmark',
+        date_start: 'Start Date',
+        date_end: 'End Date',
+        language_1: 'Primary Language',
+        language_2: 'Secondary Language',
+        repository_city: 'Repository City',
+        repository_nation: 'Repository Nation',
+        provenance: 'Provenance',
+      };
+
+      return Object.keys(mapping).reduce((acc, key) => {
+        if (this.result.document[key]) {
+          acc[key] = mapping[key];
+        }
+        return acc;
+      }, {});
     },
   },
 };
