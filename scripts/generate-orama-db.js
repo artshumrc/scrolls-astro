@@ -16,6 +16,13 @@ function ensureUniqueIds(data) {
   return data;
 }
 
+function addBooleanFields(data) {
+  data.forEach((item) => {
+    item.has_images = item.online_images ? true : false;
+  });
+  return data;
+}
+
 const schema = {
   id: "string",
   type: "enum",
@@ -45,6 +52,7 @@ const schema = {
   bibliography: "string",
   editor_initials: "string",
   online_images: "string",
+  has_images: "boolean",
   online_bibliography_record: "string",
   wp_type: "string",
   wp_id: "string",
@@ -70,7 +78,8 @@ async function generateDatabase() {
     },
   });
   const uniqueData = ensureUniqueIds(scrollsData);
-  await insertMultiple(db, uniqueData);
+  const data = addBooleanFields(uniqueData);
+  await insertMultiple(db, data);
 
   const outputDir = path.resolve("dist/assets");
   const outputPath = path.join(outputDir, "oramaDB_scrolls.json");

@@ -31,6 +31,12 @@
                     @update-facet="updateFacets"
                     :showCount="5"
                 />
+
+                <FacetBoolean
+                    title="Has Images"
+                    facet="has_images"
+                    @update-boolean="updateBooleanFacet"
+                />
             </div>
             <div class="search-results">
                 <SearchResult v-for="result in searchResults" :key="result.id" :result="result" />
@@ -53,6 +59,7 @@
   import SearchResult from './SearchResult.vue';
   import Pagination from './Pagination.vue';
   import FacetCheckbox from './FacetCheckbox.vue';
+  import FacetBoolean from './FacetBoolean.vue';
   import SearchBar from './SearchBar.vue';
 
   export default {
@@ -60,6 +67,7 @@
       SearchResult,
       Pagination,
       FacetCheckbox,
+      FacetBoolean,
       SearchBar
     },
     data() {
@@ -124,19 +132,25 @@
             this.facetOptions = {
               type: results.facets.type.values || {},
               repository: results.facets.repository.values || {},
-              repository_nation: results.facets.repository_nation.values || {}
+              repository_nation: results.facets.repository_nation.values || {},
             };
             console.log(`totalResults: ${this.totalResults}`);
             console.log(results);
         },
+        isBooleanFacet(field) {
+            const booleanFacets = ['has_images']; // Add more boolean facets as needed
+            return booleanFacets.includes(field);
+        },
         buildWhereClause() {
-          const where = {};
-          for (const [field, values] of Object.entries(this.selectedFacets)) {
-            if (values.length > 0) {
-              where[field] = { in: values }; // Use 'in' to match any of the selected values
+            const where = {};
+            for (const [field, values] of Object.entries(this.selectedFacets)) {
+                if (this.isBooleanFacet(field)) {
+                where[field] = values; // Use boolean directly
+                } else if (Array.isArray(values) && values.length > 0) {
+                where[field] = { in: values }; // Use 'in' to match any of the selected values
+                }
             }
-          }
-          return where;
+            return where;
         },
         handleSearchTermUpdate(searchTerm) {
             this.searchTerm = searchTerm;
@@ -156,6 +170,10 @@
             this.selectedFacets[field] = this.selectedFacets[field].filter(v => v !== value);
           }
           this.performSearch();
+        },
+        updateBooleanFacet(field, value){
+            this.selectedFacets[field] = value;
+            this.performSearch();
         }
     },
   };
