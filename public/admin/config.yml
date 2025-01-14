@@ -3,10 +3,11 @@ collections:
     label: "Pages"
     folder: "src/pages"
     create: true
-    extension: "astro"
-    format: "frontmatter"
     fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "../layouts/PageLayout.astro" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Featured Image", name: "imgPath", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
 media_folder: "src/images"
 backend:
   name: git-gateway
