@@ -1,8 +1,10 @@
 ---
 import PageLayout from "../layouts/PageLayout.astro";
+title: "Medieval Scrolls Exhibit at Houghton Library"
+imgPath: ""
 ---
 
-<PageLayout title="Medieval Scrolls Exhibit at Houghton Library" imgPath="">
+<PageLayout {...Astro.props.frontmatter}>
   <main>
     <section class="article-content">
       <div class="article-body">

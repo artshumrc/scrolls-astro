@@ -1,0 +1,14 @@
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "src/pages"
+    create: true
+    extension: "astro"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+media_folder: "src/images"
+backend:
+  name: git-gateway
+  branch: main
+local_backend: true

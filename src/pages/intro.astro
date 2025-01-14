@@ -1,11 +1,10 @@
 ---
 import PageLayout from "../layouts/PageLayout.astro";
+title: "Scrolls: A Basic Introduction"
+imgPath: "houghton_scroll5.jpg"
 ---
 
-<PageLayout
-  title="Scrolls: A Basic Introduction"
-  imgPath="houghton_scroll5.jpg"
->
+<PageLayout {...Astro.props.frontmatter}>
   <main>
     <section class="article-content">
       <div class="article-body">

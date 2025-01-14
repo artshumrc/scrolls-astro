@@ -6,9 +6,11 @@ import houghton_scroll from '../images/houghton_scroll.jpg';
 const houghtonScrollStyle = `transform: translate3d(0px, 0px, 0px); background: url('${houghton_scroll.src}');`;
 import scroll5 from '../images/houghton_scroll5.jpg';
 const scroll5style = `transform: translate3d(0px, 384.395px, 0px); background: url("${scroll5.src}");`;
+title: "Home"
+imgPath: "houghton_scroll5.jpg"
 ---
 
-<BaseLayout title="Home">
+<BaseLayout {...Astro.props.frontmatter}>
   <main>
     <section class="cover fullscreen headline-image parallax" id="head">
       <div
