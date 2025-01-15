@@ -58,6 +58,7 @@ collections:
 media_folder: "src/images"
 public_folder: "@images"
 backend:
-  name: git-gateway
+  name: github
   branch: main
+  repo: artshumrc/scrolls-astro
 local_backend: true
