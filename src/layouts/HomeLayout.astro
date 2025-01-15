@@ -1,54 +1,48 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 import { Image } from 'astro:assets';
+import type { MarkdownLayoutProps } from 'astro';
 
-interface ImageProps {
+type Props = MarkdownLayoutProps<{
+  title: string;
+  siteTitle: string;
+  siteSubtitle: string;
+  heroImage: {
     src: string;
     alt: string;
-}
+  };
+  backgroundImage: {
+    src: string;
+    alt: string;
+  };
+  houghtonImage: {
+    src: string;
+    alt: string;
+  };
+  harvardxLogo: {
+    src: string;
+    alt: string;
+  };
+  mainSectionHeader: string;
+  mainSectionContent: string;
+  databaseSectionHeader: string;
+  databaseSectionContent: string;
+  courseSectionHeader: string;
+  courseSectionContent: string;
+}>;
 
-interface Props {
-    title: string;
-    siteTitle: string;
-    siteSubtitle: string;
-    heroImage: ImageProps;
-    backgroundImage: ImageProps;
-    houghtonImage: ImageProps;
-    harvardxLogo: ImageProps;
-    mainSectionHeader: string;
-    mainSectionContent: string;
-    databaseSectionHeader: string;
-    databaseSectionContent: string;
-    courseSectionHeader: string;
-    courseSectionContent: string;
-}
-
-const { 
-    title, 
-    siteTitle,
-    siteSubtitle,
-    heroImage,
-    backgroundImage,
-    houghtonImage,
-    harvardxLogo,
-    mainSectionHeader,
-    mainSectionContent,
-    databaseSectionHeader,
-    databaseSectionContent,
-    courseSectionHeader,
-    courseSectionContent,
-} = Astro.props.frontmatter;
+const { frontmatter } = Astro.props;
 
 // Dynamic imports
-const heroImageModule = await import(heroImage.src);
-const backgroundImageModule = await import(backgroundImage.src);
-const houghtonImageModule = await import(houghtonImage.src);
-const harvardxLogoModule = await import(harvardxLogo.src);
+const heroImageModule = await import(frontmatter.heroImage.src);
+const backgroundImageModule = await import(frontmatter.backgroundImage.src);
+const houghtonImageModule = await import(frontmatter.houghtonImage.src);
+const harvardxLogoModule = await import(frontmatter.harvardxLogo.src);
 
 const heroStyle = `transform: translate3d(0px, 0px, 0px); background: url('${heroImageModule.default.src}');`;
 const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background: url("${backgroundImageModule.default.src}");`;
 ---
-<BaseLayout title={title}>
+<BaseLayout title={frontmatter.title}>
   <main>
     <section class="cover fullscreen headline-image parallax" id="head">
       <div
@@ -58,7 +52,7 @@ const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background
         <Image
           class="background-image"
           src={heroImageModule.default}
-          alt={heroImage.alt}
+          alt={frontmatter.heroImage.alt}
           style="display: none;"
         />
       </div>
@@ -67,10 +61,10 @@ const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background
         <div class="row">
           <div class="col-sm-10 col-sm-offset-1 text-center">
             <h1 class="mb40 mb-xs-16 large site-title">
-              {siteTitle}
+              {frontmatter.siteTitle}
             </h1>
             <p class="lead mb40 site-subtitle">
-              {siteSubtitle}
+              {frontmatter.siteSubtitle}
             </p>
             <a
               class="btn btn-lg btn-primary inner-link md-button md-ink-ripple"
@@ -85,8 +79,8 @@ const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background
       <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 col-sm-9 col-sm-offset-1 text-center">
-                <h3 class="uppercase mb40 mb-xs-24">{mainSectionHeader}</h3>
-                <p class="lead mb64">{mainSectionContent}</p>
+                <h3 class="uppercase mb40 mb-xs-24">{frontmatter.mainSectionHeader}</h3>
+                <p class="lead mb64">{frontmatter.mainSectionContent}</p>
             </div>
         </div>
       </div>
@@ -98,7 +92,7 @@ const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background
           <div class="col-md-7 col-sm-6 text-center mb-xs-24">
             <Image
               class="cast-shadow"
-              alt={houghtonImage.alt}
+              alt={frontmatter.houghtonImage.alt}
               src={houghtonImageModule.default}
               width={1000}
               style="width: 100%; height: auto;"
@@ -106,9 +100,9 @@ const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background
           </div>
           <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
             <a href="/scrolls">
-              <h3>{databaseSectionHeader}</h3>
+              <h3>{frontmatter.databaseSectionHeader}</h3>
             </a>
-            <p>{databaseSectionContent}</p>
+            <p>{frontmatter.databaseSectionContent}</p>
             <a class="btn btn-lg md-button md-ink-ripple" href="/about">
               <span>Get Started</span>
             </a>
@@ -127,7 +121,7 @@ const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background
       >
         <Image
           class="background-image"
-          alt={backgroundImage.alt}
+          alt={frontmatter.backgroundImage.alt}
           src={backgroundImageModule.default}
           style="display: none;"
         />
@@ -142,15 +136,15 @@ const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background
                 <a href="https://harvardx.harvard.edu/" rel="noopener nofollow" target="_blank">
                   <Image 
                     src={harvardxLogoModule.default} 
-                    alt={harvardxLogo.alt} 
+                    alt={frontmatter.harvardxLogo.alt} 
                     class="mb-xs-24 inline-block harvardx"
                     width={300}
                     style="width: auto; height: auto;"
                   />
                 </a>
               </div>
-              <h4>{courseSectionHeader}</h4>
-              <p><Fragment set:html={courseSectionContent} /></p>
+              <h4>{frontmatter.courseSectionHeader}</h4>
+              <p><Fragment set:html={frontmatter.courseSectionContent} /></p>
             </div>
           </div>
         </div>
