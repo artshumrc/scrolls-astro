@@ -1,32 +1,24 @@
 ---
 layout: "../layouts/HomeLayout.astro"
 title: "Home"
-
 siteTitle: "Medieval Scrolls Digital Archive"
 siteSubtitle: "A comprehensive Resource for scrolls in the Middle Ages"
-
 heroImage:
-  src: "../images/houghton_scroll.jpg"
+  src: "/src/images/houghton_scroll.jpg"
   alt: "Medieval scroll background"
-
 backgroundImage:
-  src: "../images/houghton_scroll5.jpg"
+  src: "/src/images/houghton_scroll5.jpg"
   alt: "Houghton scroll"
-
 houghtonImage:
-  src: "../images/houghton.jpg"
+  src: "/src/images/houghton.jpg"
   alt: "Houghton Library reading room"
-
 harvardxLogo:
-  src: "../images/harvardx_logo-light.png"
+  src: "/src/images/harvardx_logo-light.png"
   alt: "HarvardX Logo"
-
 mainSectionHeader: "Scrolls in the Middle Ages"
 mainSectionContent: "This site contains information on, links to, and bibliography for all known Western literary scrolls. This online resource will be updated regularly, and provides a single source of comprehensive information about scrolls in the Middle Ages."
-
 databaseSectionHeader: "Explore the Scrolls Database"
 databaseSectionContent: "The database provided here contains a comprehensive list of Medieval scrolls, which generally are mentioned only occasionally or in passing, in discussions of the history of the book, or in references to scroll format when it is used for a particular type of text."
-
 courseSectionHeader: "Scrolls in the Age of the Book"
 courseSectionContent: |
   This <a target="_blank" href="https://www.edx.org/course/book-scrolls-age-book-harvardx-hum1-2x">free online course</a>, led by Professor Thomas Forrest Kelly, provides an introduction to the making and use of scrolls in the European Middle Ages. Participants in this course will see and examine in detail a number of beautiful objects, and come to understand the thinking of those who chose the scroll format for their texts.

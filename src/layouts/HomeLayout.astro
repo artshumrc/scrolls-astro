@@ -1,7 +1,11 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 import type { MarkdownLayoutProps } from 'astro';
+
+// Use the sync version with 'eager' option
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/*.{jpeg,jpg,png,gif}', { eager: true });
 
 type Props = MarkdownLayoutProps<{
   title: string;
@@ -33,14 +37,15 @@ type Props = MarkdownLayoutProps<{
 
 const { frontmatter } = Astro.props;
 
-// Dynamic imports
-const heroImageModule = await import(frontmatter.heroImage.src);
-const backgroundImageModule = await import(frontmatter.backgroundImage.src);
-const houghtonImageModule = await import(frontmatter.houghtonImage.src);
-const harvardxLogoModule = await import(frontmatter.harvardxLogo.src);
+// Validate image paths
+// See: https://docs.astro.build/en/recipes/dynamically-importing-images/
+if (!images[frontmatter.heroImage.src]) throw new Error(`"${frontmatter.heroImage.src}" does not exist`);
+if (!images[frontmatter.backgroundImage.src]) throw new Error(`"${frontmatter.backgroundImage.src}" does not exist`);
+if (!images[frontmatter.houghtonImage.src]) throw new Error(`"${frontmatter.houghtonImage.src}" does not exist`);
+if (!images[frontmatter.harvardxLogo.src]) throw new Error(`"${frontmatter.harvardxLogo.src}" does not exist`);
 
-const heroStyle = `transform: translate3d(0px, 0px, 0px); background: url('${heroImageModule.default.src}');`;
-const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background: url("${backgroundImageModule.default.src}");`;
+const heroStyle = `transform: translate3d(0px, 0px, 0px); background: url('${images[frontmatter.heroImage.src].default.src}');`;
+const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background: url("${images[frontmatter.backgroundImage.src].default.src}");`;
 ---
 <BaseLayout title={frontmatter.title}>
   <main>
@@ -51,7 +56,7 @@ const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background
       >
         <Image
           class="background-image"
-          src={heroImageModule.default}
+          src={images[frontmatter.heroImage.src].default}
           alt={frontmatter.heroImage.alt}
           style="display: none;"
         />
@@ -93,7 +98,7 @@ const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background
             <Image
               class="cast-shadow"
               alt={frontmatter.houghtonImage.alt}
-              src={houghtonImageModule.default}
+              src={images[frontmatter.houghtonImage.src].default}
               width={1000}
               style="width: 100%; height: auto;"
             />
@@ -122,7 +127,7 @@ const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background
         <Image
           class="background-image"
           alt={frontmatter.backgroundImage.alt}
-          src={backgroundImageModule.default}
+          src={images[frontmatter.backgroundImage.src].default}
           style="display: none;"
         />
       </div>
@@ -135,7 +140,7 @@ const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background
               <div class="image-wrap text-center">
                 <a href="https://harvardx.harvard.edu/" rel="noopener nofollow" target="_blank">
                   <Image 
-                    src={harvardxLogoModule.default} 
+                    src={images[frontmatter.harvardxLogo.src].default} 
                     alt={frontmatter.harvardxLogo.alt} 
                     class="mb-xs-24 inline-block harvardx"
                     width={300}
