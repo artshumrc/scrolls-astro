@@ -9,3 +9,12 @@ content:
     type: collection
     path: src/pages
     exclude: [ index.md ]
+    fields:
+      - name: title
+        type: string
+      - name: layout
+        type: string
+        default: "../layouts/PageLayout.astro"
+        hidden: true
+      - name: imgPath
+        type: string
