@@ -20,4 +20,5 @@ content:
         type: string
       - name: body
         type: rich-text
-        format: html
+        options:
+          format: html
