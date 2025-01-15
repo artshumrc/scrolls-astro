@@ -13,9 +13,10 @@ The [Medieval Scrolls Digital Archive](https://medievalscrolls.com/) is a compre
 - The CMS is configured in `public/admin/config.yml`.
 ### Running the CMS locally
   - `npm install`
-  - `npx decap-server`. This runs a local Express server that serves the CMS on port `8081`.
+  - From the root of the project, run `npx decap-server`. This runs a local Express server that serves the CMS on port `8081`.
   - `npm run build && npm run preview`. This builds the site and Pagefind index and serve it on `localhost:4321`. `npm run dev` does not work for the CMS as of now.
   - Visit `http://localhost:4321/admin/` to access the CMS.
+  
 ### Running the CMS in production
 - To be added
 - Netlify Identity
