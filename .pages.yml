@@ -1,0 +1,11 @@
+media: src/images
+content:
+  - name: homepage
+    label: Home Page
+    type: file
+    path: src/pages/index.md
+  - name: pages
+    label: Pages
+    type: collection
+    path: src/pages
+    exclude: [ index.md ]
