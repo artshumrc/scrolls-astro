@@ -1,6 +1,6 @@
 media: src/images
 content:
-  - name: pages
-    label: Pages
+  - name: bibliography
+    label: Bibliography
     type: file
-    path: src/pages
+    path: src/pages/bibliography.astro
