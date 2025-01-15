@@ -1,0 +1,166 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import { Image } from 'astro:assets';
+
+interface ImageProps {
+    src: string;
+    alt: string;
+}
+
+interface Props {
+    title: string;
+    siteTitle: string;
+    siteSubtitle: string;
+    heroImage: ImageProps;
+    backgroundImage: ImageProps;
+    houghtonImage: ImageProps;
+    harvardxLogo: ImageProps;
+    mainSectionHeader: string;
+    mainSectionContent: string;
+    databaseSectionHeader: string;
+    databaseSectionContent: string;
+    courseSectionHeader: string;
+    courseSectionContent: string;
+}
+
+const { 
+    title, 
+    siteTitle,
+    siteSubtitle,
+    heroImage,
+    backgroundImage,
+    houghtonImage,
+    harvardxLogo,
+    mainSectionHeader,
+    mainSectionContent,
+    databaseSectionHeader,
+    databaseSectionContent,
+    courseSectionHeader,
+    courseSectionContent,
+} = Astro.props.frontmatter;
+
+// Dynamic imports
+const heroImageModule = await import(heroImage.src);
+const backgroundImageModule = await import(backgroundImage.src);
+const houghtonImageModule = await import(houghtonImage.src);
+const harvardxLogoModule = await import(harvardxLogo.src);
+
+const heroStyle = `transform: translate3d(0px, 0px, 0px); background: url('${heroImageModule.default.src}');`;
+const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background: url("${backgroundImageModule.default.src}");`;
+---
+<BaseLayout title={title}>
+  <main>
+    <section class="cover fullscreen headline-image parallax" id="head">
+      <div
+        class="background-image-holder fadeIn less-blur"
+        style={heroStyle}
+      >
+        <Image
+          class="background-image"
+          src={heroImageModule.default}
+          alt={heroImage.alt}
+          style="display: none;"
+        />
+      </div>
+      <div class="background-screen"></div>
+      <div class="container v-align-transform">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1 text-center">
+            <h1 class="mb40 mb-xs-16 large site-title">
+              {siteTitle}
+            </h1>
+            <p class="lead mb40 site-subtitle">
+              {siteSubtitle}
+            </p>
+            <a
+              class="btn btn-lg btn-primary inner-link md-button md-ink-ripple"
+              href="#intro"><span>Learn More</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro" class="">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-9 col-sm-offset-1 text-center">
+                <h3 class="uppercase mb40 mb-xs-24">{mainSectionHeader}</h3>
+                <p class="lead mb64">{mainSectionContent}</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block learn bg-secondary" id="learn">
+      <div class="container">
+        <div class="row v-align-children">
+          <div class="col-md-7 col-sm-6 text-center mb-xs-24">
+            <Image
+              class="cast-shadow"
+              alt={houghtonImage.alt}
+              src={houghtonImageModule.default}
+              width={1000}
+              style="width: 100%; height: auto;"
+            />
+          </div>
+          <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
+            <a href="/scrolls">
+              <h3>{databaseSectionHeader}</h3>
+            </a>
+            <p>{databaseSectionContent}</p>
+            <a class="btn btn-lg md-button md-ink-ripple" href="/about">
+              <span>Get Started</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="image-bg contributors parallax pt180 pb180 pt-xs-80 pb-xs-80"
+      id="archive"
+    >
+      <div
+        class="background-image-holder more-blur--persistent fadeIn"
+        style={backgroundStyle}
+      >
+        <Image
+          class="background-image"
+          alt={backgroundImage.alt}
+          src={backgroundImageModule.default}
+          style="display: none;"
+        />
+      </div>
+      <div class="background-screen"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="contributor-feature text-center">
+            <div class="feature">
+              <div class="image-wrap text-center">
+                <a href="https://harvardx.harvard.edu/" rel="noopener nofollow" target="_blank">
+                  <Image 
+                    src={harvardxLogoModule.default} 
+                    alt={harvardxLogo.alt} 
+                    class="mb-xs-24 inline-block harvardx"
+                    width={300}
+                    style="width: auto; height: auto;"
+                  />
+                </a>
+              </div>
+              <h4>{courseSectionHeader}</h4>
+              <p><Fragment set:html={courseSectionContent} /></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</BaseLayout> 
+
+<style>
+  .feature p {
+    color: #fff;
+  }
+</style>
