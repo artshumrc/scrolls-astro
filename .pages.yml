@@ -1,0 +1,6 @@
+media: src/images
+content:
+  - name: pages
+    label: Pages
+    type: file
+    path: src/pages
