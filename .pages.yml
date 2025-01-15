@@ -18,3 +18,5 @@ content:
         hidden: true
       - name: imgPath
         type: string
+      - name: body
+        type: rich-text
