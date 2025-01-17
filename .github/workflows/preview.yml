@@ -24,6 +24,8 @@ jobs:
 
       - name: Install and Build
         if: github.event.action != 'closed'
+        env:
+          BASE_PATH: /pr-preview/pr-${{ github.event.number }}
         run: |
           npm install
           npm run build
