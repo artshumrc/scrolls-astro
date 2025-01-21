@@ -67,7 +67,7 @@ imgPath: "houghton_scroll5.jpg"
         <li>
           Scrolls that record edicts, receipts, lists (see the manor court
           roll on display in the <a
-            href="/houghton-library"
+            href={`${import.meta.env.BASE_URL}houghton-library`}
             >Houghton Library Exhibit</a
           >)
         </li>
@@ -88,7 +88,7 @@ imgPath: "houghton_scroll5.jpg"
         <li>
           Processional scrolls, used when a full liturgical book is too much
         </li>
-        <li>Actors’ scrolls (rôles)</li>
+        <li>Actors' scrolls (rôles)</li>
         <li>
           Poetry (useful in recitation: see the Ganymede and Helena roll on
           display)

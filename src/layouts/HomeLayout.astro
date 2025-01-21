@@ -104,11 +104,11 @@ const backgroundStyle = `transform: translate3d(0px, 384.395px, 0px); background
             />
           </div>
           <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
-            <a href="/scrolls">
+            <a href={`${import.meta.env.BASE_URL}scrolls`}>
               <h3>{frontmatter.databaseSectionHeader}</h3>
             </a>
             <p>{frontmatter.databaseSectionContent}</p>
-            <a class="btn btn-lg md-button md-ink-ripple" href="/about">
+            <a class="btn btn-lg md-button md-ink-ripple" href={`${import.meta.env.BASE_URL}about`}>
               <span>Get Started</span>
             </a>
           </div>

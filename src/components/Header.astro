@@ -6,7 +6,7 @@ import veritas from '../images/veritas.png';
 	<nav id="access" class="primary bg-dark" role="navigation">
         <div class="nav-bar">
             <div class="module left">
-                <a class="site-title-wrap md-button md-ink-ripple" href="/">
+                <a class="site-title-wrap md-button md-ink-ripple" href={import.meta.env.BASE_URL}>
                     <img src={veritas.src} alt="Harvard shield logo" class="site-logo"/>
                     <h1 class="site-title">{ SITE_TITLE }</h1>
                 </a>
@@ -14,9 +14,9 @@ import veritas from '../images/veritas.png';
             <div class="module-group right">
                 <div class="module left">
                     <ul class="menu">
-                        <li><a href="/intro">Scrolls: Introduction</a></li>
-                        <li><a href="/bibliography">Bibliography</a></li>
-                        <li><a href="/scrolls">Database</a></li>
+                        <li><a href={`${import.meta.env.BASE_URL}intro`}>Scrolls: Introduction</a></li>
+                        <li><a href={`${import.meta.env.BASE_URL}bibliography`}>Bibliography</a></li>
+                        <li><a href={`${import.meta.env.BASE_URL}scrolls`}>Database</a></li>
                     </ul>
                 </div>
             </div>
