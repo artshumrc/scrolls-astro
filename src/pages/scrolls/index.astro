@@ -1,58 +1,21 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import ScrollsSearch from '../../components/ScrollsSearch.vue';
 ---
 
 <BaseLayout title="Database">
     <div class="archive-page page">
         <div class="search-page">
             <h1>Medieval Scrolls Database</h1>
-            <div id="search"></div>
+            <div id="search">
+                <ScrollsSearch client:load />
+            </div>
         </div>
     </div>
 </BaseLayout>
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js" is:inline></script>
+
 <script type="module">
     document.body.classList.add("archive-search", "grid", "primary");
-    window.addEventListener('DOMContentLoaded', (event) => {
-        window.search = new PagefindUI({
-            element: "#search",
-            pageSize: 25,
-            showImages: false,
-            showEmptyFilters: false,
-            translations: {
-                placeholder: "Type to search for scrolls"
-            },
-            autofocus: true,
-            // openFilters: ['type']
-        });
-
-        // search.triggerSearch(null, true); // this doesn't work, and can't import the JS API alongside Default UI
-
-        // pageFind resetStyles looks weird; we can't style a result directly without it;
-        // we can't apply styles directly because the elements don't exist until the search is run.
-        // Instead, use a MutationObserver to apply styles to the results after they're created.
-        // Create a new MutationObserver instance
-        var observer = new MutationObserver(function(mutations) {
-            mutations.forEach(function(mutation) {
-                if (mutation.addedNodes.length) {
-                    mutation.addedNodes.forEach(function(node) {
-                        // Check if the added node has the class 'pagefind-ui__result'
-                        if (node.classList && node.classList.contains('pagefind-ui__result')) {
-                            node.style.overflowWrap = 'anywhere';
-                        }
-                    });
-                }
-            });
-        });
-
-        // Configuration of the observer:
-        var config = { childList: true, subtree: true };
-
-        // Start observing the body for added nodes
-        observer.observe(document.body, config);
-
-    });
 </script>
 
 <style>
