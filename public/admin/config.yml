@@ -1,0 +1,64 @@
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "src/pages"
+    create: true
+    filter:
+      field: "layout"
+      value: "../layouts/PageLayout.astro"
+    extension: "md"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "../layouts/PageLayout.astro" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Featured Image", name: "imgPath", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "home_page"
+    label: "Homepage"
+    files:
+      - name: "home"
+        label: "Home Page"
+        file: "src/pages/index.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "../layouts/HomeLayout.astro" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Site Title", name: "siteTitle", widget: "string" }
+          - { label: "Site Subtitle", name: "siteSubtitle", widget: "string" }
+          - label: "Hero Image"
+            name: "heroImage"
+            widget: "object"
+            fields:
+              - { label: "Image", name: "src", widget: "image" }
+              - { label: "Alt Text", name: "alt", widget: "string" }
+          - label: "Background Image"
+            name: "backgroundImage"
+            widget: "object"
+            fields:
+              - { label: "Image", name: "src", widget: "image" }
+              - { label: "Alt Text", name: "alt", widget: "string" }
+          - label: "Houghton Image"
+            name: "houghtonImage"
+            widget: "object"
+            fields:
+              - { label: "Image", name: "src", widget: "image" }
+              - { label: "Alt Text", name: "alt", widget: "string" }
+          - label: "HarvardX Logo"
+            name: "harvardxLogo"
+            widget: "object"
+            fields:
+              - { label: "Image", name: "src", widget: "image" }
+              - { label: "Alt Text", name: "alt", widget: "string" }
+          - { label: "Main Section Header", name: "mainSectionHeader", widget: "string" }
+          - { label: "Main Section Content", name: "mainSectionContent", widget: "text" }
+          - { label: "Database Section Header", name: "databaseSectionHeader", widget: "string" }
+          - { label: "Database Section Content", name: "databaseSectionContent", widget: "text" }
+          - { label: "Course Section Header", name: "courseSectionHeader", widget: "string" }
+          - { label: "Course Section Content", name: "courseSectionContent", widget: "markdown" }
+
+media_folder: "src/images"
+public_folder: "@images"
+backend:
+  name: github
+  branch: main
+  repo: artshumrc/scrolls-astro
+local_backend: true

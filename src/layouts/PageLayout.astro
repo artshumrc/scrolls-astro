@@ -1,17 +1,14 @@
 ---
 import HeadlineImage from '../components/HeadlineImage.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
-interface Props {
-    title: string;
-	imgPath: string;
-}
 
-const { title, imgPath } = Astro.props;
+const { frontmatter } = Astro.props;
+
 import '../styles/global.css';
 ---
-<BaseLayout title={title}>
-	<article class="page">
-		<HeadlineImage title={title} imgPath={imgPath} =/>
-		<slot />
-	</article>
+<BaseLayout title={frontmatter?.title}>
+    <article class="page">
+        <HeadlineImage title={frontmatter?.title} imgPath={frontmatter?.imgPath} />
+        <slot />
+    </article>
 </BaseLayout>
