@@ -1,0 +1,141 @@
+---
+import { Image } from 'astro:assets';
+import PageLayout from "../layouts/PageLayout.astro";
+
+const title = "Illustrations of Scrolls";
+
+// Import all images
+import msLat250 from '../images/ms-lat-250-f-14r_sm.jpg';
+import typ578 from '../images/typ-578-f-13_sm.jpg';
+import richardson7f15 from '../images/richardson-7-f-15r_sm.jpg';
+import typ657 from '../images/typ-657-f-13_sm.jpg';
+import typ1008 from '../images/typ-1008-f-1_sm.jpg';
+import richardson42f13 from '../images/richardson-42-f-13_sm.jpg';
+import richardson7f19 from '../images/richardson-7-4-19r_sm.jpg';
+import richardson42f18 from '../images/richardson-42-f-18_sm.jpg';
+import msLat251 from '../images/ms-lat-251_sm.jpg';
+
+// Define image data for easier mapping
+const images = [
+  {
+    src: typ578,
+    alt: "The Four Evangelists with their scrolls and codices",
+    caption: "The Four Evangelists with their scrolls and codices. Houghton Typ 578 f.13."
+  },
+  {
+    src: richardson7f15,
+    alt: "Matthew writes on a scroll",
+    caption: "Matthew writes on a scroll; the angel holds a codex. Houghton Richardson 7 f.15r."
+  },
+  {
+    src: typ657,
+    alt: "John writes on a scroll",
+    caption: "John (top left) writes on a scroll; the other evangelists write on a ruled membrane, presumably that of a codex. Houghton Typ 657 f.13."
+  },
+  {
+    src: typ1008,
+    alt: "John writing on a scroll",
+    caption: "John writing on a scroll. Houghton MS Typ 1008 f.1."
+  },
+  {
+    src: richardson42f13,
+    alt: "John writing in a codex with a scroll on the floor",
+    caption: "John writing in a codex with a scroll on the floor. Houghton Richardson 42 f.13."
+  },
+  {
+    src: richardson7f19,
+    alt: "Mark writing in a codex with a scroll in his lap",
+    caption: "Mark writing in a codex with a scroll in his lap. Houghton Richardson 7 f.19r."
+  },
+  {
+    src: richardson42f18,
+    alt: "Mark writes on a scroll but holds a codex",
+    caption: "Mark writes on a scroll (main scene), but holds a codex (far right). Houghton Richardson 42 f.18"
+  },
+  {
+    src: msLat251,
+    alt: "John with his scroll on Patmos",
+    caption: "John with his scroll on Patmos. Houghton Lat 251."
+  }
+];
+---
+
+<PageLayout title={title}>
+  <main>
+    <section class="article-content">
+      <div class="article-body">
+        <div class="article-body">
+          <p>
+            <Image 
+              src={msLat250} 
+              alt="An illustration of the Four Evangelists writing on Scrolls" 
+              width={247} 
+              height={330}
+              class="alignleft"
+            />
+          
+          Manuscripts in codex form far outnumber scrolls during the Middle Ages. Nonetheless, scrolls endure for certain purposes, and they also appear in medieval art.</p>
+          
+          <p>One frequent form of the scroll in art is the banderole, an unfurled scroll containing the words being spoken by one figure to another. The words uttered by the angel Gabriel to Mary, announcing that she will bear a child, appear on a banderole that often crosses the physical space between the speakers, seemingly floating from the angel's mouth.</p>
+          
+          <p>Scholars propose some possible explanations for the use of the scroll in other iconographic settings. One theory is that the scroll constitutes an archaizing element, lending an air of antiquity to the person who holds or uses it. Another is that the scroll indicates a text's authority, which is often tied to tradition and to the past, if not to antiquity. Still another hypothesis links the codex with Christianity and the scroll with Judaism, specifically with the Torah.</p>
+          
+          <p>The portraits of the four evangelists: Matthew, Mark, Luke, and John bring together these three hypotheses; as authors of the Gospels, they represent ancient and authoritative Christianity. The four generally appear with their traditional signs—the man, the lion, the ox, and the eagle—but they also hold the symbol of their writings, whether scroll or codex.</p>
+          
+          <p>The selection of portraits in the Books of Hours presented here not only depict the roll and the codex in medieval Christian art but also explain something of the role they play in medieval Christian culture.</p>
+          
+          <h2 class="text-center">Examples of Scroll Illustrations</h2>
+          
+          <div class="image-grid">
+            {images.map((image) => (
+              <figure class="image-item">
+                <Image 
+                  src={image.src} 
+                  alt={image.alt} 
+                  width={200} 
+                  height={200}
+                  class="gallery-image"
+                />
+                <figcaption>{image.caption}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</PageLayout>
+
+<style>
+  .text-center {
+    text-align: center;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .image-item {
+    text-align: center;
+    margin: 0;
+  }
+  
+  .gallery-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  figcaption {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+  
+  .alignleft {
+    float: left;
+    margin: 0 1rem 1rem 0;
+  }
+</style>
