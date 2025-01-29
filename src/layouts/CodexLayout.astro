@@ -1,0 +1,121 @@
+---
+import { Image } from 'astro:assets';
+import PageLayout from "./PageLayout.astro";
+import type { ImageMetadata } from 'astro';
+import type { MarkdownLayoutProps } from 'astro';
+
+// Use the sync version with 'eager' option
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/*.{jpeg,jpg,png,gif}', { eager: true });
+
+type Props = MarkdownLayoutProps<{
+  title: string;
+  leadImage: {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+  };
+  galleryImages: {
+    src: string;
+    alt: string;
+    caption: string;
+  }[];
+}>;
+
+const { frontmatter } = Astro.props;
+
+// Validate lead image
+if (!images[frontmatter.leadImage.src]) throw new Error(`"${frontmatter.leadImage.src}" does not exist`);
+
+// Validate gallery images
+frontmatter.galleryImages.forEach(img => {
+  if (!images[img.src]) throw new Error(`"${img.src}" does not exist`);
+});
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <main>
+    <section class="article-content">
+        <div class="article-body">
+            <Image 
+                src={images[frontmatter.leadImage.src].default}
+                alt={frontmatter.leadImage.alt}
+                width={frontmatter.leadImage.width}
+                height={frontmatter.leadImage.height}
+                class="alignleft"
+            />
+            
+            <slot /> <!-- Markdown content goes here -->
+
+            <div class="image-grid">
+                {frontmatter.galleryImages.map((image) => (
+                <figure class="image-item">
+                    <Image 
+                    src={images[image.src].default}
+                    alt={image.alt} 
+                    width={200} 
+                    height={200}
+                    class="gallery-image"
+                    />
+                    <figcaption>{image.caption}</figcaption>
+                </figure>
+                ))}
+            </div>
+        </div>
+    </section>
+  </main>
+</PageLayout>
+
+<style>
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+  }
+  
+  .image-item {
+    text-align: center;
+    margin: 0;
+  }
+  
+  .gallery-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  figcaption {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+  
+  .alignleft {
+    float: left;
+    margin: 0 1rem 1rem 0;
+  }
+
+  @media (max-width: 768px) {
+    .content-wrapper {
+      padding: 0 1rem;
+    }
+    
+    .alignleft {
+      float: none;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+  }
+</style>
